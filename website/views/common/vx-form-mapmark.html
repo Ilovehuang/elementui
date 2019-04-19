@@ -1,0 +1,198 @@
+<html>
+
+<head>
+   <meta charset="UTF-8">
+   <base href="../">
+   <meta http-equiv="content-type" content="text/html;charset=utf-8;" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <!-- <link rel="stylesheet" href="styles/plugins/elementui.css"> -->
+   <link rel="stylesheet" href="https://unpkg.com/element-ui/lib/theme-chalk/index.css">
+   <link rel="stylesheet" href="components/css-loader.css">
+   <link rel="stylesheet" href="styles/plugins/font-awesome.css">
+   <link rel="stylesheet" href="styles/style.css">
+
+   <title>组件开发环境</title>
+   <style>
+   </style>
+</head>
+
+<body>
+   <div id="app">
+      <el-row>
+         <el-col :span="16">
+            <el-card class="box-card">
+               <div slot="header" class="clearfix title">
+                  <span>
+                     <b>地图定位</b> 组件测试条件（包括props、内部条件等）</span>
+               </div>
+               <div>
+                  <table border="1">
+                     <tr>
+                        <td>参数</td>
+                        <td>方向</td>
+                        <td>说明</td>
+                        <td>类型</td>
+                        <td>可选值</td>
+                        <td>默认值</td>
+                     </tr>
+                     <tr>
+                        <td>longitude</td>
+                        <td>输入/输出</td>
+                        <td>经度</td>
+                        <td>Number</td>
+                        <td>
+                           <input type="text" v-model="locations.Longitude" placeholder="请输入值">
+                        </td>
+                        <td>/</td>
+                     </tr>
+                     <tr>
+                        <td>latitude</td>
+                        <td>输入/输出</td>
+                        <td>维度</td>
+                        <td>Number</td>
+                        <td>
+                           <input type="text" v-model="locations.Latitude" placeholder="请输入值">
+                        </td>
+                        <td>/</td>
+                     </tr>
+                     <tr>
+                        <td>address</td>
+                        <td>输入</td>
+                        <td>地址，需删除经维度后测试</td>
+                        <td>String</td>
+                        <td>
+                           <input type="text" v-model="locations.Address" placeholder="请输入值">
+                        </td>
+                        <td>/</td>
+                     </tr>
+                     <tr>
+                        <td>width</td>
+                        <td>输入</td>
+                        <td>宽度</td>
+                        <td>String</td>
+                        <td>
+                           <input type="text" v-model="locations.width" placeholder="">
+                        </td>
+                        <td>/</td>
+                     </tr>
+                     <tr>
+                        <td>height</td>
+                        <td>输入</td>
+                        <td>高度</td>
+                        <td>String</td>
+                        <td>
+                           <input type="text" v-model="locations.height" placeholder="">
+                        </td>
+                        <td>/</td>
+                     </tr>
+                     <tr>
+                        <td>clickhide</td>
+                        <td>输入</td>
+                        <td>是否点击隐藏</td>
+                        <td>Boolean</td>
+                        <td>
+                           <el-select v-model="locations.clickhide" placeholder="请选择">
+                              <el-option
+                                v-for="item in [{label:'true',value:true},{label:'false',value:false}]"
+                                :key="item.value"
+                                :label="item.label"
+                                :value="item.value">
+                              </el-option>
+                           </el-select>
+                        </td>
+                        <td>/</td>
+                     </tr>
+                  </table>
+               </div>
+            </el-card>
+            <el-card class="box-card" style="margin-top: 10px;">
+               <div slot="header" class="clearfix">
+                  <span>组件显示</span>
+               </div>
+               <vx-form-mapmark></vx-form-mapmark>
+            </el-card>
+            <el-card class="box-card" style="margin-top: 10px;">
+               <div slot="header" class="clearfix title">
+                  <span>组件数据变量（包括输出结果、内部数据等）</span>
+               </div>
+               <div>
+                  <!-- 输出的结果与内部数据 -->
+                  Longitude:{{locations.Longitude}}
+                  <br/> Latitude:{{locations.Latitude}}
+               </div>
+            </el-card>
+         </el-col>
+         <el-col :span="8">
+            <el-card class="box-card" style="margin-left: 10px;">
+               <div slot="header" class="clearfix">
+                  <span>自动化测试脚本</span>
+                  <el-button style="float: right; padding: 3px 0" type="text" @click="exitNew">重载组件</el-button>
+               </div>
+               <textarea style="border-radius: 5px; width: 100%; height: 80%;"></textarea>
+            </el-card>
+         </el-col>
+      </el-row>
+   </div>
+</body>
+<!-- 先引入 Vue -->
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script type="text/javascript" src="scripts/plugins/underscore.min.js"></script>
+<!-- 引入组件库 -->
+<script type="text/javascript" src="scripts/plugins/elementui.min.js"></script>
+
+<!-- 常用控件库 -->
+<script type="text/javascript" src="scripts/plugins/pubsub.min.js"></script>
+<script type="text/javascript" src="scripts/plugins/jquery-2.0.3.min.js"></script>
+<script type="text/javascript" src="scripts/plugins/moment/moment.min.js"></script>
+<script type="text/javascript" src="scripts/plugins/moment/moment.zh-cn.js"></script>
+<script type="text/javascript" src="scripts/plugins/layer/layer.js"></script>
+<script type="text/javascript" src="scripts/plugins/datatables/datatables.min.js"></script>
+<script type="text/javascript" src="scripts/plugins/datatables/DT_bootstrap.js"></script>
+
+<!-- 自定义JS库 -->
+<script type="text/javascript" src="scripts/common/languages.cn.js"></script>
+<script type="text/javascript" src="scripts/common/jquery.ajax.js"></script>
+<script type="text/javascript" src="scripts/common/vue.factory.js"></script>
+<script type="text/javascript" src="scripts/common/jquery.form.js"></script>
+<script type="text/javascript" src="scripts/common/jquery.common.js"></script>
+<script type="text/javascript" src="scripts/common/components-init.js"></script>
+
+<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=wUAkigHVGXkI4QLZGuGrA6qOg6fjoC4L"></script>
+<script>
+   vueOptions = {
+      data() {
+         return {
+            componentsName:"vx-form-mapmark",
+            locations: {
+               Longitude: 116.394801,
+               Latitude: 40.013214,
+               Address: "",
+               width: "500",
+               height: "500",
+               clickhide:true
+            }
+         }
+      },
+      mounted() {
+      },
+      methods:{
+         exitNew(){
+
+            var temp=this.componentsName
+            this.componentsName="";
+            setTimeout(() => {
+               this.componentsName=temp
+            }, 0);
+
+         }
+      }
+   }
+
+</script>
+<style>
+   table {
+      /* width: 100%; */
+      border-collapse: separate;
+      border-spacing: 2;
+   }
+</style>

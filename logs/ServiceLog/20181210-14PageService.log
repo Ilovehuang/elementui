@@ -1,0 +1,12 @@
+[14:37:09.70] [PageService] <ERROR> ReferenceError: template is not defined
+    at eval (eval at loadComponent (C:\Users\INTFORCE170914-1\Documents\项目开发\智慧商业4.0\00_组件开发环境\plugins\ComponentService\PageService.plugin.js:172:19), <anonymous>:1:30)
+    at eval (eval at loadComponent (C:\Users\INTFORCE170914-1\Documents\项目开发\智慧商业4.0\00_组件开发环境\plugins\ComponentService\PageService.plugin.js:172:19), <anonymous>:1:847)
+    at loadComponent (C:\Users\INTFORCE170914-1\Documents\项目开发\智慧商业4.0\00_组件开发环境\plugins\ComponentService\PageService.plugin.js:172:19)
+    at loadTags (C:\Users\INTFORCE170914-1\Documents\项目开发\智慧商业4.0\00_组件开发环境\plugins\ComponentService\PageService.plugin.js:126:19)
+    at iService.op_loadTags (C:\Users\INTFORCE170914-1\Documents\项目开发\智慧商业4.0\00_组件开发环境\plugins\ComponentService\PageService.plugin.js:102:7)
+    at async.auto.RunService (C:\Users\INTFORCE170914-1\Documents\项目开发\智慧商业4.0\00_组件开发环境\plugins\ServiceLoader.js:126:56)
+    at runTask (C:\Users\INTFORCE170914-1\Documents\项目开发\智慧商业4.0\00_组件开发环境\node_modules\async\dist\async.js:1632:13)
+    at C:\Users\INTFORCE170914-1\Documents\项目开发\智慧商业4.0\00_组件开发环境\node_modules\async\dist\async.js:1572:13
+    at processQueue (C:\Users\INTFORCE170914-1\Documents\项目开发\智慧商业4.0\00_组件开发环境\node_modules\async\dist\async.js:1582:13)
+    at taskComplete (C:\Users\INTFORCE170914-1\Documents\项目开发\智慧商业4.0\00_组件开发环境\node_modules\async\dist\async.js:1601:9) (PageService.plugin.js:182)
+[14:37:09.70] [PageService] <ERROR> {template:template,props:{visible:{defalut:!1},title:{defalut:"信息窗口"},width:{defalut:580},height:{defalut:""},form:{defalut:function(){return{}}}},data:function(){var id="XV"+(moment().format("x")+parseInt(Math.random()*(1e8+1)));return{LoaderDict:LoaderDict,Id:id,LayIndex:null}},computed:{Visible:{get:function(){return this.visible},set:function(val){this.$emit("update:visible",val)}}},watch:{visible:function(){this.updateDialog()}},methods:{updateDialog:function(){var me=this;if(this.visible){var box=jQuery("#"+this.Id),opt={id:"xvd-"+this.Id,type:1,zIndex:1e3,title:this.title,area:this.width,content:box,scrollbar:!1,offset:"150px",shadeClose:!0,btn:!1,end:function(){me.$emit("update:visible",!1)}};this.LayIndex=layer.open(opt)}else layer.close(this.LayIndex)},closeDialog:function(){layer.close(this.LayIndex)}}} (PageService.plugin.js:183)

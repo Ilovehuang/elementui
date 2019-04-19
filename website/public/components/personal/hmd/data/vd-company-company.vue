@@ -1,0 +1,20 @@
+<template>
+   <div>
+     <vd-bd-loaddata v-if="OperateLoad" :autoload="Autoload" :url="Url" :method="QueryMethod" :query="query" :trigger.sync="LoadTrigger" :result.sync="Result"></vd-bd-loaddata>
+      <vd-bd-savedata v-if="OperateSave" :url="Url" :method="SaveMethod" :data="data" :query="query" :trigger.sync="SaveTrigger" :result.sync="SaveResult"></vd-bd-savedata>
+   </div>
+</template>
+<script>
+Vue.component("vd-company-company", {
+   data(){
+      return {
+         url:"/CompanyService.html"
+      }
+   },
+   created(){
+      console.log("Result")
+      console.log(this.Result)
+   },
+   mixins:["defaultBusinessData"]
+});
+</script>

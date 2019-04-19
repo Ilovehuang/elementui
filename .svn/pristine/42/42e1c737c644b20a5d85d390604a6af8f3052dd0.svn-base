@@ -1,0 +1,152 @@
+<html>
+
+<head>
+   <meta charset="UTF-8">
+   <base href="../">
+   <meta http-equiv="content-type" content="text/html;charset=utf-8;" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="styles/plugins/elementui.css">
+   <link rel="stylesheet" href="scripts/plugins/datatables/datatables.min.css">
+   <link rel="stylesheet" href="scripts/plugins/datatables/DT_bootstrap.css">
+   <link rel="stylesheet" href="components/css-loader.css">
+   <link rel="stylesheet" href="styles/plugins/font-awesome.css">
+   <link rel="stylesheet" href="styles/style.css">
+
+   <title>组件开发环境</title>
+   <style>
+   </style>
+</head>
+
+<body>
+   <div id="app">
+      <el-row>
+         <el-col :span="24">
+            <el-card class="box-card" style="margin-top: 10px;">
+               <div slot="header" class="clearfix title">
+                  <span>
+                     <b>规范目录</b>
+                  </span>
+               </div>
+               <div>
+                  <table border="1" style="width: 100%;">
+                     <tr>
+                        <td>文件名</td>
+                        <td>文件地址</td>
+                        <td>说明</td>
+                     </tr>
+                     <tr>
+                        <td>服务开发代码规范</td>
+                        <td>
+                           <a href="/document/服务开发代码规范.html">/document/服务开发代码规范.html</a>
+                        </td>
+                        <td>定义了服务命名规范，方法规范，参数规范，注释规范，方法调用及请求参数示例</td>
+                     </tr>
+                     <tr>
+                        <td>组件开发代码规范</td>
+                        <td>
+                           <a href="/document/组件开发代码规范.html">/document/组件开发代码规范.html</a>
+                        </td>
+                        <td>定义了组件标签顺序,默认值规范及测试页面规范</td>
+                     </tr>
+                     <tr>
+                        <td>表格开发规范</td>
+                        <td>
+                           <a href="/document/表格开发代码规范.html">/document/表格开发代码规范.html</a>
+                        </td>
+                        <td>定义表格规范</td>
+                     </tr>
+                  </table>
+               </div>
+            </el-card>
+            <el-card class="box-card" style="margin-top: 10px;">
+               <div slot="header" class="clearfix">
+                  <span>组件及服务管理</span>
+               </div>
+               <table>
+                  <table border="1" style="width: 100%;">
+                     <tr>
+                        <td>文件名</td>
+                        <td>文件地址</td>
+                        <td>说明</td>
+                     </tr>
+                     <tr>
+                        <td>组件管理页面</td>
+                        <td>
+                           <a href="./componentslist.html">componentslist.html</a>
+                        </td>
+                        <td>定义了组件标签顺序,默认值规范及测试页面规范</td>
+                     </tr>
+                     <tr>
+                        <td>服务管理页面</td>
+                        <td>
+                           <a href="./servicelist.html">servicelist.html</a>
+                        </td>
+                        <td>定义了服务基础信息，方法规范，测试规范，注释规范，请求格式及参数定义</td>
+                     </tr>
+                  </table>
+               </table>
+            </el-card>
+         </el-col>
+      </el-row>
+   </div>
+</body>
+<!-- 先引入 Vue -->
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script type="text/javascript" src="scripts/plugins/vuex.js"></script>
+<!-- 引入组件库 -->
+<script type="text/javascript" src="scripts/plugins/elementui.min.js"></script>
+
+<!-- 常用控件库 -->
+<script type="text/javascript" src="scripts/plugins/pubsub.min.js"></script>
+<script type="text/javascript" src="scripts/plugins/jquery-2.0.3.min.js"></script>
+<script type="text/javascript" src="scripts/plugins/moment/moment.min.js"></script>
+<script type="text/javascript" src="scripts/plugins/moment/moment.zh-cn.js"></script>
+<script type="text/javascript" src="scripts/plugins/layer/layer.js"></script>
+<script type="text/javascript" src="scripts/plugins/datatables/datatables.min.js"></script>
+<script type="text/javascript" src="scripts/plugins/datatables/DT_bootstrap.js"></script>
+
+<!-- 自定义JS库 -->
+<script type="text/javascript" src="scripts/common/languages.cn.js"></script>
+<script type="text/javascript" src="scripts/common/jquery.ajax.js"></script>
+<script type="text/javascript" src="scripts/common/vue.factory.js"></script>
+<script type="text/javascript" src="scripts/common/jquery.form.js"></script>
+<script type="text/javascript" src="scripts/common/jquery.common.js"></script>
+
+
+<script type="text/javascript" src="scripts/common/components-init.js"></script>
+<script>
+   var vueOptions = {
+      data() {
+         return {
+            visible: false,
+            Button: {
+               type: "create",
+               btncolor: "primary",
+               round: false,
+               plain: false,
+               disabled: false,
+               background: "",
+               visible: false,
+               label: "",
+               icon: "",
+               color: ""
+            }
+         }
+      },
+      methods: {
+         ComponentsFormVisible() {
+            this.$Bus.$emit('Form.Visible');
+         },
+         ServiceFormVisible() {
+            this.$Bus.$emit('Form.Visible');
+         }
+      }
+   }
+</script>
+<style>
+   table {
+      /* width: 100%; */
+      border-collapse: separate;
+      border-spacing: 2;
+   }
+</style>

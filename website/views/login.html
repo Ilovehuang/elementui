@@ -1,0 +1,296 @@
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <base href="../">
+   <meta http-equiv="content-type" content="text/html;charset=utf-8;" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title></title>
+   <link rel="stylesheet" href="styles/plugins/elementui.css">
+   <link rel="stylesheet" href="styles/plugins/font-awesome.css">
+   <link rel="stylesheet" href="styles/style.css">
+   <style>
+      #app {
+         height: 100%;
+         background: url('/images/login/landscape.jpg') no-repeat center center fixed;
+         background-size: cover;
+      }
+   </style>
+</head>
+
+<body>
+   <div id="app" :style="'background-image: url('+bgUrl+')'">
+      <div class="vx-login-content">
+         <div class="vx-client-logo">
+            <img class="logo" :src="logoUrl" style="margin-top: 60px;">
+         </div>
+         <div class="vd-login">
+            <div class="vd-login-content">
+               <h6>USER LOGIN</h6>
+               <div class="alert alert-error wrongmsg" v-show="show">
+                  <span>{{msg}}</span>
+               </div>
+               <input type="text" class="inp" name="username" placeholder="Username" v-model="username" autofocus @keyup.13="login">
+               <!-- <input type="password" class="inp" name="password"   > -->
+               <el-input type="password" clearable placeholder="Password" @keyup.13="login" v-model="password"></el-input>
+               <!-- <el-select v-model="value" @change="Saveval">
+                  <el-option v-for="item in opention" :key="item.value" :label="item.label" :value="item.value">
+                  </el-option>
+               </el-select> -->
+               <vx-view-languages></vx-view-languages>
+               <br>
+               <button class="btn-glow primary btn" @click="login" @keyup.13="login">LOGIn</button>
+            </div>
+         </div>
+         <div class="vx-login-company">
+            <p>
+               NTFORCE 北京 上海 深圳 武汉 成都 西安
+               <br>Copyright ©2014-{{ NowYear }} All Rights Reserved.
+            </p>
+         </div>
+      </div>
+   </div>
+</body>
+<!-- 先引入 Vue -->
+<script type="text/javascript" src="scripts/plugins/vue.js"></script>
+<script type="text/javascript" src="scripts/plugins/vuex.js"></script>
+<!-- 引入组件库 -->
+<script type="text/javascript" src="scripts/plugins/elementui.min.js"></script>
+
+<!-- 常用控件库 -->
+<script type="text/javascript" src="scripts/plugins/jquery-2.0.3.min.js"></script>
+<script type="text/javascript" src="scripts/plugins/moment/moment.min.js"></script>
+<script type="text/javascript" src="scripts/plugins/moment/moment.zh-cn.js"></script>
+<!-- 自定义JS库 -->
+<script type="text/javascript" src="scripts/common/load-languages.js"></script>
+<script type="text/javascript" src="scripts/common/jquery.ajax.js"></script>
+<script type="text/javascript" src="scripts/common/components-init.js"></script>
+<script>
+   vueOptions = {
+      data() {
+         return {
+            PageTitle: "用户登录",
+            LoaderDict: LoaderDict,
+            bgUrl:"/images/login/landscape.jpg",
+            logoUrl:"images/login/logo.png",
+            show: false,
+            msg: "",
+            username: "admin",
+            password: "newpass",
+            NowYear: moment().format("YYYY"),
+            opention: [
+               {
+                  value: "zh-cn",
+                  label: "简体中文",
+               },
+               {
+                  value: "en",
+                  label: "English",
+               },
+               {
+                  value: "jp",
+                  label: "Japanese",
+               },
+            ],
+            value: "zh-cn",
+         }
+      },
+      methods: {
+         login() {
+            var me = this;
+            if (this.username == "") {
+               this.show = true;
+               this.msg = LoaderDict.Login.NeedUser;
+               return;
+            }
+            if (this.password == "") {
+               this.show = true;
+               this.msg = LoaderDict.Login.NeedPass;
+               return;
+            }
+            if(this.username.length<2 || this.username.length>20){
+               this.show = true;
+               this.msg = "用户名长度2-20位";
+               return;
+            }
+            if(this.password.length<6 || this.password.length>30){
+               this.show = true;
+               this.msg = "密码长度6-30位";
+               return;
+            }
+            this.show = true;
+            this.msg = LoaderDict.Login.Processing;
+            $.ajaxPost(
+               "/login.html?op=login",
+               { Query: { UserName: this.username, UserPass: this.password } },
+               function (res) {
+                  if (res.status == 1000) {
+                     document.cookie = "X-SessionKey=" + escape(res.data.SessionKey) + ";path=/;";
+                     var cbUrl = "";
+                     if(window.location.search) cbUrl = window.location.search.substring(window.location.search.indexOf("=") + 1);
+                     if (cbUrl && cbUrl.indexOf(".html") > -1) window.location.href = cbUrl;
+                     else window.location.href = res.data.DefaultUrl;
+                  }
+               },
+               function (res) {
+                  /// 出错的情况
+                  if (me.show) {
+                     setTimeout(function () {
+                        me.show = true;
+                        me.msg = res.showText;
+                     }, 300);
+                  } else {
+                     me.show = true;
+                     me.msg = res.showText;
+                  }
+               }
+            );
+         },
+         Saveval() {
+            document.cookie = "langselect=" + this.value + ";path = /;";
+         }
+      }
+   };
+</script>
+<style lang="less">
+   .vx-login-content .vd-login .vd-login-content input.el-input__inner{margin-bottom: 0}
+   .el-input{
+      margin-bottom: 15px
+   }
+   .cn{
+      line-height: 25px;
+      color: #fff
+   }
+   .cn span{
+      margin:0 20px;
+   }
+   .cn img{
+      width:25px;
+      height:25px;
+      vertical-align: middle;
+      border-radius: 100%
+   }
+   .vx-login-content {
+      width: 100%;
+      position: absolute;
+      top: 110px;
+      text-align: center;
+   }
+
+   .vx-login-content .vx-client-logo {
+      margin-bottom: 45px;
+      margin-top: 60px;
+      position: relative;
+      left: -2px;
+      text-align: center;
+      font-size: 35px;
+      font-family: Heiti SC;
+      color: #ddd;
+   }
+
+   .vx-login-content .vd-login {
+      margin: 0 auto;
+      padding: 35px 0 30px;
+      float: none;
+      width: 400px;
+      box-shadow: 0 0 6px 2px rgba(0, 0, 0, 0.1);
+      border-radius: 5px;
+      background: rgba(255, 255, 255, 0.65);
+   }
+
+   .vx-login-content .vd-login .vd-login-content {
+      width: 82%;
+      margin: 0 auto;
+   }
+
+   .vx-login-content .vd-login .vd-login-content .wrongmsg {
+      color: #b94a48;
+      background-color: #f2dede;
+      border-color: #eed3d7;
+      margin-bottom: 20px;
+      text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+      border-radius: 4px;
+      font-size: 12px;
+      line-height: 22px;
+      padding: 8px 14px;
+      vertical-align: middle;
+      font-family: "Open Sans", sans-serif;
+   }
+
+   .vx-login-content .vd-login .vd-login-content .el-input__icon {
+      top: 35% !important;
+   }
+
+   .vx-login-content .vd-login .vd-login-content .inp,
+   .vx-login-content .vd-login .vd-login-content .el-input__inner {
+      font-size: 15px;
+      height: 40px;
+      margin-bottom: 16px;
+      font-family: "Open Sans", Arial;
+      padding: 4px 6px 4px 12px;
+      width: 100%;
+      border-radius: 5px;
+      box-shadow: #b2bfc7 0px 0px 8px;
+      border: 0;
+      transition: box-shadow 0.3s;
+      color: #555;
+   }
+
+   .vx-login-content .vd-login .vd-login-content .inp::-webkit-input-placeholder {
+      color: #999;
+      font-size: 15px;
+      font-style: oblique;
+   }
+
+   .vx-login-content .vd-login .vd-login-content .inp:focus {
+      box-shadow: #696969 0px 0px 8px;
+   }
+
+   .vx-login-content .vd-login .vd-login-content h6 {
+      text-transform: uppercase;
+      margin: 0 0 30px 0;
+      font-size: 18px;
+      font-weight: 600;
+      line-height: 20px;
+      font-family: "Open Sans", Arial;
+   }
+
+   .vx-login-content .vd-login .vd-login-content .btn {
+      text-transform: uppercase;
+      font-size: 13px;
+      padding: 8px 30px;
+      border: 0;
+      border: 1px solid #e5e5e5;
+      border-color: #2480c2;
+      color: #fff;
+      text-shadow: rgba(0, 0, 0, 0.35) 0 1px 0;
+      box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.5);
+      background: linear-gradient(#54b3ff, #0078d9);
+      cursor: pointer;
+      border-radius: 4px;
+      width: 100px;
+      height: 38px;
+      display: inline-block;
+      vertical-align: middle;
+   }
+
+   .vx-login-content .vd-login .vd-login-content .btn:hover {
+      background: linear-gradient(#389beb, #0078d9);
+   }
+
+   .vx-login-content .vx-login-company {
+      margin: 0 auto;
+      float: none;
+      text-align: center;
+      font-size: 14px;
+      margin-top: 25px;
+      font-family: "Open Sans", sans-serif;
+   }
+
+   .vx-login-content .vx-login-company p {
+      display: inline-block;
+      color: #aaaaaa;
+   }
+</style>
+
+</html>

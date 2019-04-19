@@ -1,0 +1,178 @@
+<html>
+
+<head>
+   <meta charset="UTF-8">
+   <base href="../">
+   <meta http-equiv="content-type" content="text/html;charset=utf-8;" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="styles/plugins/elementui.css">
+      <!-- <link rel="stylesheet" href="https://unpkg.com/element-ui/lib/theme-chalk/index.css"> -->
+   <link rel="stylesheet" href="components/css-loader.css">
+   <link rel="stylesheet" href="styles/plugins/font-awesome.css">
+   <link rel="stylesheet" href="styles/style.css">
+
+   <title>组件开发环境</title>
+   <style>
+   </style>
+</head>
+
+<body>
+   <div id="app">
+      <el-row>
+         <el-col :span="16">
+            <el-card class="box-card">
+               <div slot="header" class="clearfix title">
+                  <span><b>计数器</b>组件测试条件（包括props、内部条件等）</span>
+               </div>
+               <div>
+                  <table border="1">
+                     <tr>
+                        <td>参数</td>
+                        <td>说明</td>
+                        <td>方向</td>
+                        <td>类型</td>
+                        <td>可选值</td>
+                        <td>默认值</td>
+                     </tr>
+                     <tr>
+                        <td>value</td>
+                        <td>绑定值</td>
+                        <td>输入/输出</td>
+                        <td>number</td>
+                        <td>——</td>
+                        <td>
+                           <input type="number" v-model="value" placeholder="输入值">
+                        </td>
+                     </tr>
+                     <tr>
+                        <td>min</td>
+                        <td>设置计数器允许的最小值</td>
+                        <td>输入</td>
+                        <td>number</td>
+                        <td>——</td>
+                        <td>
+                           <input type="number" v-model="min" placeholder="输入最小值">
+                        </td>
+                     </tr>
+                     <tr>
+                        <td>max</td>
+                        <td>设置计数器允许的最大值</td>
+                        <td>输入</td>
+                        <td>number</td>
+                        <td>——</td>
+                        <td>
+                           <input type="number" v-model="max" placeholder="输入最大值">
+                        </td>
+                     </tr>
+                     <tr>
+                        <td>disabled</td>
+                        <td>是否禁用计数器</td>
+                        <td>输入</td>
+                        <td>boolean</td>
+                        <td>
+                           <select v-model="disabled">
+                              <option value="true">true</option>
+                              <option value="false">false</option>
+                           </select>
+                        </td>
+                        <td>false</td>
+                     </tr>
+                     <tr>
+                        <td>size</td>
+                        <td>计数器尺寸</td>
+                        <td>输入</td>
+                        <td>string</td>
+                        <td>
+                           <select v-model="size">
+                              <option value="large">large</option>
+                              <option value="medium">medium</option>
+                              <option value="small">small</option>
+                              <option value="mini">mini</option>
+                           </select>
+                        </td>
+                        <td>large</td>
+                     </tr>
+                  </table>
+                  <p>备注：必须输入最大值</p>
+               </div>
+            </el-card>
+            <el-card class="box-card" style="margin-top: 10px;">
+               <div slot="header" class="clearfix">
+                  <span>组件显示</span>
+               </div>
+               <div>
+                  <vx-form-number :size="size" :min="min" :max="max" v-model="value"  :disabled="disabled">
+                  </vx-form-number>
+               </div>
+            </el-card>
+            <el-card class="box-card" style="margin-top: 10px;">
+               <div slot="header" class="clearfix title">
+                  <span>组件数据变量（包括输出结果、内部数据等）</span>
+               </div>
+               <div>
+                  <!-- 输出的结果与内部数据 -->
+                  {{value}}
+               </div>
+            </el-card>
+         </el-col>
+         <el-col :span="8">
+            <el-card class="box-card" style="margin-left: 10px;">
+               <div slot="header" class="clearfix">
+                  <span>自动化测试脚本</span>
+                  <el-button style="float: right; padding: 3px 0" type="text">开始测试</el-button>
+               </div>
+               <textarea style="border-radius: 5px; width: 100%; height: 80%;"></textarea>
+            </el-card>
+         </el-col>
+      </el-row>
+   </div>
+</body>
+<!-- 先引入 Vue -->
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script type="text/javascript" src="scripts/plugins/vuex.js"></script>
+<!-- 引入组件库 -->
+<script type="text/javascript" src="scripts/plugins/elementui.min.js"></script>
+
+<!-- 常用控件库 -->
+<script type="text/javascript" src="scripts/plugins/jquery-2.0.3.min.js"></script>
+<script type="text/javascript" src="scripts/plugins/moment/moment.min.js"></script>
+<script type="text/javascript" src="scripts/plugins/moment/moment.zh-cn.js"></script>
+
+<!-- 自定义JS库 -->
+<script type="text/javascript" src="scripts/common/jquery.ajax.js"></script>
+<script type="text/javascript" src="scripts/common/components-init.js"></script>
+<script>
+
+   vueOptions = {
+      data() {
+         return {
+            Search: "测试条件",
+            PageTitle: "组件开发环境",
+            size: "large",
+            disabled: false,
+            value: 1,
+            max: 20,
+            min: 1,
+         }
+      },
+      methods: {
+      }
+   }
+</script>
+<style>
+   table {
+      /* width: 100%; */
+      border-collapse: separate;
+      border-spacing: 2;
+   }
+
+   input[type=number] {
+      -moz-appearance: textfield;
+   }
+
+   input[type=number]::-webkit-inner-spin-button,
+   input[type=number]::-webkit-outer-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+   }
+</style>

@@ -1,0 +1,56 @@
+<template>
+   <div class="vx-form-tooltip">
+      <el-tooltip :documentcontent="documentcontent" :content="content" :placement="placement">
+         <div class="tooltip"><i class="fa fa-question-circle-o"></i></div>
+      </el-tooltip>
+   </div>
+</template>
+<style lang="less" scoped>
+.vx-form-tooltip {
+   margin-top: -8%;
+   display: inline-block;
+   .tooltip {
+      display: inline-block;
+      line-height: 1;
+      white-space: nowrap;
+      cursor: pointer;
+      background: #fff;
+      // border: 1px solid #dcdfe6;
+      color: #606266;
+      -webkit-appearance: none;
+      text-align: center;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+      outline: 0;
+      margin: 0;
+      -webkit-transition: 0.1s;
+      transition: 0.1s;
+      padding: 12px 10px;
+      font-size: 16px;
+      border-radius: 4px;
+   }
+}
+</style>
+
+<script>
+Vue.component("vx-form-tooltip", {
+   template: template,
+   props: {
+      documentcontent: {
+         defalut: ""
+      }, //string，number
+      placement: {
+         default: "top" //默认top.有bottom,right,left
+      }
+   },
+   data() {
+      return {
+         LoaderDict: LoaderDict,
+         content: "说明" //说明的内容
+      };
+   },
+   created() {
+      this.content = this.LoaderDict[this.documentcontent]
+   }
+});
+</script>

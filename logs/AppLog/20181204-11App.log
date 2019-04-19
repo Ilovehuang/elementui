@@ -1,0 +1,26 @@
+[11:52:13.38] [ServiceLoader] <INFO> 注册服务ComponentService 成功！ (ServiceLoader.js:69)
+[11:52:13.39] [ServiceLoader] <INFO> 注册服务PageService 成功！ (ServiceLoader.js:69)
+[11:52:24.37] [ServiceLoader] <ERROR> ServiceLoader http://192.168.10.68:9109/ApiService.html?op=register connected err:  (ServiceLoader.js:204)
+[11:52:24.38] [ServiceLoader] <ERROR> 注册服务ComponentService 时失败：Error: connect ETIMEDOUT 192.168.10.68:9109 (ServiceLoader.js:66)
+[11:52:24.38] [ServiceLoader] <ERROR> ServiceLoader { Error: connect ETIMEDOUT 192.168.10.68:9109
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+  code: 'ETIMEDOUT',
+  errno: 'ETIMEDOUT',
+  syscall: 'connect',
+  address: '192.168.10.68',
+  port: 9109 } (ServiceLoader.js:205)
+[11:52:24.38] [ServiceLoader] <ERROR> ServiceLoader http://192.168.10.68:9109/ApiService.html?op=register connected err:  (ServiceLoader.js:204)
+[11:52:24.39] [ServiceLoader] <ERROR> ServiceLoader { Error: connect ETIMEDOUT 192.168.10.68:9109
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+  code: 'ETIMEDOUT',
+  errno: 'ETIMEDOUT',
+  syscall: 'connect',
+  address: '192.168.10.68',
+  port: 9109 } (ServiceLoader.js:205)
+[11:52:24.39] [ServiceLoader] <ERROR> 注册服务PageService 时失败：Error: connect ETIMEDOUT 192.168.10.68:9109 (ServiceLoader.js:66)
+[11:52:33.39] [ServiceLoader] <INFO> 注册服务PageService 成功！ (ServiceLoader.js:69)
+[11:52:33.39] [ServiceLoader] <INFO> 注册服务ComponentService 成功！ (ServiceLoader.js:69)

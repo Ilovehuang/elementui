@@ -1,0 +1,230 @@
+let async = require("async");
+let request = require("request");
+let cache = require("memory-cache");
+let tracer = require("tracer");
+
+/**
+ * 服务接口
+ * @constructor ServiceLoader
+ */
+let serviceLoader = function() {
+   this.Name = "ServiceLoader";
+   let logger = tracer.create("AppLog/App.log", this.Name);
+
+   let loopRegister = () => {
+      let interfaces = cache.keys();
+      for (let i = 0; i < interfaces.length; i++) {
+         if (interfaces[i].indexOf("ServiceUrl:") === 0) {
+            this.registerService(cache.get(interfaces[i]));
+         }
+      }
+   };
+
+   //定时注册,一分钟定时注册一次
+   setInterval(loopRegister, 10 * 1000);
+
+   this.init = callback => {
+      logger.info("init " + this.Name);
+
+      loopRegister();
+      if (callback) callback(null);
+   };
+
+   /**
+    * 注册服务
+    * @memberOf ServiceLoader
+    * @param { Object } serviceInfo
+    */
+   this.registerService = serviceInfo => {
+      //获取ApiService
+      let apiService = cache.get("App.ApiService");
+      if (serviceInfo.Register !== false && serviceInfo.Url && apiService && apiService.Register !== false) {
+         let remoteInfo = {};
+         for (let key in serviceInfo) {
+            remoteInfo[key] = serviceInfo[key];
+         }
+         delete remoteInfo.Service;
+         remoteInfo.Develop = apiService.Develop;
+         let baseUrl = "http://" + apiService.host + ":" + apiService.port;
+         let remoteUrl = "/ApiService.html?op=register";
+         let url = baseUrl + remoteUrl;
+         let options = {
+            headers: {
+               Connection: "close"
+            },
+            url: url,
+            method: "PUT",
+            json: true,
+            body: {
+               Data: remoteInfo
+            }
+         };
+         let regStatus = serviceInfo.RegStatus;
+         delete serviceInfo.RegStatus;
+         doRequest(options, err => {
+            if (err) {
+               if (regStatus !== false) logger.error("注册服务" + serviceInfo.Name + " 时失败：" + err);
+               serviceInfo.RegStatus = false;
+            } else {
+               if (regStatus !== true) logger.info("注册服务" + serviceInfo.Name + " 成功！");
+               serviceInfo.RegStatus = true;
+            }
+         });
+      }
+   };
+
+   /**
+    * 执行服务接口
+    * @memberOf ServiceLoader
+    * @param { Request } req 原始请求
+    * @param { Object } serviceInfo 接口服务
+    * @param { Object } postData 接口数据
+    * @param { Function } callback 回调方法
+    */
+   this.runService = (req, serviceInfo, postData, callback) => {
+      let options = {
+         method: serviceInfo.Method ? serviceInfo.Method : "POST",
+         json: true,
+         body: postData
+      };
+      async.auto(
+         {
+            ServiceInfo: cb => {
+               let cacheKey = "";
+               if (serviceInfo.Name) cacheKey = "ServiceName:" + serviceInfo.Name;
+               else if (serviceInfo.Url) {
+                  cacheKey = "ServiceUrl:" + serviceInfo.Url;
+                  serviceInfo.FromUrl = true;
+               }
+
+               if (serviceInfo.Url && serviceInfo.host && serviceInfo.port && serviceInfo.op) {
+                  cb(null);
+               } else {
+                  if (cache.get(cacheKey)) {
+                     /// 本地运行
+                     let result = cache.get(cacheKey);
+                     serviceInfo.Name = result.Name;
+                     serviceInfo.Service = result.Service;
+                     cb(null);
+                  } else {
+                     cb(null);
+                  }
+               }
+            },
+            //启动服务,获得本地实例信息
+            RunService: [
+               "ServiceInfo",
+               (data, cb) => {
+                  let apiService = cache.get("App.ApiService");
+                  if (serviceInfo.Service) {
+                     ///定义serverInfo中接口方法
+                     let operate = "op_" + serviceInfo.op;
+                     if (typeof serviceInfo.Service[operate] == "function") {
+                        if(serviceInfo.FromUrl) {
+                           req.body = postData;
+                           delete serviceInfo.FromUrl;
+                           serviceInfo.Service[operate](req, cb);
+                        } else {
+                           createHeaders(null, serviceInfo, options, req);
+                           options.body = postData;
+                           serviceInfo.Service[operate](options, cb);
+                        }
+                     } else {
+                        cb("未定义的本地接口名称： " + serviceInfo.Name + " : " + serviceInfo.op);
+                     }
+                  } else if (serviceInfo.Url && serviceInfo.host && serviceInfo.port && serviceInfo.op) {
+                     options.url =
+                        "http://" +
+                        serviceInfo.host +
+                        ":" +
+                        serviceInfo.port +
+                        serviceInfo.Url +
+                        "?op=" +
+                        serviceInfo.op;
+                     createHeaders(null, serviceInfo, options, req);
+                     doRequest(options, cb);
+                  } else if (apiService) {
+                     options.url = "http://" + apiService.host + ":" + apiService.port + "/ApiService.html?op=run";
+                     createHeaders(apiService, serviceInfo, options, req);
+                     doRequest(options, cb);
+                  } else {
+                     let serviceName = serviceInfo.Name ? serviceInfo.Name : serviceInfo.Url;
+                     cb("本地未定义" + serviceName + "服务！");
+                  }
+               }
+            ]
+         },
+         (err, result) => {
+            if (callback) callback(err, result.RunService);
+         }
+      );
+   };
+
+   /**
+    * 头部处理
+    * @inner
+    * @param { Object } serviceInfo
+    * @param { Object } options
+    * @param { Request } req
+    */
+   let createHeaders = (apiService, serviceInfo, options, req) => {
+      options.headers = {};
+      if (req.headers) {
+         options.headers = {
+            accept: req.headers["accept"],
+            "accept-encoding": req.headers["accept-encoding"],
+            "cache-control": req.headers["cache-control"]
+            // "content-type": req.headers["content-type"]
+         };
+         for (let header in req.headers) {
+            if (header.indexOf("x-") === 0) {
+               options.headers[header] = req.headers[header];
+            }
+         }
+      }
+      if(!serviceInfo.Service && apiService) options.headers["x-remoteservice"] = JSON.stringify(serviceInfo);
+      options.headers["connection"] = "close";
+   };
+
+   /**
+    * 远程调用
+    * @inner
+    * @param { Object } options
+    * @param { Function } callback
+    */
+   let doRequest = (options, callback) => {
+      request(options, (err, response) => {
+         let statusCode = 0;
+         if (response) statusCode = response.statusCode;
+         if (!callback) {
+            return;
+         }
+         let errMsg = options.url + " connected err: ";
+         if (err) {
+            logger.error(this.Name, errMsg);
+            logger.error(this.Name, err);
+            callback(err);
+            return;
+         }
+         let result = response.body;
+         if (statusCode == 200) {
+            if (callback) {
+               if(result.showText) callback(result);
+               else callback(null, result.data);
+            }
+         } else {
+            logger.error(this.Name, errMsg + ": " + statusCode + " Server error ...");
+            callback(statusCode + " Server error ...");
+         }
+      });
+   };
+
+   this.nextService = (serviceInfo, req, res, next) => {
+      let cacheKey = "ServiceName:" + serviceInfo.Name;
+      let result = cache.get(cacheKey);
+      if (result && result.Service) {
+         result.Service["op_" + serviceInfo.op].call(result.Service, req, res, next);
+      } else next();
+   };
+};
+module.exports = new serviceLoader();

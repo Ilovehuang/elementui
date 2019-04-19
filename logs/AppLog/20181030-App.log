@@ -1,0 +1,2391 @@
+[15:20:17.13] [App] <ERROR> 404: Not Found ... /components/css-loader.css (app.js:100)
+[15:20:17.87] [App] <ERROR> 404: Not Found ... /favicon.ico (app.js:100)
+[15:34:39.71] [ComponentService] <INFO> 正在注册： vm-form-role.vue文件 (ComponentService.plugin.js:251)
+[15:34:53.19] [App] <ERROR> 404: Not Found ... /components/css-loader.css (app.js:100)
+[15:34:53.78] [App] <ERROR> 404: Not Found ... /favicon.ico (app.js:100)
+[15:35:06.17] [ComponentService] <INFO> 正在注册： vm-form-role.vue文件 (ComponentService.plugin.js:251)
+[15:35:06.97] [ComponentService] <INFO> 正在注册： vm-form-role.vue文件 (ComponentService.plugin.js:251)
+[15:36:17.89] [ComponentService] <INFO> 正在注册： vm-form-role.vue文件 (ComponentService.plugin.js:251)
+[15:36:18.08] [ComponentService] <INFO> 正在注册： vm-form-role.vue文件 (ComponentService.plugin.js:251)
+[15:36:33.32] [ComponentService] <INFO> 正在注册： vm-form-role.vue文件 (ComponentService.plugin.js:251)
+[15:36:34.12] [ComponentService] <INFO> 正在注册： vm-form-role.vue文件 (ComponentService.plugin.js:251)
+[15:36:35.21] [App] <ERROR> 404: Not Found ... /components/css-loader.css (app.js:100)
+[15:36:35.86] [App] <ERROR> 404: Not Found ... /favicon.ico (app.js:100)
+[15:36:46.59] [ComponentService] <INFO> 正在注册： vm-form-role.vue文件 (ComponentService.plugin.js:251)
+[15:36:47.35] [App] <ERROR> 404: Not Found ... /components/css-loader.css (app.js:100)
+[15:36:48.10] [App] <ERROR> 404: Not Found ... /favicon.ico (app.js:100)
+[15:37:11.92] [ComponentService] <INFO> 正在注册： vm-form-role.vue文件 (ComponentService.plugin.js:251)
+[15:37:18.77] [ComponentService] <INFO> 正在注册： vm-form-role.vue文件 (ComponentService.plugin.js:251)
+[15:37:21.75] [ComponentService] <INFO> 正在注册： vm-form-role.vue文件 (ComponentService.plugin.js:251)
+[15:37:23.77] [ComponentService] <INFO> 正在注册： vm-form-role.vue文件 (ComponentService.plugin.js:251)
+[15:37:26.78] [ComponentService] <INFO> 正在注册： vm-form-role.vue文件 (ComponentService.plugin.js:251)
+[15:37:26.99] [ComponentService] <INFO> 正在注册： vm-form-role.vue文件 (ComponentService.plugin.js:251)
+[15:37:27.19] [ComponentService] <INFO> 正在注册： vm-form-role.vue文件 (ComponentService.plugin.js:251)
+[15:37:29.95] [App] <ERROR> 404: Not Found ... /components/css-loader.css (app.js:100)
+[15:37:30.44] [App] <ERROR> 404: Not Found ... /favicon.ico (app.js:100)
+[15:39:48.41] [ComponentService] <INFO> 正在注册： vm-form-role.vue文件 (ComponentService.plugin.js:251)
+[15:39:49.90] [App] <ERROR> 404: Not Found ... /components/css-loader.css (app.js:100)
+[15:39:50.50] [App] <ERROR> 404: Not Found ... /favicon.ico (app.js:100)
+[15:40:17.36] [ComponentService] <INFO> 正在注册： vm-form-role.vue文件 (ComponentService.plugin.js:251)
+[15:40:19.06] [App] <ERROR> 404: Not Found ... /components/css-loader.css (app.js:100)
+[15:40:19.69] [App] <ERROR> 404: Not Found ... /favicon.ico (app.js:100)
+[15:43:26.99] [App] <ERROR> 404: Not Found ... /components/css-loader.css (app.js:100)
+[15:43:27.64] [App] <ERROR> 404: Not Found ... /favicon.ico (app.js:100)
+[16:01:13.19] [ComponentService] <INFO> 正在注册： vm-form-role.vue文件 (ComponentService.plugin.js:251)
+[16:01:16.27] [App] <ERROR> 404: Not Found ... /components/css-loader.css (app.js:100)
+[16:01:17.05] [App] <ERROR> 404: Not Found ... /favicon.ico (app.js:100)
+[16:01:24.42] [ComponentService] <INFO> 正在注册： vm-form-role.vue文件 (ComponentService.plugin.js:251)
+[16:01:27.45] [ComponentService] <INFO> 正在注册： vm-form-role.vue文件 (ComponentService.plugin.js:251)
+[16:01:28.39] [App] <ERROR> 404: Not Found ... /components/css-loader.css (app.js:100)
+[16:01:29.01] [App] <ERROR> 404: Not Found ... /favicon.ico (app.js:100)
+[16:08:00.78] [App] <ERROR> 404: Not Found ... /components/css-loader.css (app.js:100)
+[16:08:01.31] [App] <ERROR> 404: Not Found ... /favicon.ico (app.js:100)
+[16:10:40.37] [ComponentService] <INFO> 正在注册： vm-form-usergroup.vue文件 (ComponentService.plugin.js:251)
+[16:10:51.37] [ComponentService] <INFO> 正在注册： vm-form-usergroup.vue文件 (ComponentService.plugin.js:251)
+[16:10:52.62] [App] <ERROR> 404: Not Found ... /components/css-loader.css (app.js:100)
+[16:10:53.26] [App] <ERROR> 404: Not Found ... /favicon.ico (app.js:100)
+[16:12:22.98] [ConfigLoader] <INFO> init ConfigLoader (ConfigLoader.js:13)
+[16:12:23.65] [ServiceLoader] <INFO> init ServiceLoader (ServiceLoader.js:27)
+[16:12:23.66] [PluginLoader] <INFO> init PluginLoader (PluginLoader.js:18)
+[16:12:25.09] [PluginLoader] <INFO> init ComponentService (PluginLoader.js:201)
+[16:12:26.63] [PluginLoader] <INFO> init PageService (PluginLoader.js:201)
+[16:12:26.65] [IntForce] <LOG> 启动组件开发测试环境，端口号：8160 (intforce.js:22)
+[16:12:26.67] [ComponentService] <INFO> 正在注册： vb-cascader-city.vue文件 (ComponentService.plugin.js:251)
+[16:12:26.68] [ComponentService] <INFO> 正在注册： vb-form-businesstime.vue文件 (ComponentService.plugin.js:251)
+[16:12:26.68] [ComponentService] <INFO> 正在注册： vb-form-businesstimeplugin.vue文件 (ComponentService.plugin.js:251)
+[16:12:26.69] [ComponentService] <INFO> 正在注册： vb-form-chartoption.vue文件 (ComponentService.plugin.js:251)
+[16:12:26.70] [ComponentService] <INFO> 正在注册： vb-form-chartstyle.vue文件 (ComponentService.plugin.js:251)
+[16:12:26.70] [ComponentService] <INFO> 正在注册： vb-form-company.vue文件 (ComponentService.plugin.js:251)
+[16:12:26.71] [ComponentService] <INFO> 正在注册： vb-form-conditionoption.vue文件 (ComponentService.plugin.js:251)
+[16:12:26.72] [ComponentService] <INFO> 正在注册： vb-form-fencezone.vue文件 (ComponentService.plugin.js:251)
+[16:12:26.72] [ComponentService] <INFO> 正在注册： vb-form-holiday.vue文件 (ComponentService.plugin.js:251)
+[16:12:26.73] [ComponentService] <INFO> 正在注册： vb-form-indexoption.vue文件 (ComponentService.plugin.js:251)
+[16:12:26.73] [ComponentService] <INFO> 正在注册： vb-form-location.vue文件 (ComponentService.plugin.js:251)
+[16:12:26.74] [ComponentService] <INFO> 正在注册： vb-form-mall.vue文件 (ComponentService.plugin.js:251)
+[16:12:26.74] [ComponentService] <INFO> 正在注册： vb-form-physicalzone.vue文件 (ComponentService.plugin.js:251)
+[16:12:26.75] [ComponentService] <INFO> 正在注册： vb-form-reportmenu.vue文件 (ComponentService.plugin.js:251)
+[16:12:26.75] [ComponentService] <INFO> 正在注册： vb-form-reportpage.vue文件 (ComponentService.plugin.js:251)
+[16:12:26.76] [ComponentService] <INFO> 正在注册： vb-form-tag.vue文件 (ComponentService.plugin.js:251)
+[16:12:26.76] [ComponentService] <INFO> 正在注册： vb-form-transfer-mall.vue文件 (ComponentService.plugin.js:251)
+[16:12:26.77] [ComponentService] <INFO> 正在注册： vb-form-weather.vue文件 (ComponentService.plugin.js:251)
+[16:12:26.77] [ComponentService] <INFO> 正在注册： vb-grid-activity.vue文件 (ComponentService.plugin.js:251)
+[16:12:26.78] [ComponentService] <INFO> 正在注册： vb-grid-businesstime.vue文件 (ComponentService.plugin.js:251)
+[16:12:26.78] [ComponentService] <INFO> 正在注册： vb-grid-chartoption.vue文件 (ComponentService.plugin.js:251)
+[16:12:26.78] [ComponentService] <INFO> 正在注册： vb-grid-chartstyle.vue文件 (ComponentService.plugin.js:251)
+[16:12:26.79] [ComponentService] <INFO> 正在注册： vb-grid-company.vue文件 (ComponentService.plugin.js:251)
+[16:12:26.79] [ComponentService] <INFO> 正在注册： vb-grid-conditionoption.vue文件 (ComponentService.plugin.js:251)
+[16:12:26.80] [ComponentService] <INFO> 正在注册： vb-grid-fencezone.vue文件 (ComponentService.plugin.js:251)
+[16:12:26.80] [ComponentService] <INFO> 正在注册： vb-grid-holiday.vue文件 (ComponentService.plugin.js:251)
+[16:12:26.81] [ComponentService] <INFO> 正在注册： vb-grid-indexoption.vue文件 (ComponentService.plugin.js:251)
+[16:12:26.81] [ComponentService] <INFO> 正在注册： vb-grid-location.vue文件 (ComponentService.plugin.js:251)
+[16:12:26.82] [ComponentService] <INFO> 正在注册： vb-grid-mall.vue文件 (ComponentService.plugin.js:251)
+[16:12:26.82] [ComponentService] <INFO> 正在注册： vb-grid-physicalzone.vue文件 (ComponentService.plugin.js:251)
+[16:12:26.82] [ComponentService] <INFO> 正在注册： vb-grid-reportmenu.vue文件 (ComponentService.plugin.js:251)
+[16:12:26.83] [ComponentService] <INFO> 正在注册： vb-grid-reportpage.vue文件 (ComponentService.plugin.js:251)
+[16:12:26.83] [ComponentService] <INFO> 正在注册： vb-grid-role.vue文件 (ComponentService.plugin.js:251)
+[16:12:26.84] [ComponentService] <INFO> 正在注册： vb-grid-tag.vue文件 (ComponentService.plugin.js:251)
+[16:12:26.84] [ComponentService] <INFO> 正在注册： vb-grid-user.vue文件 (ComponentService.plugin.js:251)
+[16:12:26.85] [ComponentService] <INFO> 正在注册： vb-grid-weather.vue文件 (ComponentService.plugin.js:251)
+[16:12:26.85] [ComponentService] <INFO> 正在注册： vb-log-malllog.vue文件 (ComponentService.plugin.js:251)
+[16:12:26.86] [ComponentService] <INFO> 正在注册： vb-log-mallupdate.vue文件 (ComponentService.plugin.js:251)
+[16:12:26.86] [ComponentService] <INFO> 正在注册： vb-log-zonelog.vue文件 (ComponentService.plugin.js:251)
+[16:12:26.87] [ComponentService] <INFO> 正在注册： vb-log-zoneupdate.vue文件 (ComponentService.plugin.js:251)
+[16:12:26.87] [ComponentService] <INFO> 正在注册： vb-page-activity.vue文件 (ComponentService.plugin.js:251)
+[16:12:26.88] [ComponentService] <INFO> 正在注册： vb-page-businesstime.vue文件 (ComponentService.plugin.js:251)
+[16:12:26.88] [ComponentService] <INFO> 正在注册： vb-page-chartoption.vue文件 (ComponentService.plugin.js:251)
+[16:12:26.89] [ComponentService] <INFO> 正在注册： vb-page-chartstyle.vue文件 (ComponentService.plugin.js:251)
+[16:12:26.89] [ComponentService] <INFO> 正在注册： vb-page-company.vue文件 (ComponentService.plugin.js:251)
+[16:12:26.89] [ComponentService] <INFO> 正在注册： vb-page-conditionoption.vue文件 (ComponentService.plugin.js:251)
+[16:12:26.90] [ComponentService] <INFO> 正在注册： vb-page-holiday.vue文件 (ComponentService.plugin.js:251)
+[16:12:26.90] [ComponentService] <INFO> 正在注册： vb-page-indexoption.vue文件 (ComponentService.plugin.js:251)
+[16:12:26.91] [ComponentService] <INFO> 正在注册： vb-page-mall.vue文件 (ComponentService.plugin.js:251)
+[16:12:26.91] [ComponentService] <INFO> 正在注册： vb-page-reportmenu.vue文件 (ComponentService.plugin.js:251)
+[16:12:26.92] [ComponentService] <INFO> 正在注册： vb-page-reportpage.vue文件 (ComponentService.plugin.js:251)
+[16:12:26.92] [ComponentService] <INFO> 正在注册： vb-page-tag.vue文件 (ComponentService.plugin.js:251)
+[16:12:26.93] [ComponentService] <INFO> 正在注册： vb-page-weather.vue文件 (ComponentService.plugin.js:251)
+[16:12:26.93] [ComponentService] <INFO> 正在注册： vb-select-chartoption.vue文件 (ComponentService.plugin.js:251)
+[16:12:26.94] [ComponentService] <INFO> 正在注册： vb-select-chartstyle.vue文件 (ComponentService.plugin.js:251)
+[16:12:26.94] [ComponentService] <INFO> 正在注册： vb-select-company.vue文件 (ComponentService.plugin.js:251)
+[16:12:26.95] [ComponentService] <INFO> 正在注册： vb-select-device.vue文件 (ComponentService.plugin.js:251)
+[16:12:26.95] [ComponentService] <INFO> 正在注册： vb-select-fencezone.vue文件 (ComponentService.plugin.js:251)
+[16:12:26.95] [ComponentService] <INFO> 正在注册： vb-select-indexoption.vue文件 (ComponentService.plugin.js:251)
+[16:12:26.96] [ComponentService] <INFO> 正在注册： vb-select-mall.vue文件 (ComponentService.plugin.js:251)
+[16:12:26.96] [ComponentService] <INFO> 正在注册： vb-select-menutype.vue文件 (ComponentService.plugin.js:251)
+[16:12:26.97] [ComponentService] <INFO> 正在注册： vb-select-physicalzone.vue文件 (ComponentService.plugin.js:251)
+[16:12:26.97] [ComponentService] <INFO> 正在注册： vb-select-reportmenu.vue文件 (ComponentService.plugin.js:251)
+[16:12:26.98] [ComponentService] <INFO> 正在注册： vb-select-role.vue文件 (ComponentService.plugin.js:251)
+[16:12:26.98] [ComponentService] <INFO> 正在注册： vb-select-usergroup.vue文件 (ComponentService.plugin.js:251)
+[16:12:26.98] [ComponentService] <INFO> 正在注册： vb-select-zonetype.vue文件 (ComponentService.plugin.js:251)
+[16:12:26.99] [ComponentService] <INFO> 正在注册： vb-transfer-chartoption.vue文件 (ComponentService.plugin.js:251)
+[16:12:26.99] [ComponentService] <INFO> 正在注册： vb-transfer-conditionoption.vue文件 (ComponentService.plugin.js:251)
+[16:12:26.100] [ComponentService] <INFO> 正在注册： vb-transfer-indexoption.vue文件 (ComponentService.plugin.js:251)
+[16:12:27.00] [ComponentService] <INFO> 正在注册： vb-transfer-location.vue文件 (ComponentService.plugin.js:251)
+[16:12:27.01] [ComponentService] <INFO> 正在注册： vb-transfer-mall.vue文件 (ComponentService.plugin.js:251)
+[16:12:27.01] [ComponentService] <INFO> 正在注册： vb-transfer-physicalzone.vue文件 (ComponentService.plugin.js:251)
+[16:12:27.02] [ComponentService] <INFO> 正在注册： vb-transfer-reportpage.vue文件 (ComponentService.plugin.js:251)
+[16:12:27.02] [ComponentService] <INFO> 正在注册： vb-transfer-tag.vue文件 (ComponentService.plugin.js:251)
+[16:12:27.03] [ComponentService] <INFO> 正在注册： vb-tree-category.vue文件 (ComponentService.plugin.js:251)
+[16:12:27.03] [ComponentService] <INFO> 正在注册： vb-tree-location.vue文件 (ComponentService.plugin.js:251)
+[16:12:27.04] [ComponentService] <INFO> 正在注册： vb-zonecamera-query.vue文件 (ComponentService.plugin.js:251)
+[16:12:27.07] [ComponentService] <INFO> 正在注册： vx-basic-demo.vue文件 (ComponentService.plugin.js:251)
+[16:12:27.08] [ComponentService] <INFO> 正在注册： vm-form-location.vue文件 (ComponentService.plugin.js:251)
+[16:12:27.08] [ComponentService] <INFO> 正在注册： vm-grid-location.vue文件 (ComponentService.plugin.js:251)
+[16:12:27.09] [ComponentService] <INFO> 正在注册： vm-select-company.vue文件 (ComponentService.plugin.js:251)
+[16:12:27.09] [ComponentService] <INFO> 正在注册： vm-select-mall.vue文件 (ComponentService.plugin.js:251)
+[16:12:27.10] [ComponentService] <INFO> 正在注册： vm-transfer-mall.vue文件 (ComponentService.plugin.js:251)
+[16:12:27.10] [ComponentService] <INFO> 正在注册： vm-transfer-physicalzone.vue文件 (ComponentService.plugin.js:251)
+[16:12:27.11] [ComponentService] <INFO> 正在注册： vm-transfer-reportpage.vue文件 (ComponentService.plugin.js:251)
+[16:12:27.11] [ComponentService] <INFO> 正在注册： vm-tree-location.vue文件 (ComponentService.plugin.js:251)
+[16:12:27.12] [ComponentService] <INFO> 正在注册： vd-bd-datadetail.vue文件 (ComponentService.plugin.js:251)
+[16:12:27.12] [ComponentService] <INFO> 正在注册： vd-bd-loaddata.vue文件 (ComponentService.plugin.js:251)
+[16:12:27.13] [ComponentService] <INFO> 正在注册： vd-bd-savedata.vue文件 (ComponentService.plugin.js:251)
+[16:12:27.13] [ComponentService] <INFO> 正在注册： vd-company-activity.vue文件 (ComponentService.plugin.js:251)
+[16:12:27.14] [ComponentService] <INFO> 正在注册： vd-company-businesstime.vue文件 (ComponentService.plugin.js:251)
+[16:12:27.14] [ComponentService] <INFO> 正在注册： vd-company-company.vue文件 (ComponentService.plugin.js:251)
+[16:12:27.15] [ComponentService] <INFO> 正在注册： vd-company-device.vue文件 (ComponentService.plugin.js:251)
+[16:12:27.16] [ComponentService] <INFO> 正在注册： vd-company-holiday.vue文件 (ComponentService.plugin.js:251)
+[16:12:27.16] [ComponentService] <INFO> 正在注册： vd-company-mall.vue文件 (ComponentService.plugin.js:251)
+[16:12:27.17] [ComponentService] <INFO> 正在注册： vd-company-physicalzone.vue文件 (ComponentService.plugin.js:251)
+[16:12:27.17] [ComponentService] <INFO> 正在注册： vd-company-tag.vue文件 (ComponentService.plugin.js:251)
+[16:12:27.18] [ComponentService] <INFO> 正在注册： vd-log-mallupdate.vue文件 (ComponentService.plugin.js:251)
+[16:12:27.18] [ComponentService] <INFO> 正在注册： vd-log-weather.vue文件 (ComponentService.plugin.js:251)
+[16:12:27.19] [ComponentService] <INFO> 正在注册： vd-log-zoneupdate.vue文件 (ComponentService.plugin.js:251)
+[16:12:27.19] [ComponentService] <INFO> 正在注册： vd-report-chartoption.vue文件 (ComponentService.plugin.js:251)
+[16:12:27.20] [ComponentService] <INFO> 正在注册： vd-report-chartstyle.vue文件 (ComponentService.plugin.js:251)
+[16:12:27.21] [ComponentService] <INFO> 正在注册： vd-report-conditionoption.vue文件 (ComponentService.plugin.js:251)
+[16:12:27.21] [ComponentService] <INFO> 正在注册： vd-report-indexoption.vue文件 (ComponentService.plugin.js:251)
+[16:12:27.22] [ComponentService] <INFO> 正在注册： vd-report-reportmenu.vue文件 (ComponentService.plugin.js:251)
+[16:12:27.23] [ComponentService] <INFO> 正在注册： vd-report-reportpage.vue文件 (ComponentService.plugin.js:251)
+[16:12:27.23] [ComponentService] <INFO> 正在注册： vd-report-servicelist.vue文件 (ComponentService.plugin.js:251)
+[16:12:27.24] [ComponentService] <INFO> 正在注册： vd-system-category.vue文件 (ComponentService.plugin.js:251)
+[16:12:27.24] [ComponentService] <INFO> 正在注册： vd-system-location.vue文件 (ComponentService.plugin.js:251)
+[16:12:27.25] [ComponentService] <INFO> 正在注册： vd-system-menu.vue文件 (ComponentService.plugin.js:251)
+[16:12:27.25] [ComponentService] <INFO> 正在注册： vd-system-role.vue文件 (ComponentService.plugin.js:251)
+[16:12:27.26] [ComponentService] <INFO> 正在注册： vd-system-user.vue文件 (ComponentService.plugin.js:251)
+[16:12:27.27] [ComponentService] <INFO> 正在注册： vd-system-usergroup.vue文件 (ComponentService.plugin.js:251)
+[16:12:27.27] [ComponentService] <INFO> 正在注册： vm-page-grid.vue文件 (ComponentService.plugin.js:251)
+[16:12:27.28] [ComponentService] <INFO> 正在注册： vx-basic-button.vue文件 (ComponentService.plugin.js:251)
+[16:12:27.29] [ComponentService] <INFO> 正在注册： vx-basic-tree.vue文件 (ComponentService.plugin.js:251)
+[16:12:27.29] [ComponentService] <INFO> 正在注册： vx-container-col.vue文件 (ComponentService.plugin.js:251)
+[16:12:27.30] [ComponentService] <INFO> 正在注册： vx-container-combo.vue文件 (ComponentService.plugin.js:251)
+[16:12:27.31] [ComponentService] <INFO> 正在注册： vx-container-dialog.vue文件 (ComponentService.plugin.js:251)
+[16:12:27.31] [ComponentService] <INFO> 正在注册： vx-container-gridster.vue文件 (ComponentService.plugin.js:251)
+[16:12:27.32] [ComponentService] <INFO> 正在注册： vx-container-item.vue文件 (ComponentService.plugin.js:251)
+[16:12:27.33] [ComponentService] <INFO> 正在注册： vx-container-row.vue文件 (ComponentService.plugin.js:251)
+[16:12:27.33] [ComponentService] <INFO> 正在注册： vx-container-tab.vue文件 (ComponentService.plugin.js:251)
+[16:12:27.34] [ComponentService] <INFO> 正在注册： vx-form-cascader.vue文件 (ComponentService.plugin.js:251)
+[16:12:27.34] [ComponentService] <INFO> 正在注册： vx-form-check.vue文件 (ComponentService.plugin.js:251)
+[16:12:27.36] [ComponentService] <INFO> 正在注册： vx-form-clockpicker.vue文件 (ComponentService.plugin.js:251)
+[16:12:27.37] [ComponentService] <INFO> 正在注册： vx-form-daterangepicker.vue文件 (ComponentService.plugin.js:251)
+[16:12:27.37] [ComponentService] <INFO> 正在注册： vx-form-datesinglepicker.vue文件 (ComponentService.plugin.js:251)
+[16:12:27.38] [ComponentService] <INFO> 正在注册： vx-form-group-select.vue文件 (ComponentService.plugin.js:251)
+[16:12:27.39] [ComponentService] <INFO> 正在注册： vx-form-input.vue文件 (ComponentService.plugin.js:251)
+[16:12:27.39] [ComponentService] <INFO> 正在注册： vx-form-location.vue文件 (ComponentService.plugin.js:251)
+[16:12:27.40] [ComponentService] <INFO> 正在注册： vx-form-number.vue文件 (ComponentService.plugin.js:251)
+[16:12:27.40] [ComponentService] <INFO> 正在注册： vx-form-password.vue文件 (ComponentService.plugin.js:251)
+[16:12:27.41] [ComponentService] <INFO> 正在注册： vx-form-radio.vue文件 (ComponentService.plugin.js:251)
+[16:12:27.41] [ComponentService] <INFO> 正在注册： vx-form-select.vue文件 (ComponentService.plugin.js:251)
+[16:12:27.42] [ComponentService] <INFO> 正在注册： vx-form-transfer.vue文件 (ComponentService.plugin.js:251)
+[16:12:27.43] [ComponentService] <INFO> 正在注册： vx-nav-breadcrumb.vue文件 (ComponentService.plugin.js:251)
+[16:12:27.43] [ComponentService] <INFO> 正在注册： vx-nav-dropmenu.vue文件 (ComponentService.plugin.js:251)
+[16:12:27.44] [ComponentService] <INFO> 正在注册： vx-nav-navmenu.vue文件 (ComponentService.plugin.js:251)
+[16:12:27.44] [ComponentService] <INFO> 正在注册： vx-tab-pane.vue文件 (ComponentService.plugin.js:251)
+[16:12:27.45] [ComponentService] <INFO> 正在注册： vx-tabs.vue文件 (ComponentService.plugin.js:251)
+[16:12:27.45] [ComponentService] <INFO> 正在注册： vx-view-baidumap.vue文件 (ComponentService.plugin.js:251)
+[16:12:27.46] [ComponentService] <INFO> 正在注册： vx-view-countup.vue文件 (ComponentService.plugin.js:251)
+[16:12:27.47] [ComponentService] <INFO> 正在注册： vx-view-datatable.vue文件 (ComponentService.plugin.js:251)
+[16:12:27.48] [ComponentService] <INFO> 正在注册： vx-view-dialog.vue文件 (ComponentService.plugin.js:251)
+[16:12:27.48] [ComponentService] <INFO> 正在注册： vx-view-echart.vue文件 (ComponentService.plugin.js:251)
+[16:12:27.49] [ComponentService] <INFO> 正在注册： vx-view-govmap.vue文件 (ComponentService.plugin.js:251)
+[16:12:27.49] [ComponentService] <INFO> 正在注册： vx-view-heatmap.vue文件 (ComponentService.plugin.js:251)
+[16:12:27.51] [ComponentService] <INFO> 正在注册： vx-view-linescroll.vue文件 (ComponentService.plugin.js:251)
+[16:12:27.51] [ComponentService] <INFO> 正在注册： vx-view-map.vue文件 (ComponentService.plugin.js:251)
+[16:12:27.54] [ComponentService] <INFO> 正在注册： vx-view-pagelist.vue文件 (ComponentService.plugin.js:251)
+[16:12:27.55] [ComponentService] <INFO> 正在注册： vx-view-pagesize.vue文件 (ComponentService.plugin.js:251)
+[16:12:27.56] [ComponentService] <INFO> 正在注册： vm-form-activity.vue文件 (ComponentService.plugin.js:251)
+[16:12:27.57] [ComponentService] <INFO> 正在注册： vm-form-activityplugin.vue文件 (ComponentService.plugin.js:251)
+[16:12:27.58] [ComponentService] <INFO> 正在注册： vm-form-businesstime.vue文件 (ComponentService.plugin.js:251)
+[16:12:27.59] [ComponentService] <INFO> 正在注册： vm-form-businesstimeplugin.vue文件 (ComponentService.plugin.js:251)
+[16:12:27.60] [ComponentService] <INFO> 正在注册： vm-form-holiday.vue文件 (ComponentService.plugin.js:251)
+[16:12:27.61] [ComponentService] <INFO> 正在注册： vm-form-mall.vue文件 (ComponentService.plugin.js:251)
+[16:12:27.62] [ComponentService] <INFO> 正在注册： vm-form-mallupdate.vue文件 (ComponentService.plugin.js:251)
+[16:12:27.62] [ComponentService] <INFO> 正在注册： vm-form-tag.vue文件 (ComponentService.plugin.js:251)
+[16:12:27.63] [ComponentService] <INFO> 正在注册： vm-form-weather.vue文件 (ComponentService.plugin.js:251)
+[16:12:27.64] [ComponentService] <INFO> 正在注册： vm-form-zoneupdate.vue文件 (ComponentService.plugin.js:251)
+[16:12:27.65] [ComponentService] <INFO> 正在注册： vm-grid-activity.vue文件 (ComponentService.plugin.js:251)
+[16:12:27.65] [ComponentService] <INFO> 正在注册： vm-grid-businesstime.vue文件 (ComponentService.plugin.js:251)
+[16:12:27.66] [ComponentService] <INFO> 正在注册： vm-grid-historicalcount.vue文件 (ComponentService.plugin.js:251)
+[16:12:27.67] [ComponentService] <INFO> 正在注册： vm-grid-historicaldwell.vue文件 (ComponentService.plugin.js:251)
+[16:12:27.67] [ComponentService] <INFO> 正在注册： vm-grid-historicalfitting.vue文件 (ComponentService.plugin.js:251)
+[16:12:27.68] [ComponentService] <INFO> 正在注册： vm-grid-historicalpassby.vue文件 (ComponentService.plugin.js:251)
+[16:12:27.69] [ComponentService] <INFO> 正在注册： vm-grid-historicalsummary.vue文件 (ComponentService.plugin.js:251)
+[16:12:27.70] [ComponentService] <INFO> 正在注册： vm-grid-holiday.vue文件 (ComponentService.plugin.js:251)
+[16:12:27.71] [ComponentService] <INFO> 正在注册： vm-grid-mall.vue文件 (ComponentService.plugin.js:251)
+[16:12:27.72] [ComponentService] <INFO> 正在注册： vm-grid-tag.vue文件 (ComponentService.plugin.js:251)
+[16:12:27.72] [ComponentService] <INFO> 正在注册： vm-grid-weather.vue文件 (ComponentService.plugin.js:251)
+[16:12:27.73] [ComponentService] <INFO> 正在注册： vm-manager-dataadjustment.vue文件 (ComponentService.plugin.js:251)
+[16:12:27.74] [ComponentService] <INFO> 正在注册： vm-manager-datasummary.vue文件 (ComponentService.plugin.js:251)
+[16:12:27.77] [ComponentService] <INFO> 正在注册： vm-report-times.vue文件 (ComponentService.plugin.js:251)
+[16:12:27.78] [ComponentService] <INFO> 正在注册： vm-select-devicecode.vue文件 (ComponentService.plugin.js:251)
+[16:12:27.78] [ComponentService] <INFO> 正在注册： vm-transfer-tag.vue文件 (ComponentService.plugin.js:251)
+[16:12:27.79] [ComponentService] <INFO> 正在注册： vm-form-category.vue文件 (ComponentService.plugin.js:251)
+[16:12:27.80] [ComponentService] <INFO> 正在注册： vm-form-componentslist.vue文件 (ComponentService.plugin.js:251)
+[16:12:27.80] [ComponentService] <INFO> 正在注册： vm-form-menu.vue文件 (ComponentService.plugin.js:251)
+[16:12:27.81] [ComponentService] <INFO> 正在注册： vm-form-menuplugin.vue文件 (ComponentService.plugin.js:251)
+[16:12:27.82] [ComponentService] <INFO> 正在注册： vm-form-role.vue文件 (ComponentService.plugin.js:251)
+[16:12:27.83] [ComponentService] <INFO> 正在注册： vm-form-roleplugin.vue文件 (ComponentService.plugin.js:251)
+[16:12:27.84] [ComponentService] <INFO> 正在注册： vm-form-servicelist.vue文件 (ComponentService.plugin.js:251)
+[16:12:27.85] [ComponentService] <INFO> 正在注册： vm-form-user.vue文件 (ComponentService.plugin.js:251)
+[16:12:27.85] [ComponentService] <INFO> 正在注册： vm-form-usergroup.vue文件 (ComponentService.plugin.js:251)
+[16:12:27.86] [ComponentService] <INFO> 正在注册： vm-form-usergroupplugin.vue文件 (ComponentService.plugin.js:251)
+[16:12:27.87] [ComponentService] <INFO> 正在注册： vm-form-usergroupreportpage.vue文件 (ComponentService.plugin.js:251)
+[16:12:27.88] [ComponentService] <INFO> 正在注册： vm-form-usergroupzone.vue文件 (ComponentService.plugin.js:251)
+[16:12:27.88] [ComponentService] <INFO> 正在注册： vm-form-userplugin.vue文件 (ComponentService.plugin.js:251)
+[16:12:27.89] [ComponentService] <INFO> 正在注册： vm-grid-category.vue文件 (ComponentService.plugin.js:251)
+[16:12:27.89] [ComponentService] <INFO> 正在注册： vm-grid-componentslist.vue文件 (ComponentService.plugin.js:251)
+[16:12:27.90] [ComponentService] <INFO> 正在注册： vm-grid-menu.vue文件 (ComponentService.plugin.js:251)
+[16:12:27.90] [ComponentService] <INFO> 正在注册： vm-grid-role.vue文件 (ComponentService.plugin.js:251)
+[16:12:27.91] [ComponentService] <INFO> 正在注册： vm-grid-servicelist.vue文件 (ComponentService.plugin.js:251)
+[16:12:27.91] [ComponentService] <INFO> 正在注册： vm-grid-user.vue文件 (ComponentService.plugin.js:251)
+[16:12:27.92] [ComponentService] <INFO> 正在注册： vm-grid-usergroup.vue文件 (ComponentService.plugin.js:251)
+[16:12:27.93] [ComponentService] <INFO> 正在注册： vm-nav-menu.vue文件 (ComponentService.plugin.js:251)
+[16:12:27.93] [ComponentService] <INFO> 正在注册： vm-select-role.vue文件 (ComponentService.plugin.js:251)
+[16:12:27.94] [ComponentService] <INFO> 正在注册： vm-select-usergroup.vue文件 (ComponentService.plugin.js:251)
+[16:12:27.94] [ComponentService] <INFO> 正在注册： vm-tree-category.vue文件 (ComponentService.plugin.js:251)
+[16:12:27.95] [ComponentService] <INFO> 正在注册： vm-tree-menu.vue文件 (ComponentService.plugin.js:251)
+[16:12:27.96] [ComponentService] <INFO> 正在注册： vm-tree-role.vue文件 (ComponentService.plugin.js:251)
+[16:12:29.78] [App] <ERROR> 404: Not Found ... /components/css-loader.css (app.js:100)
+[16:12:30.34] [App] <ERROR> 404: Not Found ... /favicon.ico (app.js:100)
+[16:12:33.66] [ServiceLoader] <INFO> 注册服务ComponentService 成功！ (ServiceLoader.js:69)
+[16:12:33.66] [ServiceLoader] <INFO> 注册服务PageService 成功！ (ServiceLoader.js:69)
+[16:13:25.48] [App] <ERROR> 404: Not Found ... /components/css-loader.css (app.js:100)
+[16:13:26.40] [App] <ERROR> 404: Not Found ... /favicon.ico (app.js:100)
+[16:14:04.25] [App] <ERROR> 404: Not Found ... /components/css-loader.css (app.js:100)
+[16:14:04.92] [App] <ERROR> 404: Not Found ... /favicon.ico (app.js:100)
+[16:14:56.68] [App] <ERROR> 404: Not Found ... /components/css-loader.css (app.js:100)
+[16:14:57.22] [App] <ERROR> 404: Not Found ... /favicon.ico (app.js:100)
+[16:15:55.46] [App] <ERROR> 404: Not Found ... /components/css-loader.css (app.js:100)
+[16:15:56.01] [App] <ERROR> 404: Not Found ... /favicon.ico (app.js:100)
+[16:17:18.10] [ComponentService] <INFO> 正在注册： vm-form-usergroupplugin.vue文件 (ComponentService.plugin.js:251)
+[16:17:35.51] [ComponentService] <INFO> 正在注册： vm-form-usergroupplugin.vue文件 (ComponentService.plugin.js:251)
+[16:17:36.32] [ComponentService] <INFO> 正在注册： vm-form-usergroupplugin.vue文件 (ComponentService.plugin.js:251)
+[16:17:36.51] [ComponentService] <INFO> 正在注册： vm-form-usergroupplugin.vue文件 (ComponentService.plugin.js:251)
+[16:17:37.87] [App] <ERROR> 404: Not Found ... /components/css-loader.css (app.js:100)
+[16:17:38.50] [App] <ERROR> 404: Not Found ... /favicon.ico (app.js:100)
+[16:18:13.10] [ComponentService] <INFO> 正在注册： vm-form-usergroupplugin.vue文件 (ComponentService.plugin.js:251)
+[16:20:59.25] [ConfigLoader] <INFO> init ConfigLoader (ConfigLoader.js:13)
+[16:21:00.27] [ServiceLoader] <INFO> init ServiceLoader (ServiceLoader.js:27)
+[16:21:00.28] [PluginLoader] <INFO> init PluginLoader (PluginLoader.js:18)
+[16:21:00.32] [IntForce] <LOG> 启动组件开发测试环境，端口号：8160 (intforce.js:22)
+[16:21:01.66] [PluginLoader] <INFO> init ComponentService (PluginLoader.js:201)
+[16:21:03.82] [PluginLoader] <INFO> init PageService (PluginLoader.js:201)
+[16:21:03.85] [ComponentService] <INFO> 正在注册： vb-cascader-city.vue文件 (ComponentService.plugin.js:251)
+[16:21:03.86] [ComponentService] <INFO> 正在注册： vb-form-businesstime.vue文件 (ComponentService.plugin.js:251)
+[16:21:03.87] [ComponentService] <INFO> 正在注册： vb-form-businesstimeplugin.vue文件 (ComponentService.plugin.js:251)
+[16:21:03.87] [ComponentService] <INFO> 正在注册： vb-form-chartoption.vue文件 (ComponentService.plugin.js:251)
+[16:21:03.88] [ComponentService] <INFO> 正在注册： vb-form-chartstyle.vue文件 (ComponentService.plugin.js:251)
+[16:21:03.89] [ComponentService] <INFO> 正在注册： vb-form-company.vue文件 (ComponentService.plugin.js:251)
+[16:21:03.89] [ComponentService] <INFO> 正在注册： vb-form-conditionoption.vue文件 (ComponentService.plugin.js:251)
+[16:21:03.90] [ComponentService] <INFO> 正在注册： vb-form-fencezone.vue文件 (ComponentService.plugin.js:251)
+[16:21:03.90] [ComponentService] <INFO> 正在注册： vb-form-holiday.vue文件 (ComponentService.plugin.js:251)
+[16:21:03.91] [ComponentService] <INFO> 正在注册： vb-form-indexoption.vue文件 (ComponentService.plugin.js:251)
+[16:21:03.91] [ComponentService] <INFO> 正在注册： vb-form-location.vue文件 (ComponentService.plugin.js:251)
+[16:21:03.92] [ComponentService] <INFO> 正在注册： vb-form-mall.vue文件 (ComponentService.plugin.js:251)
+[16:21:03.93] [ComponentService] <INFO> 正在注册： vb-form-physicalzone.vue文件 (ComponentService.plugin.js:251)
+[16:21:03.94] [ComponentService] <INFO> 正在注册： vb-form-reportmenu.vue文件 (ComponentService.plugin.js:251)
+[16:21:03.94] [ComponentService] <INFO> 正在注册： vb-form-reportpage.vue文件 (ComponentService.plugin.js:251)
+[16:21:03.95] [ComponentService] <INFO> 正在注册： vb-form-tag.vue文件 (ComponentService.plugin.js:251)
+[16:21:03.95] [ComponentService] <INFO> 正在注册： vb-form-transfer-mall.vue文件 (ComponentService.plugin.js:251)
+[16:21:03.96] [ComponentService] <INFO> 正在注册： vb-form-weather.vue文件 (ComponentService.plugin.js:251)
+[16:21:03.96] [ComponentService] <INFO> 正在注册： vb-grid-activity.vue文件 (ComponentService.plugin.js:251)
+[16:21:03.96] [ComponentService] <INFO> 正在注册： vb-grid-businesstime.vue文件 (ComponentService.plugin.js:251)
+[16:21:03.97] [ComponentService] <INFO> 正在注册： vb-grid-chartoption.vue文件 (ComponentService.plugin.js:251)
+[16:21:03.97] [ComponentService] <INFO> 正在注册： vb-grid-chartstyle.vue文件 (ComponentService.plugin.js:251)
+[16:21:03.97] [ComponentService] <INFO> 正在注册： vb-grid-company.vue文件 (ComponentService.plugin.js:251)
+[16:21:03.98] [ComponentService] <INFO> 正在注册： vb-grid-conditionoption.vue文件 (ComponentService.plugin.js:251)
+[16:21:03.98] [ComponentService] <INFO> 正在注册： vb-grid-fencezone.vue文件 (ComponentService.plugin.js:251)
+[16:21:03.99] [ComponentService] <INFO> 正在注册： vb-grid-holiday.vue文件 (ComponentService.plugin.js:251)
+[16:21:03.99] [ComponentService] <INFO> 正在注册： vb-grid-indexoption.vue文件 (ComponentService.plugin.js:251)
+[16:21:03.99] [ComponentService] <INFO> 正在注册： vb-grid-location.vue文件 (ComponentService.plugin.js:251)
+[16:21:03.100] [ComponentService] <INFO> 正在注册： vb-grid-mall.vue文件 (ComponentService.plugin.js:251)
+[16:21:04.00] [ComponentService] <INFO> 正在注册： vb-grid-physicalzone.vue文件 (ComponentService.plugin.js:251)
+[16:21:04.00] [ComponentService] <INFO> 正在注册： vb-grid-reportmenu.vue文件 (ComponentService.plugin.js:251)
+[16:21:04.01] [ComponentService] <INFO> 正在注册： vb-grid-reportpage.vue文件 (ComponentService.plugin.js:251)
+[16:21:04.01] [ComponentService] <INFO> 正在注册： vb-grid-role.vue文件 (ComponentService.plugin.js:251)
+[16:21:04.02] [ComponentService] <INFO> 正在注册： vb-grid-tag.vue文件 (ComponentService.plugin.js:251)
+[16:21:04.02] [ComponentService] <INFO> 正在注册： vb-grid-user.vue文件 (ComponentService.plugin.js:251)
+[16:21:04.02] [ComponentService] <INFO> 正在注册： vb-grid-weather.vue文件 (ComponentService.plugin.js:251)
+[16:21:04.03] [ComponentService] <INFO> 正在注册： vb-log-malllog.vue文件 (ComponentService.plugin.js:251)
+[16:21:04.03] [ComponentService] <INFO> 正在注册： vb-log-mallupdate.vue文件 (ComponentService.plugin.js:251)
+[16:21:04.04] [ComponentService] <INFO> 正在注册： vb-log-zonelog.vue文件 (ComponentService.plugin.js:251)
+[16:21:04.04] [ComponentService] <INFO> 正在注册： vb-log-zoneupdate.vue文件 (ComponentService.plugin.js:251)
+[16:21:04.04] [ComponentService] <INFO> 正在注册： vb-page-activity.vue文件 (ComponentService.plugin.js:251)
+[16:21:04.05] [ComponentService] <INFO> 正在注册： vb-page-businesstime.vue文件 (ComponentService.plugin.js:251)
+[16:21:04.05] [ComponentService] <INFO> 正在注册： vb-page-chartoption.vue文件 (ComponentService.plugin.js:251)
+[16:21:04.06] [ComponentService] <INFO> 正在注册： vb-page-chartstyle.vue文件 (ComponentService.plugin.js:251)
+[16:21:04.06] [ComponentService] <INFO> 正在注册： vb-page-company.vue文件 (ComponentService.plugin.js:251)
+[16:21:04.06] [ComponentService] <INFO> 正在注册： vb-page-conditionoption.vue文件 (ComponentService.plugin.js:251)
+[16:21:04.07] [ComponentService] <INFO> 正在注册： vb-page-holiday.vue文件 (ComponentService.plugin.js:251)
+[16:21:04.07] [ComponentService] <INFO> 正在注册： vb-page-indexoption.vue文件 (ComponentService.plugin.js:251)
+[16:21:04.08] [ComponentService] <INFO> 正在注册： vb-page-mall.vue文件 (ComponentService.plugin.js:251)
+[16:21:04.08] [ComponentService] <INFO> 正在注册： vb-page-reportmenu.vue文件 (ComponentService.plugin.js:251)
+[16:21:04.08] [ComponentService] <INFO> 正在注册： vb-page-reportpage.vue文件 (ComponentService.plugin.js:251)
+[16:21:04.10] [ComponentService] <INFO> 正在注册： vb-page-tag.vue文件 (ComponentService.plugin.js:251)
+[16:21:04.10] [ComponentService] <INFO> 正在注册： vb-page-weather.vue文件 (ComponentService.plugin.js:251)
+[16:21:04.11] [ComponentService] <INFO> 正在注册： vb-select-chartoption.vue文件 (ComponentService.plugin.js:251)
+[16:21:04.11] [ComponentService] <INFO> 正在注册： vb-select-chartstyle.vue文件 (ComponentService.plugin.js:251)
+[16:21:04.12] [ComponentService] <INFO> 正在注册： vb-select-company.vue文件 (ComponentService.plugin.js:251)
+[16:21:04.13] [ComponentService] <INFO> 正在注册： vb-select-device.vue文件 (ComponentService.plugin.js:251)
+[16:21:04.13] [ComponentService] <INFO> 正在注册： vb-select-fencezone.vue文件 (ComponentService.plugin.js:251)
+[16:21:04.14] [ComponentService] <INFO> 正在注册： vb-select-indexoption.vue文件 (ComponentService.plugin.js:251)
+[16:21:04.14] [ComponentService] <INFO> 正在注册： vb-select-mall.vue文件 (ComponentService.plugin.js:251)
+[16:21:04.15] [ComponentService] <INFO> 正在注册： vb-select-menutype.vue文件 (ComponentService.plugin.js:251)
+[16:21:04.16] [ComponentService] <INFO> 正在注册： vb-select-physicalzone.vue文件 (ComponentService.plugin.js:251)
+[16:21:04.17] [ComponentService] <INFO> 正在注册： vb-select-reportmenu.vue文件 (ComponentService.plugin.js:251)
+[16:21:04.18] [ComponentService] <INFO> 正在注册： vb-select-role.vue文件 (ComponentService.plugin.js:251)
+[16:21:04.19] [ComponentService] <INFO> 正在注册： vb-select-usergroup.vue文件 (ComponentService.plugin.js:251)
+[16:21:04.19] [ComponentService] <INFO> 正在注册： vb-select-zonetype.vue文件 (ComponentService.plugin.js:251)
+[16:21:04.20] [ComponentService] <INFO> 正在注册： vb-transfer-chartoption.vue文件 (ComponentService.plugin.js:251)
+[16:21:04.21] [ComponentService] <INFO> 正在注册： vb-transfer-conditionoption.vue文件 (ComponentService.plugin.js:251)
+[16:21:04.21] [ComponentService] <INFO> 正在注册： vb-transfer-indexoption.vue文件 (ComponentService.plugin.js:251)
+[16:21:04.22] [ComponentService] <INFO> 正在注册： vb-transfer-location.vue文件 (ComponentService.plugin.js:251)
+[16:21:04.22] [ComponentService] <INFO> 正在注册： vb-transfer-mall.vue文件 (ComponentService.plugin.js:251)
+[16:21:04.23] [ComponentService] <INFO> 正在注册： vb-transfer-physicalzone.vue文件 (ComponentService.plugin.js:251)
+[16:21:04.24] [ComponentService] <INFO> 正在注册： vb-transfer-reportpage.vue文件 (ComponentService.plugin.js:251)
+[16:21:04.25] [ComponentService] <INFO> 正在注册： vb-transfer-tag.vue文件 (ComponentService.plugin.js:251)
+[16:21:04.25] [ComponentService] <INFO> 正在注册： vb-tree-category.vue文件 (ComponentService.plugin.js:251)
+[16:21:04.26] [ComponentService] <INFO> 正在注册： vb-tree-location.vue文件 (ComponentService.plugin.js:251)
+[16:21:04.27] [ComponentService] <INFO> 正在注册： vb-zonecamera-query.vue文件 (ComponentService.plugin.js:251)
+[16:21:04.31] [ComponentService] <INFO> 正在注册： vx-basic-demo.vue文件 (ComponentService.plugin.js:251)
+[16:21:04.33] [ComponentService] <INFO> 正在注册： vm-form-location.vue文件 (ComponentService.plugin.js:251)
+[16:21:04.34] [ComponentService] <INFO> 正在注册： vm-grid-location.vue文件 (ComponentService.plugin.js:251)
+[16:21:04.35] [ComponentService] <INFO> 正在注册： vm-select-company.vue文件 (ComponentService.plugin.js:251)
+[16:21:04.36] [ComponentService] <INFO> 正在注册： vm-select-mall.vue文件 (ComponentService.plugin.js:251)
+[16:21:04.37] [ComponentService] <INFO> 正在注册： vm-transfer-mall.vue文件 (ComponentService.plugin.js:251)
+[16:21:04.37] [ComponentService] <INFO> 正在注册： vm-transfer-physicalzone.vue文件 (ComponentService.plugin.js:251)
+[16:21:04.38] [ComponentService] <INFO> 正在注册： vm-transfer-reportpage.vue文件 (ComponentService.plugin.js:251)
+[16:21:04.38] [ComponentService] <INFO> 正在注册： vm-tree-location.vue文件 (ComponentService.plugin.js:251)
+[16:21:04.41] [ComponentService] <INFO> 正在注册： vm-page-grid.vue文件 (ComponentService.plugin.js:251)
+[16:21:04.44] [ComponentService] <INFO> 正在注册： vx-basic-button.vue文件 (ComponentService.plugin.js:251)
+[16:21:04.45] [ComponentService] <INFO> 正在注册： vx-basic-tree.vue文件 (ComponentService.plugin.js:251)
+[16:21:04.46] [ComponentService] <INFO> 正在注册： vx-container-col.vue文件 (ComponentService.plugin.js:251)
+[16:21:04.48] [ComponentService] <INFO> 正在注册： vx-container-combo.vue文件 (ComponentService.plugin.js:251)
+[16:21:04.49] [ComponentService] <INFO> 正在注册： vx-container-dialog.vue文件 (ComponentService.plugin.js:251)
+[16:21:04.50] [ComponentService] <INFO> 正在注册： vx-container-gridster.vue文件 (ComponentService.plugin.js:251)
+[16:21:04.51] [ComponentService] <INFO> 正在注册： vx-container-item.vue文件 (ComponentService.plugin.js:251)
+[16:21:04.51] [ComponentService] <INFO> 正在注册： vx-container-row.vue文件 (ComponentService.plugin.js:251)
+[16:21:04.52] [ComponentService] <INFO> 正在注册： vx-container-tab.vue文件 (ComponentService.plugin.js:251)
+[16:21:04.53] [ComponentService] <INFO> 正在注册： vx-form-cascader.vue文件 (ComponentService.plugin.js:251)
+[16:21:04.53] [ComponentService] <INFO> 正在注册： vx-form-check.vue文件 (ComponentService.plugin.js:251)
+[16:21:04.56] [ComponentService] <INFO> 正在注册： vx-form-clockpicker.vue文件 (ComponentService.plugin.js:251)
+[16:21:04.57] [ComponentService] <INFO> 正在注册： vx-form-daterangepicker.vue文件 (ComponentService.plugin.js:251)
+[16:21:04.58] [ComponentService] <INFO> 正在注册： vx-form-datesinglepicker.vue文件 (ComponentService.plugin.js:251)
+[16:21:04.59] [ComponentService] <INFO> 正在注册： vx-form-group-select.vue文件 (ComponentService.plugin.js:251)
+[16:21:04.59] [ComponentService] <INFO> 正在注册： vx-form-input.vue文件 (ComponentService.plugin.js:251)
+[16:21:04.60] [ComponentService] <INFO> 正在注册： vx-form-location.vue文件 (ComponentService.plugin.js:251)
+[16:21:04.61] [ComponentService] <INFO> 正在注册： vx-form-number.vue文件 (ComponentService.plugin.js:251)
+[16:21:04.61] [ComponentService] <INFO> 正在注册： vx-form-password.vue文件 (ComponentService.plugin.js:251)
+[16:21:04.62] [ComponentService] <INFO> 正在注册： vx-form-radio.vue文件 (ComponentService.plugin.js:251)
+[16:21:04.62] [ComponentService] <INFO> 正在注册： vx-form-select.vue文件 (ComponentService.plugin.js:251)
+[16:21:04.63] [ComponentService] <INFO> 正在注册： vx-form-transfer.vue文件 (ComponentService.plugin.js:251)
+[16:21:04.63] [ComponentService] <INFO> 正在注册： vx-nav-breadcrumb.vue文件 (ComponentService.plugin.js:251)
+[16:21:04.64] [ComponentService] <INFO> 正在注册： vx-nav-dropmenu.vue文件 (ComponentService.plugin.js:251)
+[16:21:04.65] [ComponentService] <INFO> 正在注册： vx-nav-navmenu.vue文件 (ComponentService.plugin.js:251)
+[16:21:04.65] [ComponentService] <INFO> 正在注册： vx-tab-pane.vue文件 (ComponentService.plugin.js:251)
+[16:21:04.65] [ComponentService] <INFO> 正在注册： vx-tabs.vue文件 (ComponentService.plugin.js:251)
+[16:21:04.66] [ComponentService] <INFO> 正在注册： vx-view-baidumap.vue文件 (ComponentService.plugin.js:251)
+[16:21:04.66] [ComponentService] <INFO> 正在注册： vx-view-countup.vue文件 (ComponentService.plugin.js:251)
+[16:21:04.68] [ComponentService] <INFO> 正在注册： vx-view-datatable.vue文件 (ComponentService.plugin.js:251)
+[16:21:04.69] [ComponentService] <INFO> 正在注册： vx-view-dialog.vue文件 (ComponentService.plugin.js:251)
+[16:21:04.70] [ComponentService] <INFO> 正在注册： vx-view-echart.vue文件 (ComponentService.plugin.js:251)
+[16:21:04.70] [ComponentService] <INFO> 正在注册： vx-view-govmap.vue文件 (ComponentService.plugin.js:251)
+[16:21:04.71] [ComponentService] <INFO> 正在注册： vx-view-heatmap.vue文件 (ComponentService.plugin.js:251)
+[16:21:04.73] [ComponentService] <INFO> 正在注册： vx-view-linescroll.vue文件 (ComponentService.plugin.js:251)
+[16:21:04.74] [ComponentService] <INFO> 正在注册： vx-view-map.vue文件 (ComponentService.plugin.js:251)
+[16:21:04.75] [ComponentService] <INFO> 正在注册： vx-view-pagelist.vue文件 (ComponentService.plugin.js:251)
+[16:21:04.76] [ComponentService] <INFO> 正在注册： vx-view-pagesize.vue文件 (ComponentService.plugin.js:251)
+[16:21:04.76] [ComponentService] <INFO> 正在注册： vd-bd-datadetail.vue文件 (ComponentService.plugin.js:251)
+[16:21:04.77] [ComponentService] <INFO> 正在注册： vd-bd-loaddata.vue文件 (ComponentService.plugin.js:251)
+[16:21:04.78] [ComponentService] <INFO> 正在注册： vd-bd-savedata.vue文件 (ComponentService.plugin.js:251)
+[16:21:04.79] [ComponentService] <INFO> 正在注册： vd-company-activity.vue文件 (ComponentService.plugin.js:251)
+[16:21:04.79] [ComponentService] <INFO> 正在注册： vd-company-businesstime.vue文件 (ComponentService.plugin.js:251)
+[16:21:04.80] [ComponentService] <INFO> 正在注册： vd-company-company.vue文件 (ComponentService.plugin.js:251)
+[16:21:04.81] [ComponentService] <INFO> 正在注册： vd-company-device.vue文件 (ComponentService.plugin.js:251)
+[16:21:04.81] [ComponentService] <INFO> 正在注册： vd-company-holiday.vue文件 (ComponentService.plugin.js:251)
+[16:21:04.82] [ComponentService] <INFO> 正在注册： vd-company-mall.vue文件 (ComponentService.plugin.js:251)
+[16:21:04.82] [ComponentService] <INFO> 正在注册： vd-company-physicalzone.vue文件 (ComponentService.plugin.js:251)
+[16:21:04.83] [ComponentService] <INFO> 正在注册： vd-company-tag.vue文件 (ComponentService.plugin.js:251)
+[16:21:04.83] [ComponentService] <INFO> 正在注册： vd-log-mallupdate.vue文件 (ComponentService.plugin.js:251)
+[16:21:04.84] [ComponentService] <INFO> 正在注册： vd-log-weather.vue文件 (ComponentService.plugin.js:251)
+[16:21:04.85] [ComponentService] <INFO> 正在注册： vd-log-zoneupdate.vue文件 (ComponentService.plugin.js:251)
+[16:21:04.86] [ComponentService] <INFO> 正在注册： vd-report-chartoption.vue文件 (ComponentService.plugin.js:251)
+[16:21:04.86] [ComponentService] <INFO> 正在注册： vd-report-chartstyle.vue文件 (ComponentService.plugin.js:251)
+[16:21:04.87] [ComponentService] <INFO> 正在注册： vd-report-conditionoption.vue文件 (ComponentService.plugin.js:251)
+[16:21:04.88] [ComponentService] <INFO> 正在注册： vd-report-indexoption.vue文件 (ComponentService.plugin.js:251)
+[16:21:04.90] [ComponentService] <INFO> 正在注册： vd-report-reportmenu.vue文件 (ComponentService.plugin.js:251)
+[16:21:04.90] [ComponentService] <INFO> 正在注册： vd-report-reportpage.vue文件 (ComponentService.plugin.js:251)
+[16:21:04.91] [ComponentService] <INFO> 正在注册： vd-report-servicelist.vue文件 (ComponentService.plugin.js:251)
+[16:21:04.91] [ComponentService] <INFO> 正在注册： vd-system-category.vue文件 (ComponentService.plugin.js:251)
+[16:21:04.92] [ComponentService] <INFO> 正在注册： vd-system-location.vue文件 (ComponentService.plugin.js:251)
+[16:21:04.93] [ComponentService] <INFO> 正在注册： vd-system-menu.vue文件 (ComponentService.plugin.js:251)
+[16:21:04.93] [ComponentService] <INFO> 正在注册： vd-system-role.vue文件 (ComponentService.plugin.js:251)
+[16:21:04.93] [ComponentService] <INFO> 正在注册： vd-system-user.vue文件 (ComponentService.plugin.js:251)
+[16:21:04.94] [ComponentService] <INFO> 正在注册： vd-system-usergroup.vue文件 (ComponentService.plugin.js:251)
+[16:21:04.95] [ComponentService] <INFO> 正在注册： vm-form-activity.vue文件 (ComponentService.plugin.js:251)
+[16:21:04.95] [ComponentService] <INFO> 正在注册： vm-form-activityplugin.vue文件 (ComponentService.plugin.js:251)
+[16:21:04.96] [ComponentService] <INFO> 正在注册： vm-form-businesstime.vue文件 (ComponentService.plugin.js:251)
+[16:21:04.97] [ComponentService] <INFO> 正在注册： vm-form-businesstimeplugin.vue文件 (ComponentService.plugin.js:251)
+[16:21:04.98] [ComponentService] <INFO> 正在注册： vm-form-holiday.vue文件 (ComponentService.plugin.js:251)
+[16:21:04.99] [ComponentService] <INFO> 正在注册： vm-form-mall.vue文件 (ComponentService.plugin.js:251)
+[16:21:05.00] [ComponentService] <INFO> 正在注册： vm-form-mallupdate.vue文件 (ComponentService.plugin.js:251)
+[16:21:05.01] [ComponentService] <INFO> 正在注册： vm-form-tag.vue文件 (ComponentService.plugin.js:251)
+[16:21:05.02] [ComponentService] <INFO> 正在注册： vm-form-weather.vue文件 (ComponentService.plugin.js:251)
+[16:21:05.03] [ComponentService] <INFO> 正在注册： vm-form-zoneupdate.vue文件 (ComponentService.plugin.js:251)
+[16:21:05.04] [ComponentService] <INFO> 正在注册： vm-grid-activity.vue文件 (ComponentService.plugin.js:251)
+[16:21:05.04] [ComponentService] <INFO> 正在注册： vm-grid-businesstime.vue文件 (ComponentService.plugin.js:251)
+[16:21:05.05] [ComponentService] <INFO> 正在注册： vm-grid-historicalcount.vue文件 (ComponentService.plugin.js:251)
+[16:21:05.06] [ComponentService] <INFO> 正在注册： vm-grid-historicaldwell.vue文件 (ComponentService.plugin.js:251)
+[16:21:05.06] [ComponentService] <INFO> 正在注册： vm-grid-historicalfitting.vue文件 (ComponentService.plugin.js:251)
+[16:21:05.07] [ComponentService] <INFO> 正在注册： vm-grid-historicalpassby.vue文件 (ComponentService.plugin.js:251)
+[16:21:05.07] [ComponentService] <INFO> 正在注册： vm-grid-historicalsummary.vue文件 (ComponentService.plugin.js:251)
+[16:21:05.08] [ComponentService] <INFO> 正在注册： vm-grid-holiday.vue文件 (ComponentService.plugin.js:251)
+[16:21:05.08] [ComponentService] <INFO> 正在注册： vm-grid-mall.vue文件 (ComponentService.plugin.js:251)
+[16:21:05.09] [ComponentService] <INFO> 正在注册： vm-grid-tag.vue文件 (ComponentService.plugin.js:251)
+[16:21:05.10] [ComponentService] <INFO> 正在注册： vm-grid-weather.vue文件 (ComponentService.plugin.js:251)
+[16:21:05.10] [ComponentService] <INFO> 正在注册： vm-manager-dataadjustment.vue文件 (ComponentService.plugin.js:251)
+[16:21:05.12] [ComponentService] <INFO> 正在注册： vm-manager-datasummary.vue文件 (ComponentService.plugin.js:251)
+[16:21:05.13] [ComponentService] <INFO> 正在注册： vm-report-times.vue文件 (ComponentService.plugin.js:251)
+[16:21:05.13] [ComponentService] <INFO> 正在注册： vm-select-devicecode.vue文件 (ComponentService.plugin.js:251)
+[16:21:05.14] [ComponentService] <INFO> 正在注册： vm-transfer-tag.vue文件 (ComponentService.plugin.js:251)
+[16:21:05.15] [ComponentService] <INFO> 正在注册： vm-form-category.vue文件 (ComponentService.plugin.js:251)
+[16:21:05.15] [ComponentService] <INFO> 正在注册： vm-form-componentslist.vue文件 (ComponentService.plugin.js:251)
+[16:21:05.16] [ComponentService] <INFO> 正在注册： vm-form-menu.vue文件 (ComponentService.plugin.js:251)
+[16:21:05.17] [ComponentService] <INFO> 正在注册： vm-form-menuplugin.vue文件 (ComponentService.plugin.js:251)
+[16:21:05.17] [ComponentService] <INFO> 正在注册： vm-form-role.vue文件 (ComponentService.plugin.js:251)
+[16:21:05.18] [ComponentService] <INFO> 正在注册： vm-form-roleplugin.vue文件 (ComponentService.plugin.js:251)
+[16:21:05.18] [ComponentService] <INFO> 正在注册： vm-form-servicelist.vue文件 (ComponentService.plugin.js:251)
+[16:21:05.19] [ComponentService] <INFO> 正在注册： vm-form-user.vue文件 (ComponentService.plugin.js:251)
+[16:21:05.19] [ComponentService] <INFO> 正在注册： vm-form-usergroup.vue文件 (ComponentService.plugin.js:251)
+[16:21:05.20] [ComponentService] <INFO> 正在注册： vm-form-usergroupplugin.vue文件 (ComponentService.plugin.js:251)
+[16:21:05.20] [ComponentService] <INFO> 正在注册： vm-form-usergroupreportpage.vue文件 (ComponentService.plugin.js:251)
+[16:21:05.21] [ComponentService] <INFO> 正在注册： vm-form-usergroupzone.vue文件 (ComponentService.plugin.js:251)
+[16:21:05.21] [ComponentService] <INFO> 正在注册： vm-form-userplugin.vue文件 (ComponentService.plugin.js:251)
+[16:21:05.22] [ComponentService] <INFO> 正在注册： vm-grid-category.vue文件 (ComponentService.plugin.js:251)
+[16:21:05.22] [ComponentService] <INFO> 正在注册： vm-grid-componentslist.vue文件 (ComponentService.plugin.js:251)
+[16:21:05.23] [ComponentService] <INFO> 正在注册： vm-grid-menu.vue文件 (ComponentService.plugin.js:251)
+[16:21:05.23] [ComponentService] <INFO> 正在注册： vm-grid-role.vue文件 (ComponentService.plugin.js:251)
+[16:21:05.24] [ComponentService] <INFO> 正在注册： vm-grid-servicelist.vue文件 (ComponentService.plugin.js:251)
+[16:21:05.25] [ComponentService] <INFO> 正在注册： vm-grid-user.vue文件 (ComponentService.plugin.js:251)
+[16:21:05.25] [ComponentService] <INFO> 正在注册： vm-grid-usergroup.vue文件 (ComponentService.plugin.js:251)
+[16:21:05.26] [ComponentService] <INFO> 正在注册： vm-nav-menu.vue文件 (ComponentService.plugin.js:251)
+[16:21:05.26] [ComponentService] <INFO> 正在注册： vm-select-role.vue文件 (ComponentService.plugin.js:251)
+[16:21:05.27] [ComponentService] <INFO> 正在注册： vm-select-usergroup.vue文件 (ComponentService.plugin.js:251)
+[16:21:05.28] [ComponentService] <INFO> 正在注册： vm-tree-category.vue文件 (ComponentService.plugin.js:251)
+[16:21:05.30] [ComponentService] <INFO> 正在注册： vm-tree-menu.vue文件 (ComponentService.plugin.js:251)
+[16:21:05.30] [ComponentService] <INFO> 正在注册： vm-tree-role.vue文件 (ComponentService.plugin.js:251)
+[16:21:09.61] [App] <ERROR> 404: Not Found ... /components/css-loader.css (app.js:100)
+[16:21:10.78] [App] <ERROR> 404: Not Found ... /favicon.ico (app.js:100)
+[16:21:10.83] [ServiceLoader] <INFO> 注册服务ComponentService 成功！ (ServiceLoader.js:69)
+[16:21:10.83] [ServiceLoader] <INFO> 注册服务PageService 成功！ (ServiceLoader.js:69)
+[16:25:43.88] [ServiceLoader] <ERROR> ServiceLoader http://192.168.10.62:9213/ApiService.html?op=register connected err:  (ServiceLoader.js:204)
+[16:25:43.89] [ServiceLoader] <ERROR> ServiceLoader http://192.168.10.62:9213/ApiService.html?op=register connected err:  (ServiceLoader.js:204)
+[16:25:43.88] [ServiceLoader] <ERROR> ServiceLoader { Error: connect ECONNREFUSED 192.168.10.62:9213
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.10.62',
+  port: 9213 } (ServiceLoader.js:205)
+[16:25:43.89] [ServiceLoader] <ERROR> ServiceLoader { Error: connect ECONNREFUSED 192.168.10.62:9213
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.10.62',
+  port: 9213 } (ServiceLoader.js:205)
+[16:25:43.89] [ServiceLoader] <ERROR> 注册服务ComponentService 时失败：Error: connect ECONNREFUSED 192.168.10.62:9213 (ServiceLoader.js:66)
+[16:25:43.90] [ServiceLoader] <ERROR> 注册服务PageService 时失败：Error: connect ECONNREFUSED 192.168.10.62:9213 (ServiceLoader.js:66)
+[16:25:50.45] [ServiceLoader] <INFO> 注册服务ComponentService 成功！ (ServiceLoader.js:69)
+[16:25:50.46] [ServiceLoader] <INFO> 注册服务PageService 成功！ (ServiceLoader.js:69)
+[16:26:52.72] [ConfigLoader] <INFO> init ConfigLoader (ConfigLoader.js:13)
+[16:26:53.21] [ServiceLoader] <INFO> init ServiceLoader (ServiceLoader.js:27)
+[16:26:53.22] [PluginLoader] <INFO> init PluginLoader (PluginLoader.js:18)
+[16:26:54.49] [PluginLoader] <INFO> init ComponentService (PluginLoader.js:201)
+[16:26:55.99] [PluginLoader] <INFO> init PageService (PluginLoader.js:201)
+[16:26:55.100] [IntForce] <LOG> 启动组件开发测试环境，端口号：8160 (intforce.js:22)
+[16:26:56.02] [ComponentService] <INFO> 正在注册： vb-cascader-city.vue文件 (ComponentService.plugin.js:251)
+[16:26:56.03] [ComponentService] <INFO> 正在注册： vb-form-businesstime.vue文件 (ComponentService.plugin.js:251)
+[16:26:56.04] [ComponentService] <INFO> 正在注册： vb-form-businesstimeplugin.vue文件 (ComponentService.plugin.js:251)
+[16:26:56.04] [ComponentService] <INFO> 正在注册： vb-form-chartoption.vue文件 (ComponentService.plugin.js:251)
+[16:26:56.05] [ComponentService] <INFO> 正在注册： vb-form-chartstyle.vue文件 (ComponentService.plugin.js:251)
+[16:26:56.05] [ComponentService] <INFO> 正在注册： vb-form-company.vue文件 (ComponentService.plugin.js:251)
+[16:26:56.06] [ComponentService] <INFO> 正在注册： vb-form-conditionoption.vue文件 (ComponentService.plugin.js:251)
+[16:26:56.07] [ComponentService] <INFO> 正在注册： vb-form-fencezone.vue文件 (ComponentService.plugin.js:251)
+[16:26:56.07] [ComponentService] <INFO> 正在注册： vb-form-holiday.vue文件 (ComponentService.plugin.js:251)
+[16:26:56.08] [ComponentService] <INFO> 正在注册： vb-form-indexoption.vue文件 (ComponentService.plugin.js:251)
+[16:26:56.08] [ComponentService] <INFO> 正在注册： vb-form-location.vue文件 (ComponentService.plugin.js:251)
+[16:26:56.09] [ComponentService] <INFO> 正在注册： vb-form-mall.vue文件 (ComponentService.plugin.js:251)
+[16:26:56.10] [ComponentService] <INFO> 正在注册： vb-form-physicalzone.vue文件 (ComponentService.plugin.js:251)
+[16:26:56.10] [ComponentService] <INFO> 正在注册： vb-form-reportmenu.vue文件 (ComponentService.plugin.js:251)
+[16:26:56.11] [ComponentService] <INFO> 正在注册： vb-form-reportpage.vue文件 (ComponentService.plugin.js:251)
+[16:26:56.12] [ComponentService] <INFO> 正在注册： vb-form-tag.vue文件 (ComponentService.plugin.js:251)
+[16:26:56.12] [ComponentService] <INFO> 正在注册： vb-form-transfer-mall.vue文件 (ComponentService.plugin.js:251)
+[16:26:56.13] [ComponentService] <INFO> 正在注册： vb-form-weather.vue文件 (ComponentService.plugin.js:251)
+[16:26:56.13] [ComponentService] <INFO> 正在注册： vb-grid-activity.vue文件 (ComponentService.plugin.js:251)
+[16:26:56.14] [ComponentService] <INFO> 正在注册： vb-grid-businesstime.vue文件 (ComponentService.plugin.js:251)
+[16:26:56.14] [ComponentService] <INFO> 正在注册： vb-grid-chartoption.vue文件 (ComponentService.plugin.js:251)
+[16:26:56.15] [ComponentService] <INFO> 正在注册： vb-grid-chartstyle.vue文件 (ComponentService.plugin.js:251)
+[16:26:56.15] [ComponentService] <INFO> 正在注册： vb-grid-company.vue文件 (ComponentService.plugin.js:251)
+[16:26:56.16] [ComponentService] <INFO> 正在注册： vb-grid-conditionoption.vue文件 (ComponentService.plugin.js:251)
+[16:26:56.16] [ComponentService] <INFO> 正在注册： vb-grid-fencezone.vue文件 (ComponentService.plugin.js:251)
+[16:26:56.17] [ComponentService] <INFO> 正在注册： vb-grid-holiday.vue文件 (ComponentService.plugin.js:251)
+[16:26:56.18] [ComponentService] <INFO> 正在注册： vb-grid-indexoption.vue文件 (ComponentService.plugin.js:251)
+[16:26:56.18] [ComponentService] <INFO> 正在注册： vb-grid-location.vue文件 (ComponentService.plugin.js:251)
+[16:26:56.19] [ComponentService] <INFO> 正在注册： vb-grid-mall.vue文件 (ComponentService.plugin.js:251)
+[16:26:56.19] [ComponentService] <INFO> 正在注册： vb-grid-physicalzone.vue文件 (ComponentService.plugin.js:251)
+[16:26:56.20] [ComponentService] <INFO> 正在注册： vb-grid-reportmenu.vue文件 (ComponentService.plugin.js:251)
+[16:26:56.21] [ComponentService] <INFO> 正在注册： vb-grid-reportpage.vue文件 (ComponentService.plugin.js:251)
+[16:26:56.22] [ComponentService] <INFO> 正在注册： vb-grid-role.vue文件 (ComponentService.plugin.js:251)
+[16:26:56.23] [ComponentService] <INFO> 正在注册： vb-grid-tag.vue文件 (ComponentService.plugin.js:251)
+[16:26:56.24] [ComponentService] <INFO> 正在注册： vb-grid-user.vue文件 (ComponentService.plugin.js:251)
+[16:26:56.25] [ComponentService] <INFO> 正在注册： vb-grid-weather.vue文件 (ComponentService.plugin.js:251)
+[16:26:56.25] [ComponentService] <INFO> 正在注册： vb-log-malllog.vue文件 (ComponentService.plugin.js:251)
+[16:26:56.27] [ComponentService] <INFO> 正在注册： vb-log-mallupdate.vue文件 (ComponentService.plugin.js:251)
+[16:26:56.28] [ComponentService] <INFO> 正在注册： vb-log-zonelog.vue文件 (ComponentService.plugin.js:251)
+[16:26:56.30] [ComponentService] <INFO> 正在注册： vb-log-zoneupdate.vue文件 (ComponentService.plugin.js:251)
+[16:26:56.32] [ComponentService] <INFO> 正在注册： vb-page-activity.vue文件 (ComponentService.plugin.js:251)
+[16:26:56.33] [ComponentService] <INFO> 正在注册： vb-page-businesstime.vue文件 (ComponentService.plugin.js:251)
+[16:26:56.35] [ComponentService] <INFO> 正在注册： vb-page-chartoption.vue文件 (ComponentService.plugin.js:251)
+[16:26:56.35] [ComponentService] <INFO> 正在注册： vb-page-chartstyle.vue文件 (ComponentService.plugin.js:251)
+[16:26:56.37] [ComponentService] <INFO> 正在注册： vb-page-company.vue文件 (ComponentService.plugin.js:251)
+[16:26:56.38] [ComponentService] <INFO> 正在注册： vb-page-conditionoption.vue文件 (ComponentService.plugin.js:251)
+[16:26:56.38] [ComponentService] <INFO> 正在注册： vb-page-holiday.vue文件 (ComponentService.plugin.js:251)
+[16:26:56.39] [ComponentService] <INFO> 正在注册： vb-page-indexoption.vue文件 (ComponentService.plugin.js:251)
+[16:26:56.39] [ComponentService] <INFO> 正在注册： vb-page-mall.vue文件 (ComponentService.plugin.js:251)
+[16:26:56.40] [ComponentService] <INFO> 正在注册： vb-page-reportmenu.vue文件 (ComponentService.plugin.js:251)
+[16:26:56.41] [ComponentService] <INFO> 正在注册： vb-page-reportpage.vue文件 (ComponentService.plugin.js:251)
+[16:26:56.41] [ComponentService] <INFO> 正在注册： vb-page-tag.vue文件 (ComponentService.plugin.js:251)
+[16:26:56.42] [ComponentService] <INFO> 正在注册： vb-page-weather.vue文件 (ComponentService.plugin.js:251)
+[16:26:56.43] [ComponentService] <INFO> 正在注册： vb-select-chartoption.vue文件 (ComponentService.plugin.js:251)
+[16:26:56.43] [ComponentService] <INFO> 正在注册： vb-select-chartstyle.vue文件 (ComponentService.plugin.js:251)
+[16:26:56.44] [ComponentService] <INFO> 正在注册： vb-select-company.vue文件 (ComponentService.plugin.js:251)
+[16:26:56.44] [ComponentService] <INFO> 正在注册： vb-select-device.vue文件 (ComponentService.plugin.js:251)
+[16:26:56.45] [ComponentService] <INFO> 正在注册： vb-select-fencezone.vue文件 (ComponentService.plugin.js:251)
+[16:26:56.45] [ComponentService] <INFO> 正在注册： vb-select-indexoption.vue文件 (ComponentService.plugin.js:251)
+[16:26:56.46] [ComponentService] <INFO> 正在注册： vb-select-mall.vue文件 (ComponentService.plugin.js:251)
+[16:26:56.47] [ComponentService] <INFO> 正在注册： vb-select-menutype.vue文件 (ComponentService.plugin.js:251)
+[16:26:56.48] [ComponentService] <INFO> 正在注册： vb-select-physicalzone.vue文件 (ComponentService.plugin.js:251)
+[16:26:56.49] [ComponentService] <INFO> 正在注册： vb-select-reportmenu.vue文件 (ComponentService.plugin.js:251)
+[16:26:56.50] [ComponentService] <INFO> 正在注册： vb-select-role.vue文件 (ComponentService.plugin.js:251)
+[16:26:56.52] [ComponentService] <INFO> 正在注册： vb-select-usergroup.vue文件 (ComponentService.plugin.js:251)
+[16:26:56.53] [ComponentService] <INFO> 正在注册： vb-select-zonetype.vue文件 (ComponentService.plugin.js:251)
+[16:26:56.54] [ComponentService] <INFO> 正在注册： vb-transfer-chartoption.vue文件 (ComponentService.plugin.js:251)
+[16:26:56.54] [ComponentService] <INFO> 正在注册： vb-transfer-conditionoption.vue文件 (ComponentService.plugin.js:251)
+[16:26:56.55] [ComponentService] <INFO> 正在注册： vb-transfer-indexoption.vue文件 (ComponentService.plugin.js:251)
+[16:26:56.56] [ComponentService] <INFO> 正在注册： vb-transfer-location.vue文件 (ComponentService.plugin.js:251)
+[16:26:56.57] [ComponentService] <INFO> 正在注册： vb-transfer-mall.vue文件 (ComponentService.plugin.js:251)
+[16:26:56.58] [ComponentService] <INFO> 正在注册： vb-transfer-physicalzone.vue文件 (ComponentService.plugin.js:251)
+[16:26:56.59] [ComponentService] <INFO> 正在注册： vb-transfer-reportpage.vue文件 (ComponentService.plugin.js:251)
+[16:26:56.60] [ComponentService] <INFO> 正在注册： vb-transfer-tag.vue文件 (ComponentService.plugin.js:251)
+[16:26:56.61] [ComponentService] <INFO> 正在注册： vb-tree-category.vue文件 (ComponentService.plugin.js:251)
+[16:26:56.63] [ComponentService] <INFO> 正在注册： vb-tree-location.vue文件 (ComponentService.plugin.js:251)
+[16:26:56.64] [ComponentService] <INFO> 正在注册： vb-zonecamera-query.vue文件 (ComponentService.plugin.js:251)
+[16:26:56.70] [ComponentService] <INFO> 正在注册： vx-basic-demo.vue文件 (ComponentService.plugin.js:251)
+[16:26:56.71] [ComponentService] <INFO> 正在注册： vm-form-location.vue文件 (ComponentService.plugin.js:251)
+[16:26:56.72] [ComponentService] <INFO> 正在注册： vm-grid-location.vue文件 (ComponentService.plugin.js:251)
+[16:26:56.72] [ComponentService] <INFO> 正在注册： vm-select-company.vue文件 (ComponentService.plugin.js:251)
+[16:26:56.73] [ComponentService] <INFO> 正在注册： vm-select-mall.vue文件 (ComponentService.plugin.js:251)
+[16:26:56.73] [ComponentService] <INFO> 正在注册： vm-transfer-mall.vue文件 (ComponentService.plugin.js:251)
+[16:26:56.75] [ComponentService] <INFO> 正在注册： vm-transfer-physicalzone.vue文件 (ComponentService.plugin.js:251)
+[16:26:56.75] [ComponentService] <INFO> 正在注册： vm-transfer-reportpage.vue文件 (ComponentService.plugin.js:251)
+[16:26:56.76] [ComponentService] <INFO> 正在注册： vm-tree-location.vue文件 (ComponentService.plugin.js:251)
+[16:26:56.80] [ComponentService] <INFO> 正在注册： vm-page-grid.vue文件 (ComponentService.plugin.js:251)
+[16:26:56.81] [ComponentService] <INFO> 正在注册： vx-basic-button.vue文件 (ComponentService.plugin.js:251)
+[16:26:56.81] [ComponentService] <INFO> 正在注册： vx-basic-tree.vue文件 (ComponentService.plugin.js:251)
+[16:26:56.82] [ComponentService] <INFO> 正在注册： vx-container-col.vue文件 (ComponentService.plugin.js:251)
+[16:26:56.83] [ComponentService] <INFO> 正在注册： vx-container-combo.vue文件 (ComponentService.plugin.js:251)
+[16:26:56.84] [ComponentService] <INFO> 正在注册： vx-container-dialog.vue文件 (ComponentService.plugin.js:251)
+[16:26:56.84] [ComponentService] <INFO> 正在注册： vx-container-gridster.vue文件 (ComponentService.plugin.js:251)
+[16:26:56.85] [ComponentService] <INFO> 正在注册： vx-container-item.vue文件 (ComponentService.plugin.js:251)
+[16:26:56.85] [ComponentService] <INFO> 正在注册： vx-container-row.vue文件 (ComponentService.plugin.js:251)
+[16:26:56.85] [ComponentService] <INFO> 正在注册： vx-container-tab.vue文件 (ComponentService.plugin.js:251)
+[16:26:56.86] [ComponentService] <INFO> 正在注册： vx-form-cascader.vue文件 (ComponentService.plugin.js:251)
+[16:26:56.86] [ComponentService] <INFO> 正在注册： vx-form-check.vue文件 (ComponentService.plugin.js:251)
+[16:26:56.88] [ComponentService] <INFO> 正在注册： vx-form-clockpicker.vue文件 (ComponentService.plugin.js:251)
+[16:26:56.90] [ComponentService] <INFO> 正在注册： vx-form-daterangepicker.vue文件 (ComponentService.plugin.js:251)
+[16:26:56.91] [ComponentService] <INFO> 正在注册： vx-form-datesinglepicker.vue文件 (ComponentService.plugin.js:251)
+[16:26:56.91] [ComponentService] <INFO> 正在注册： vx-form-group-select.vue文件 (ComponentService.plugin.js:251)
+[16:26:56.92] [ComponentService] <INFO> 正在注册： vx-form-input.vue文件 (ComponentService.plugin.js:251)
+[16:26:56.93] [ComponentService] <INFO> 正在注册： vx-form-location.vue文件 (ComponentService.plugin.js:251)
+[16:26:56.93] [ComponentService] <INFO> 正在注册： vx-form-number.vue文件 (ComponentService.plugin.js:251)
+[16:26:56.94] [ComponentService] <INFO> 正在注册： vx-form-password.vue文件 (ComponentService.plugin.js:251)
+[16:26:56.95] [ComponentService] <INFO> 正在注册： vx-form-radio.vue文件 (ComponentService.plugin.js:251)
+[16:26:56.95] [ComponentService] <INFO> 正在注册： vx-form-select.vue文件 (ComponentService.plugin.js:251)
+[16:26:56.96] [ComponentService] <INFO> 正在注册： vx-form-transfer.vue文件 (ComponentService.plugin.js:251)
+[16:26:56.97] [ComponentService] <INFO> 正在注册： vx-nav-breadcrumb.vue文件 (ComponentService.plugin.js:251)
+[16:26:56.97] [ComponentService] <INFO> 正在注册： vx-nav-dropmenu.vue文件 (ComponentService.plugin.js:251)
+[16:26:56.98] [ComponentService] <INFO> 正在注册： vx-nav-navmenu.vue文件 (ComponentService.plugin.js:251)
+[16:26:56.98] [ComponentService] <INFO> 正在注册： vx-tab-pane.vue文件 (ComponentService.plugin.js:251)
+[16:26:56.99] [ComponentService] <INFO> 正在注册： vx-tabs.vue文件 (ComponentService.plugin.js:251)
+[16:26:56.99] [ComponentService] <INFO> 正在注册： vx-view-baidumap.vue文件 (ComponentService.plugin.js:251)
+[16:26:56.100] [ComponentService] <INFO> 正在注册： vx-view-countup.vue文件 (ComponentService.plugin.js:251)
+[16:26:57.01] [ComponentService] <INFO> 正在注册： vx-view-datatable.vue文件 (ComponentService.plugin.js:251)
+[16:26:57.02] [ComponentService] <INFO> 正在注册： vx-view-dialog.vue文件 (ComponentService.plugin.js:251)
+[16:26:57.02] [ComponentService] <INFO> 正在注册： vx-view-echart.vue文件 (ComponentService.plugin.js:251)
+[16:26:57.03] [ComponentService] <INFO> 正在注册： vx-view-govmap.vue文件 (ComponentService.plugin.js:251)
+[16:26:57.03] [ComponentService] <INFO> 正在注册： vx-view-heatmap.vue文件 (ComponentService.plugin.js:251)
+[16:26:57.05] [ComponentService] <INFO> 正在注册： vx-view-linescroll.vue文件 (ComponentService.plugin.js:251)
+[16:26:57.06] [ComponentService] <INFO> 正在注册： vx-view-map.vue文件 (ComponentService.plugin.js:251)
+[16:26:57.07] [ComponentService] <INFO> 正在注册： vx-view-pagelist.vue文件 (ComponentService.plugin.js:251)
+[16:26:57.08] [ComponentService] <INFO> 正在注册： vx-view-pagesize.vue文件 (ComponentService.plugin.js:251)
+[16:26:57.08] [ComponentService] <INFO> 正在注册： vd-bd-datadetail.vue文件 (ComponentService.plugin.js:251)
+[16:26:57.10] [ComponentService] <INFO> 正在注册： vd-bd-loaddata.vue文件 (ComponentService.plugin.js:251)
+[16:26:57.10] [ComponentService] <INFO> 正在注册： vd-bd-savedata.vue文件 (ComponentService.plugin.js:251)
+[16:26:57.11] [ComponentService] <INFO> 正在注册： vd-company-activity.vue文件 (ComponentService.plugin.js:251)
+[16:26:57.12] [ComponentService] <INFO> 正在注册： vd-company-businesstime.vue文件 (ComponentService.plugin.js:251)
+[16:26:57.13] [ComponentService] <INFO> 正在注册： vd-company-company.vue文件 (ComponentService.plugin.js:251)
+[16:26:57.13] [ComponentService] <INFO> 正在注册： vd-company-device.vue文件 (ComponentService.plugin.js:251)
+[16:26:57.14] [ComponentService] <INFO> 正在注册： vd-company-holiday.vue文件 (ComponentService.plugin.js:251)
+[16:26:57.15] [ComponentService] <INFO> 正在注册： vd-company-mall.vue文件 (ComponentService.plugin.js:251)
+[16:26:57.15] [ComponentService] <INFO> 正在注册： vd-company-physicalzone.vue文件 (ComponentService.plugin.js:251)
+[16:26:57.16] [ComponentService] <INFO> 正在注册： vd-company-tag.vue文件 (ComponentService.plugin.js:251)
+[16:26:57.17] [ComponentService] <INFO> 正在注册： vd-log-mallupdate.vue文件 (ComponentService.plugin.js:251)
+[16:26:57.18] [ComponentService] <INFO> 正在注册： vd-log-weather.vue文件 (ComponentService.plugin.js:251)
+[16:26:57.18] [ComponentService] <INFO> 正在注册： vd-log-zoneupdate.vue文件 (ComponentService.plugin.js:251)
+[16:26:57.19] [ComponentService] <INFO> 正在注册： vd-report-chartoption.vue文件 (ComponentService.plugin.js:251)
+[16:26:57.19] [ComponentService] <INFO> 正在注册： vd-report-chartstyle.vue文件 (ComponentService.plugin.js:251)
+[16:26:57.20] [ComponentService] <INFO> 正在注册： vd-report-conditionoption.vue文件 (ComponentService.plugin.js:251)
+[16:26:57.21] [ComponentService] <INFO> 正在注册： vd-report-indexoption.vue文件 (ComponentService.plugin.js:251)
+[16:26:57.21] [ComponentService] <INFO> 正在注册： vd-report-reportmenu.vue文件 (ComponentService.plugin.js:251)
+[16:26:57.22] [ComponentService] <INFO> 正在注册： vd-report-reportpage.vue文件 (ComponentService.plugin.js:251)
+[16:26:57.22] [ComponentService] <INFO> 正在注册： vd-report-servicelist.vue文件 (ComponentService.plugin.js:251)
+[16:26:57.23] [ComponentService] <INFO> 正在注册： vd-system-category.vue文件 (ComponentService.plugin.js:251)
+[16:26:57.23] [ComponentService] <INFO> 正在注册： vd-system-location.vue文件 (ComponentService.plugin.js:251)
+[16:26:57.24] [ComponentService] <INFO> 正在注册： vd-system-menu.vue文件 (ComponentService.plugin.js:251)
+[16:26:57.25] [ComponentService] <INFO> 正在注册： vd-system-role.vue文件 (ComponentService.plugin.js:251)
+[16:26:57.26] [ComponentService] <INFO> 正在注册： vd-system-user.vue文件 (ComponentService.plugin.js:251)
+[16:26:57.27] [ComponentService] <INFO> 正在注册： vd-system-usergroup.vue文件 (ComponentService.plugin.js:251)
+[16:26:57.27] [ComponentService] <INFO> 正在注册： vm-form-activity.vue文件 (ComponentService.plugin.js:251)
+[16:26:57.28] [ComponentService] <INFO> 正在注册： vm-form-activityplugin.vue文件 (ComponentService.plugin.js:251)
+[16:26:57.28] [ComponentService] <INFO> 正在注册： vm-form-businesstime.vue文件 (ComponentService.plugin.js:251)
+[16:26:57.28] [ComponentService] <INFO> 正在注册： vm-form-businesstimeplugin.vue文件 (ComponentService.plugin.js:251)
+[16:26:57.29] [ComponentService] <INFO> 正在注册： vm-form-holiday.vue文件 (ComponentService.plugin.js:251)
+[16:26:57.30] [ComponentService] <INFO> 正在注册： vm-form-mall.vue文件 (ComponentService.plugin.js:251)
+[16:26:57.30] [ComponentService] <INFO> 正在注册： vm-form-mallupdate.vue文件 (ComponentService.plugin.js:251)
+[16:26:57.31] [ComponentService] <INFO> 正在注册： vm-form-tag.vue文件 (ComponentService.plugin.js:251)
+[16:26:57.31] [ComponentService] <INFO> 正在注册： vm-form-weather.vue文件 (ComponentService.plugin.js:251)
+[16:26:57.32] [ComponentService] <INFO> 正在注册： vm-form-zoneupdate.vue文件 (ComponentService.plugin.js:251)
+[16:26:57.32] [ComponentService] <INFO> 正在注册： vm-grid-activity.vue文件 (ComponentService.plugin.js:251)
+[16:26:57.32] [ComponentService] <INFO> 正在注册： vm-grid-businesstime.vue文件 (ComponentService.plugin.js:251)
+[16:26:57.33] [ComponentService] <INFO> 正在注册： vm-grid-historicalcount.vue文件 (ComponentService.plugin.js:251)
+[16:26:57.33] [ComponentService] <INFO> 正在注册： vm-grid-historicaldwell.vue文件 (ComponentService.plugin.js:251)
+[16:26:57.34] [ComponentService] <INFO> 正在注册： vm-grid-historicalfitting.vue文件 (ComponentService.plugin.js:251)
+[16:26:57.34] [ComponentService] <INFO> 正在注册： vm-grid-historicalpassby.vue文件 (ComponentService.plugin.js:251)
+[16:26:57.34] [ComponentService] <INFO> 正在注册： vm-grid-historicalsummary.vue文件 (ComponentService.plugin.js:251)
+[16:26:57.35] [ComponentService] <INFO> 正在注册： vm-grid-holiday.vue文件 (ComponentService.plugin.js:251)
+[16:26:57.35] [ComponentService] <INFO> 正在注册： vm-grid-mall.vue文件 (ComponentService.plugin.js:251)
+[16:26:57.36] [ComponentService] <INFO> 正在注册： vm-grid-tag.vue文件 (ComponentService.plugin.js:251)
+[16:26:57.36] [ComponentService] <INFO> 正在注册： vm-grid-weather.vue文件 (ComponentService.plugin.js:251)
+[16:26:57.37] [ComponentService] <INFO> 正在注册： vm-manager-dataadjustment.vue文件 (ComponentService.plugin.js:251)
+[16:26:57.38] [ComponentService] <INFO> 正在注册： vm-manager-datasummary.vue文件 (ComponentService.plugin.js:251)
+[16:26:57.38] [ComponentService] <INFO> 正在注册： vm-report-times.vue文件 (ComponentService.plugin.js:251)
+[16:26:57.39] [ComponentService] <INFO> 正在注册： vm-select-devicecode.vue文件 (ComponentService.plugin.js:251)
+[16:26:57.39] [ComponentService] <INFO> 正在注册： vm-transfer-tag.vue文件 (ComponentService.plugin.js:251)
+[16:26:57.39] [ComponentService] <INFO> 正在注册： vm-form-category.vue文件 (ComponentService.plugin.js:251)
+[16:26:57.40] [ComponentService] <INFO> 正在注册： vm-form-componentslist.vue文件 (ComponentService.plugin.js:251)
+[16:26:57.40] [ComponentService] <INFO> 正在注册： vm-form-menu.vue文件 (ComponentService.plugin.js:251)
+[16:26:57.41] [ComponentService] <INFO> 正在注册： vm-form-menuplugin.vue文件 (ComponentService.plugin.js:251)
+[16:26:57.41] [ComponentService] <INFO> 正在注册： vm-form-role.vue文件 (ComponentService.plugin.js:251)
+[16:26:57.42] [ComponentService] <INFO> 正在注册： vm-form-roleplugin.vue文件 (ComponentService.plugin.js:251)
+[16:26:57.42] [ComponentService] <INFO> 正在注册： vm-form-servicelist.vue文件 (ComponentService.plugin.js:251)
+[16:26:57.42] [ComponentService] <INFO> 正在注册： vm-form-user.vue文件 (ComponentService.plugin.js:251)
+[16:26:57.43] [ComponentService] <INFO> 正在注册： vm-form-usergroup.vue文件 (ComponentService.plugin.js:251)
+[16:26:57.43] [ComponentService] <INFO> 正在注册： vm-form-usergroupplugin.vue文件 (ComponentService.plugin.js:251)
+[16:26:57.44] [ComponentService] <INFO> 正在注册： vm-form-usergroupreportpage.vue文件 (ComponentService.plugin.js:251)
+[16:26:57.44] [ComponentService] <INFO> 正在注册： vm-form-usergroupzone.vue文件 (ComponentService.plugin.js:251)
+[16:26:57.44] [ComponentService] <INFO> 正在注册： vm-form-userplugin.vue文件 (ComponentService.plugin.js:251)
+[16:26:57.47] [ComponentService] <INFO> 正在注册： vm-grid-category.vue文件 (ComponentService.plugin.js:251)
+[16:26:57.48] [ComponentService] <INFO> 正在注册： vm-grid-componentslist.vue文件 (ComponentService.plugin.js:251)
+[16:26:57.50] [ComponentService] <INFO> 正在注册： vm-grid-menu.vue文件 (ComponentService.plugin.js:251)
+[16:26:57.50] [ComponentService] <INFO> 正在注册： vm-grid-role.vue文件 (ComponentService.plugin.js:251)
+[16:26:57.51] [ComponentService] <INFO> 正在注册： vm-grid-servicelist.vue文件 (ComponentService.plugin.js:251)
+[16:26:57.52] [ComponentService] <INFO> 正在注册： vm-grid-user.vue文件 (ComponentService.plugin.js:251)
+[16:26:57.52] [ComponentService] <INFO> 正在注册： vm-grid-usergroup.vue文件 (ComponentService.plugin.js:251)
+[16:26:57.53] [ComponentService] <INFO> 正在注册： vm-nav-menu.vue文件 (ComponentService.plugin.js:251)
+[16:26:57.53] [ComponentService] <INFO> 正在注册： vm-select-role.vue文件 (ComponentService.plugin.js:251)
+[16:26:57.54] [ComponentService] <INFO> 正在注册： vm-select-usergroup.vue文件 (ComponentService.plugin.js:251)
+[16:26:57.54] [ComponentService] <INFO> 正在注册： vm-tree-category.vue文件 (ComponentService.plugin.js:251)
+[16:26:57.55] [ComponentService] <INFO> 正在注册： vm-tree-menu.vue文件 (ComponentService.plugin.js:251)
+[16:26:57.55] [ComponentService] <INFO> 正在注册： vm-tree-role.vue文件 (ComponentService.plugin.js:251)
+[16:27:03.25] [ServiceLoader] <INFO> 注册服务ComponentService 成功！ (ServiceLoader.js:69)
+[16:27:03.25] [ServiceLoader] <INFO> 注册服务PageService 成功！ (ServiceLoader.js:69)
+[16:27:03.54] [App] <ERROR> 404: Not Found ... /components/css-loader.css (app.js:100)
+[16:27:04.51] [App] <ERROR> 404: Not Found ... /favicon.ico (app.js:100)
+[16:27:44.27] [ConfigLoader] <INFO> init ConfigLoader (ConfigLoader.js:13)
+[16:27:44.95] [ServiceLoader] <INFO> init ServiceLoader (ServiceLoader.js:27)
+[16:27:44.96] [PluginLoader] <INFO> init PluginLoader (PluginLoader.js:18)
+[16:27:45.94] [PluginLoader] <INFO> init ComponentService (PluginLoader.js:201)
+[16:27:47.18] [PluginLoader] <INFO> init PageService (PluginLoader.js:201)
+[16:27:47.20] [IntForce] <LOG> 启动组件开发测试环境，端口号：8160 (intforce.js:22)
+[16:27:47.22] [ComponentService] <INFO> 正在注册： vb-cascader-city.vue文件 (ComponentService.plugin.js:251)
+[16:27:47.22] [ComponentService] <INFO> 正在注册： vb-form-businesstime.vue文件 (ComponentService.plugin.js:251)
+[16:27:47.23] [ComponentService] <INFO> 正在注册： vb-form-businesstimeplugin.vue文件 (ComponentService.plugin.js:251)
+[16:27:47.24] [ComponentService] <INFO> 正在注册： vb-form-chartoption.vue文件 (ComponentService.plugin.js:251)
+[16:27:47.24] [ComponentService] <INFO> 正在注册： vb-form-chartstyle.vue文件 (ComponentService.plugin.js:251)
+[16:27:47.25] [ComponentService] <INFO> 正在注册： vb-form-company.vue文件 (ComponentService.plugin.js:251)
+[16:27:47.25] [ComponentService] <INFO> 正在注册： vb-form-conditionoption.vue文件 (ComponentService.plugin.js:251)
+[16:27:47.26] [ComponentService] <INFO> 正在注册： vb-form-fencezone.vue文件 (ComponentService.plugin.js:251)
+[16:27:47.26] [ComponentService] <INFO> 正在注册： vb-form-holiday.vue文件 (ComponentService.plugin.js:251)
+[16:27:47.27] [ComponentService] <INFO> 正在注册： vb-form-indexoption.vue文件 (ComponentService.plugin.js:251)
+[16:27:47.27] [ComponentService] <INFO> 正在注册： vb-form-location.vue文件 (ComponentService.plugin.js:251)
+[16:27:47.28] [ComponentService] <INFO> 正在注册： vb-form-mall.vue文件 (ComponentService.plugin.js:251)
+[16:27:47.29] [ComponentService] <INFO> 正在注册： vb-form-physicalzone.vue文件 (ComponentService.plugin.js:251)
+[16:27:47.29] [ComponentService] <INFO> 正在注册： vb-form-reportmenu.vue文件 (ComponentService.plugin.js:251)
+[16:27:47.30] [ComponentService] <INFO> 正在注册： vb-form-reportpage.vue文件 (ComponentService.plugin.js:251)
+[16:27:47.30] [ComponentService] <INFO> 正在注册： vb-form-tag.vue文件 (ComponentService.plugin.js:251)
+[16:27:47.30] [ComponentService] <INFO> 正在注册： vb-form-transfer-mall.vue文件 (ComponentService.plugin.js:251)
+[16:27:47.31] [ComponentService] <INFO> 正在注册： vb-form-weather.vue文件 (ComponentService.plugin.js:251)
+[16:27:47.31] [ComponentService] <INFO> 正在注册： vb-grid-activity.vue文件 (ComponentService.plugin.js:251)
+[16:27:47.32] [ComponentService] <INFO> 正在注册： vb-grid-businesstime.vue文件 (ComponentService.plugin.js:251)
+[16:27:47.32] [ComponentService] <INFO> 正在注册： vb-grid-chartoption.vue文件 (ComponentService.plugin.js:251)
+[16:27:47.33] [ComponentService] <INFO> 正在注册： vb-grid-chartstyle.vue文件 (ComponentService.plugin.js:251)
+[16:27:47.33] [ComponentService] <INFO> 正在注册： vb-grid-company.vue文件 (ComponentService.plugin.js:251)
+[16:27:47.33] [ComponentService] <INFO> 正在注册： vb-grid-conditionoption.vue文件 (ComponentService.plugin.js:251)
+[16:27:47.34] [ComponentService] <INFO> 正在注册： vb-grid-fencezone.vue文件 (ComponentService.plugin.js:251)
+[16:27:47.35] [ComponentService] <INFO> 正在注册： vb-grid-holiday.vue文件 (ComponentService.plugin.js:251)
+[16:27:47.35] [ComponentService] <INFO> 正在注册： vb-grid-indexoption.vue文件 (ComponentService.plugin.js:251)
+[16:27:47.36] [ComponentService] <INFO> 正在注册： vb-grid-location.vue文件 (ComponentService.plugin.js:251)
+[16:27:47.36] [ComponentService] <INFO> 正在注册： vb-grid-mall.vue文件 (ComponentService.plugin.js:251)
+[16:27:47.36] [ComponentService] <INFO> 正在注册： vb-grid-physicalzone.vue文件 (ComponentService.plugin.js:251)
+[16:27:47.37] [ComponentService] <INFO> 正在注册： vb-grid-reportmenu.vue文件 (ComponentService.plugin.js:251)
+[16:27:47.37] [ComponentService] <INFO> 正在注册： vb-grid-reportpage.vue文件 (ComponentService.plugin.js:251)
+[16:27:47.38] [ComponentService] <INFO> 正在注册： vb-grid-role.vue文件 (ComponentService.plugin.js:251)
+[16:27:47.38] [ComponentService] <INFO> 正在注册： vb-grid-tag.vue文件 (ComponentService.plugin.js:251)
+[16:27:47.38] [ComponentService] <INFO> 正在注册： vb-grid-user.vue文件 (ComponentService.plugin.js:251)
+[16:27:47.39] [ComponentService] <INFO> 正在注册： vb-grid-weather.vue文件 (ComponentService.plugin.js:251)
+[16:27:47.39] [ComponentService] <INFO> 正在注册： vb-log-malllog.vue文件 (ComponentService.plugin.js:251)
+[16:27:47.39] [ComponentService] <INFO> 正在注册： vb-log-mallupdate.vue文件 (ComponentService.plugin.js:251)
+[16:27:47.40] [ComponentService] <INFO> 正在注册： vb-log-zonelog.vue文件 (ComponentService.plugin.js:251)
+[16:27:47.40] [ComponentService] <INFO> 正在注册： vb-log-zoneupdate.vue文件 (ComponentService.plugin.js:251)
+[16:27:47.41] [ComponentService] <INFO> 正在注册： vb-page-activity.vue文件 (ComponentService.plugin.js:251)
+[16:27:47.41] [ComponentService] <INFO> 正在注册： vb-page-businesstime.vue文件 (ComponentService.plugin.js:251)
+[16:27:47.41] [ComponentService] <INFO> 正在注册： vb-page-chartoption.vue文件 (ComponentService.plugin.js:251)
+[16:27:47.42] [ComponentService] <INFO> 正在注册： vb-page-chartstyle.vue文件 (ComponentService.plugin.js:251)
+[16:27:47.42] [ComponentService] <INFO> 正在注册： vb-page-company.vue文件 (ComponentService.plugin.js:251)
+[16:27:47.43] [ComponentService] <INFO> 正在注册： vb-page-conditionoption.vue文件 (ComponentService.plugin.js:251)
+[16:27:47.43] [ComponentService] <INFO> 正在注册： vb-page-holiday.vue文件 (ComponentService.plugin.js:251)
+[16:27:47.44] [ComponentService] <INFO> 正在注册： vb-page-indexoption.vue文件 (ComponentService.plugin.js:251)
+[16:27:47.44] [ComponentService] <INFO> 正在注册： vb-page-mall.vue文件 (ComponentService.plugin.js:251)
+[16:27:47.45] [ComponentService] <INFO> 正在注册： vb-page-reportmenu.vue文件 (ComponentService.plugin.js:251)
+[16:27:47.45] [ComponentService] <INFO> 正在注册： vb-page-reportpage.vue文件 (ComponentService.plugin.js:251)
+[16:27:47.46] [ComponentService] <INFO> 正在注册： vb-page-tag.vue文件 (ComponentService.plugin.js:251)
+[16:27:47.46] [ComponentService] <INFO> 正在注册： vb-page-weather.vue文件 (ComponentService.plugin.js:251)
+[16:27:47.46] [ComponentService] <INFO> 正在注册： vb-select-chartoption.vue文件 (ComponentService.plugin.js:251)
+[16:27:47.47] [ComponentService] <INFO> 正在注册： vb-select-chartstyle.vue文件 (ComponentService.plugin.js:251)
+[16:27:47.47] [ComponentService] <INFO> 正在注册： vb-select-company.vue文件 (ComponentService.plugin.js:251)
+[16:27:47.47] [ComponentService] <INFO> 正在注册： vb-select-device.vue文件 (ComponentService.plugin.js:251)
+[16:27:47.48] [ComponentService] <INFO> 正在注册： vb-select-fencezone.vue文件 (ComponentService.plugin.js:251)
+[16:27:47.48] [ComponentService] <INFO> 正在注册： vb-select-indexoption.vue文件 (ComponentService.plugin.js:251)
+[16:27:47.49] [ComponentService] <INFO> 正在注册： vb-select-mall.vue文件 (ComponentService.plugin.js:251)
+[16:27:47.49] [ComponentService] <INFO> 正在注册： vb-select-menutype.vue文件 (ComponentService.plugin.js:251)
+[16:27:47.49] [ComponentService] <INFO> 正在注册： vb-select-physicalzone.vue文件 (ComponentService.plugin.js:251)
+[16:27:47.50] [ComponentService] <INFO> 正在注册： vb-select-reportmenu.vue文件 (ComponentService.plugin.js:251)
+[16:27:47.50] [ComponentService] <INFO> 正在注册： vb-select-role.vue文件 (ComponentService.plugin.js:251)
+[16:27:47.50] [ComponentService] <INFO> 正在注册： vb-select-usergroup.vue文件 (ComponentService.plugin.js:251)
+[16:27:47.51] [ComponentService] <INFO> 正在注册： vb-select-zonetype.vue文件 (ComponentService.plugin.js:251)
+[16:27:47.51] [ComponentService] <INFO> 正在注册： vb-transfer-chartoption.vue文件 (ComponentService.plugin.js:251)
+[16:27:47.52] [ComponentService] <INFO> 正在注册： vb-transfer-conditionoption.vue文件 (ComponentService.plugin.js:251)
+[16:27:47.52] [ComponentService] <INFO> 正在注册： vb-transfer-indexoption.vue文件 (ComponentService.plugin.js:251)
+[16:27:47.53] [ComponentService] <INFO> 正在注册： vb-transfer-location.vue文件 (ComponentService.plugin.js:251)
+[16:27:47.53] [ComponentService] <INFO> 正在注册： vb-transfer-mall.vue文件 (ComponentService.plugin.js:251)
+[16:27:47.53] [ComponentService] <INFO> 正在注册： vb-transfer-physicalzone.vue文件 (ComponentService.plugin.js:251)
+[16:27:47.54] [ComponentService] <INFO> 正在注册： vb-transfer-reportpage.vue文件 (ComponentService.plugin.js:251)
+[16:27:47.54] [ComponentService] <INFO> 正在注册： vb-transfer-tag.vue文件 (ComponentService.plugin.js:251)
+[16:27:47.55] [ComponentService] <INFO> 正在注册： vb-tree-category.vue文件 (ComponentService.plugin.js:251)
+[16:27:47.55] [ComponentService] <INFO> 正在注册： vb-tree-location.vue文件 (ComponentService.plugin.js:251)
+[16:27:47.55] [ComponentService] <INFO> 正在注册： vb-zonecamera-query.vue文件 (ComponentService.plugin.js:251)
+[16:27:47.58] [ComponentService] <INFO> 正在注册： vx-basic-demo.vue文件 (ComponentService.plugin.js:251)
+[16:27:47.59] [ComponentService] <INFO> 正在注册： vm-form-location.vue文件 (ComponentService.plugin.js:251)
+[16:27:47.59] [ComponentService] <INFO> 正在注册： vm-grid-location.vue文件 (ComponentService.plugin.js:251)
+[16:27:47.60] [ComponentService] <INFO> 正在注册： vm-select-company.vue文件 (ComponentService.plugin.js:251)
+[16:27:47.60] [ComponentService] <INFO> 正在注册： vm-select-mall.vue文件 (ComponentService.plugin.js:251)
+[16:27:47.61] [ComponentService] <INFO> 正在注册： vm-transfer-mall.vue文件 (ComponentService.plugin.js:251)
+[16:27:47.61] [ComponentService] <INFO> 正在注册： vm-transfer-physicalzone.vue文件 (ComponentService.plugin.js:251)
+[16:27:47.61] [ComponentService] <INFO> 正在注册： vm-transfer-reportpage.vue文件 (ComponentService.plugin.js:251)
+[16:27:47.62] [ComponentService] <INFO> 正在注册： vm-tree-location.vue文件 (ComponentService.plugin.js:251)
+[16:27:47.64] [ComponentService] <INFO> 正在注册： vm-page-grid.vue文件 (ComponentService.plugin.js:251)
+[16:27:47.64] [ComponentService] <INFO> 正在注册： vx-basic-button.vue文件 (ComponentService.plugin.js:251)
+[16:27:47.65] [ComponentService] <INFO> 正在注册： vx-basic-tree.vue文件 (ComponentService.plugin.js:251)
+[16:27:47.65] [ComponentService] <INFO> 正在注册： vx-container-col.vue文件 (ComponentService.plugin.js:251)
+[16:27:47.66] [ComponentService] <INFO> 正在注册： vx-container-combo.vue文件 (ComponentService.plugin.js:251)
+[16:27:47.67] [ComponentService] <INFO> 正在注册： vx-container-dialog.vue文件 (ComponentService.plugin.js:251)
+[16:27:47.67] [ComponentService] <INFO> 正在注册： vx-container-gridster.vue文件 (ComponentService.plugin.js:251)
+[16:27:47.67] [ComponentService] <INFO> 正在注册： vx-container-item.vue文件 (ComponentService.plugin.js:251)
+[16:27:47.68] [ComponentService] <INFO> 正在注册： vx-container-row.vue文件 (ComponentService.plugin.js:251)
+[16:27:47.68] [ComponentService] <INFO> 正在注册： vx-container-tab.vue文件 (ComponentService.plugin.js:251)
+[16:27:47.69] [ComponentService] <INFO> 正在注册： vx-form-cascader.vue文件 (ComponentService.plugin.js:251)
+[16:27:47.69] [ComponentService] <INFO> 正在注册： vx-form-check.vue文件 (ComponentService.plugin.js:251)
+[16:27:47.71] [ComponentService] <INFO> 正在注册： vx-form-clockpicker.vue文件 (ComponentService.plugin.js:251)
+[16:27:47.73] [ComponentService] <INFO> 正在注册： vx-form-daterangepicker.vue文件 (ComponentService.plugin.js:251)
+[16:27:47.74] [ComponentService] <INFO> 正在注册： vx-form-datesinglepicker.vue文件 (ComponentService.plugin.js:251)
+[16:27:47.75] [ComponentService] <INFO> 正在注册： vx-form-group-select.vue文件 (ComponentService.plugin.js:251)
+[16:27:47.76] [ComponentService] <INFO> 正在注册： vx-form-input.vue文件 (ComponentService.plugin.js:251)
+[16:27:47.77] [ComponentService] <INFO> 正在注册： vx-form-location.vue文件 (ComponentService.plugin.js:251)
+[16:27:47.77] [ComponentService] <INFO> 正在注册： vx-form-number.vue文件 (ComponentService.plugin.js:251)
+[16:27:47.78] [ComponentService] <INFO> 正在注册： vx-form-password.vue文件 (ComponentService.plugin.js:251)
+[16:27:47.78] [ComponentService] <INFO> 正在注册： vx-form-radio.vue文件 (ComponentService.plugin.js:251)
+[16:27:47.79] [ComponentService] <INFO> 正在注册： vx-form-select.vue文件 (ComponentService.plugin.js:251)
+[16:27:47.80] [ComponentService] <INFO> 正在注册： vx-form-transfer.vue文件 (ComponentService.plugin.js:251)
+[16:27:47.81] [ComponentService] <INFO> 正在注册： vx-nav-breadcrumb.vue文件 (ComponentService.plugin.js:251)
+[16:27:47.82] [ComponentService] <INFO> 正在注册： vx-nav-dropmenu.vue文件 (ComponentService.plugin.js:251)
+[16:27:47.83] [ComponentService] <INFO> 正在注册： vx-nav-navmenu.vue文件 (ComponentService.plugin.js:251)
+[16:27:47.83] [ComponentService] <INFO> 正在注册： vx-tab-pane.vue文件 (ComponentService.plugin.js:251)
+[16:27:47.84] [ComponentService] <INFO> 正在注册： vx-tabs.vue文件 (ComponentService.plugin.js:251)
+[16:27:47.84] [ComponentService] <INFO> 正在注册： vx-view-baidumap.vue文件 (ComponentService.plugin.js:251)
+[16:27:47.85] [ComponentService] <INFO> 正在注册： vx-view-countup.vue文件 (ComponentService.plugin.js:251)
+[16:27:47.88] [ComponentService] <INFO> 正在注册： vx-view-datatable.vue文件 (ComponentService.plugin.js:251)
+[16:27:47.90] [ComponentService] <INFO> 正在注册： vx-view-dialog.vue文件 (ComponentService.plugin.js:251)
+[16:27:47.92] [ComponentService] <INFO> 正在注册： vx-view-echart.vue文件 (ComponentService.plugin.js:251)
+[16:27:47.93] [ComponentService] <INFO> 正在注册： vx-view-govmap.vue文件 (ComponentService.plugin.js:251)
+[16:27:47.94] [ComponentService] <INFO> 正在注册： vx-view-heatmap.vue文件 (ComponentService.plugin.js:251)
+[16:27:47.97] [ComponentService] <INFO> 正在注册： vx-view-linescroll.vue文件 (ComponentService.plugin.js:251)
+[16:27:47.98] [ComponentService] <INFO> 正在注册： vx-view-map.vue文件 (ComponentService.plugin.js:251)
+[16:27:47.99] [ComponentService] <INFO> 正在注册： vx-view-pagelist.vue文件 (ComponentService.plugin.js:251)
+[16:27:47.100] [ComponentService] <INFO> 正在注册： vx-view-pagesize.vue文件 (ComponentService.plugin.js:251)
+[16:27:48.00] [ComponentService] <INFO> 正在注册： vd-bd-datadetail.vue文件 (ComponentService.plugin.js:251)
+[16:27:48.00] [ComponentService] <INFO> 正在注册： vd-bd-loaddata.vue文件 (ComponentService.plugin.js:251)
+[16:27:48.01] [ComponentService] <INFO> 正在注册： vd-bd-savedata.vue文件 (ComponentService.plugin.js:251)
+[16:27:48.02] [ComponentService] <INFO> 正在注册： vd-company-activity.vue文件 (ComponentService.plugin.js:251)
+[16:27:48.02] [ComponentService] <INFO> 正在注册： vd-company-businesstime.vue文件 (ComponentService.plugin.js:251)
+[16:27:48.03] [ComponentService] <INFO> 正在注册： vd-company-company.vue文件 (ComponentService.plugin.js:251)
+[16:27:48.03] [ComponentService] <INFO> 正在注册： vd-company-device.vue文件 (ComponentService.plugin.js:251)
+[16:27:48.04] [ComponentService] <INFO> 正在注册： vd-company-holiday.vue文件 (ComponentService.plugin.js:251)
+[16:27:48.04] [ComponentService] <INFO> 正在注册： vd-company-mall.vue文件 (ComponentService.plugin.js:251)
+[16:27:48.05] [ComponentService] <INFO> 正在注册： vd-company-physicalzone.vue文件 (ComponentService.plugin.js:251)
+[16:27:48.05] [ComponentService] <INFO> 正在注册： vd-company-tag.vue文件 (ComponentService.plugin.js:251)
+[16:27:48.05] [ComponentService] <INFO> 正在注册： vd-log-mallupdate.vue文件 (ComponentService.plugin.js:251)
+[16:27:48.06] [ComponentService] <INFO> 正在注册： vd-log-weather.vue文件 (ComponentService.plugin.js:251)
+[16:27:48.06] [ComponentService] <INFO> 正在注册： vd-log-zoneupdate.vue文件 (ComponentService.plugin.js:251)
+[16:27:48.07] [ComponentService] <INFO> 正在注册： vd-report-chartoption.vue文件 (ComponentService.plugin.js:251)
+[16:27:48.07] [ComponentService] <INFO> 正在注册： vd-report-chartstyle.vue文件 (ComponentService.plugin.js:251)
+[16:27:48.08] [ComponentService] <INFO> 正在注册： vd-report-conditionoption.vue文件 (ComponentService.plugin.js:251)
+[16:27:48.08] [ComponentService] <INFO> 正在注册： vd-report-indexoption.vue文件 (ComponentService.plugin.js:251)
+[16:27:48.09] [ComponentService] <INFO> 正在注册： vd-report-reportmenu.vue文件 (ComponentService.plugin.js:251)
+[16:27:48.10] [ComponentService] <INFO> 正在注册： vd-report-reportpage.vue文件 (ComponentService.plugin.js:251)
+[16:27:48.10] [ComponentService] <INFO> 正在注册： vd-report-servicelist.vue文件 (ComponentService.plugin.js:251)
+[16:27:48.11] [ComponentService] <INFO> 正在注册： vd-system-category.vue文件 (ComponentService.plugin.js:251)
+[16:27:48.12] [ComponentService] <INFO> 正在注册： vd-system-location.vue文件 (ComponentService.plugin.js:251)
+[16:27:48.12] [ComponentService] <INFO> 正在注册： vd-system-menu.vue文件 (ComponentService.plugin.js:251)
+[16:27:48.13] [ComponentService] <INFO> 正在注册： vd-system-role.vue文件 (ComponentService.plugin.js:251)
+[16:27:48.14] [ComponentService] <INFO> 正在注册： vd-system-user.vue文件 (ComponentService.plugin.js:251)
+[16:27:48.14] [ComponentService] <INFO> 正在注册： vd-system-usergroup.vue文件 (ComponentService.plugin.js:251)
+[16:27:48.15] [ComponentService] <INFO> 正在注册： vm-form-activity.vue文件 (ComponentService.plugin.js:251)
+[16:27:48.16] [ComponentService] <INFO> 正在注册： vm-form-activityplugin.vue文件 (ComponentService.plugin.js:251)
+[16:27:48.17] [ComponentService] <INFO> 正在注册： vm-form-businesstime.vue文件 (ComponentService.plugin.js:251)
+[16:27:48.18] [ComponentService] <INFO> 正在注册： vm-form-businesstimeplugin.vue文件 (ComponentService.plugin.js:251)
+[16:27:48.19] [ComponentService] <INFO> 正在注册： vm-form-holiday.vue文件 (ComponentService.plugin.js:251)
+[16:27:48.20] [ComponentService] <INFO> 正在注册： vm-form-mall.vue文件 (ComponentService.plugin.js:251)
+[16:27:48.22] [ComponentService] <INFO> 正在注册： vm-form-mallupdate.vue文件 (ComponentService.plugin.js:251)
+[16:27:48.23] [ComponentService] <INFO> 正在注册： vm-form-tag.vue文件 (ComponentService.plugin.js:251)
+[16:27:48.25] [ComponentService] <INFO> 正在注册： vm-form-weather.vue文件 (ComponentService.plugin.js:251)
+[16:27:48.29] [ComponentService] <INFO> 正在注册： vm-form-zoneupdate.vue文件 (ComponentService.plugin.js:251)
+[16:27:48.31] [ComponentService] <INFO> 正在注册： vm-grid-activity.vue文件 (ComponentService.plugin.js:251)
+[16:27:48.33] [ComponentService] <INFO> 正在注册： vm-grid-businesstime.vue文件 (ComponentService.plugin.js:251)
+[16:27:48.34] [ComponentService] <INFO> 正在注册： vm-grid-historicalcount.vue文件 (ComponentService.plugin.js:251)
+[16:27:48.35] [ComponentService] <INFO> 正在注册： vm-grid-historicaldwell.vue文件 (ComponentService.plugin.js:251)
+[16:27:48.35] [ComponentService] <INFO> 正在注册： vm-grid-historicalfitting.vue文件 (ComponentService.plugin.js:251)
+[16:27:48.38] [ComponentService] <INFO> 正在注册： vm-grid-historicalpassby.vue文件 (ComponentService.plugin.js:251)
+[16:27:48.39] [ComponentService] <INFO> 正在注册： vm-grid-historicalsummary.vue文件 (ComponentService.plugin.js:251)
+[16:27:48.40] [ComponentService] <INFO> 正在注册： vm-grid-holiday.vue文件 (ComponentService.plugin.js:251)
+[16:27:48.42] [ComponentService] <INFO> 正在注册： vm-grid-mall.vue文件 (ComponentService.plugin.js:251)
+[16:27:48.43] [ComponentService] <INFO> 正在注册： vm-grid-tag.vue文件 (ComponentService.plugin.js:251)
+[16:27:48.47] [ComponentService] <INFO> 正在注册： vm-grid-weather.vue文件 (ComponentService.plugin.js:251)
+[16:27:48.48] [ComponentService] <INFO> 正在注册： vm-manager-dataadjustment.vue文件 (ComponentService.plugin.js:251)
+[16:27:48.50] [ComponentService] <INFO> 正在注册： vm-manager-datasummary.vue文件 (ComponentService.plugin.js:251)
+[16:27:48.54] [ComponentService] <INFO> 正在注册： vm-report-times.vue文件 (ComponentService.plugin.js:251)
+[16:27:48.55] [ComponentService] <INFO> 正在注册： vm-select-devicecode.vue文件 (ComponentService.plugin.js:251)
+[16:27:48.55] [ComponentService] <INFO> 正在注册： vm-transfer-tag.vue文件 (ComponentService.plugin.js:251)
+[16:27:48.57] [ComponentService] <INFO> 正在注册： vm-form-category.vue文件 (ComponentService.plugin.js:251)
+[16:27:48.58] [ComponentService] <INFO> 正在注册： vm-form-componentslist.vue文件 (ComponentService.plugin.js:251)
+[16:27:48.59] [ComponentService] <INFO> 正在注册： vm-form-menu.vue文件 (ComponentService.plugin.js:251)
+[16:27:48.60] [ComponentService] <INFO> 正在注册： vm-form-menuplugin.vue文件 (ComponentService.plugin.js:251)
+[16:27:48.60] [ComponentService] <INFO> 正在注册： vm-form-role.vue文件 (ComponentService.plugin.js:251)
+[16:27:48.61] [ComponentService] <INFO> 正在注册： vm-form-roleplugin.vue文件 (ComponentService.plugin.js:251)
+[16:27:48.62] [ComponentService] <INFO> 正在注册： vm-form-servicelist.vue文件 (ComponentService.plugin.js:251)
+[16:27:48.62] [ComponentService] <INFO> 正在注册： vm-form-user.vue文件 (ComponentService.plugin.js:251)
+[16:27:48.63] [ComponentService] <INFO> 正在注册： vm-form-usergroup.vue文件 (ComponentService.plugin.js:251)
+[16:27:48.63] [ComponentService] <INFO> 正在注册： vm-form-usergroupplugin.vue文件 (ComponentService.plugin.js:251)
+[16:27:48.64] [ComponentService] <INFO> 正在注册： vm-form-usergroupreportpage.vue文件 (ComponentService.plugin.js:251)
+[16:27:48.64] [ComponentService] <INFO> 正在注册： vm-form-usergroupzone.vue文件 (ComponentService.plugin.js:251)
+[16:27:48.65] [ComponentService] <INFO> 正在注册： vm-form-userplugin.vue文件 (ComponentService.plugin.js:251)
+[16:27:48.65] [ComponentService] <INFO> 正在注册： vm-grid-category.vue文件 (ComponentService.plugin.js:251)
+[16:27:48.66] [ComponentService] <INFO> 正在注册： vm-grid-componentslist.vue文件 (ComponentService.plugin.js:251)
+[16:27:48.66] [ComponentService] <INFO> 正在注册： vm-grid-menu.vue文件 (ComponentService.plugin.js:251)
+[16:27:48.67] [ComponentService] <INFO> 正在注册： vm-grid-role.vue文件 (ComponentService.plugin.js:251)
+[16:27:48.68] [ComponentService] <INFO> 正在注册： vm-grid-servicelist.vue文件 (ComponentService.plugin.js:251)
+[16:27:48.68] [ComponentService] <INFO> 正在注册： vm-grid-user.vue文件 (ComponentService.plugin.js:251)
+[16:27:48.69] [ComponentService] <INFO> 正在注册： vm-grid-usergroup.vue文件 (ComponentService.plugin.js:251)
+[16:27:48.70] [ComponentService] <INFO> 正在注册： vm-nav-menu.vue文件 (ComponentService.plugin.js:251)
+[16:27:48.71] [ComponentService] <INFO> 正在注册： vm-select-role.vue文件 (ComponentService.plugin.js:251)
+[16:27:48.71] [ComponentService] <INFO> 正在注册： vm-select-usergroup.vue文件 (ComponentService.plugin.js:251)
+[16:27:48.72] [ComponentService] <INFO> 正在注册： vm-tree-category.vue文件 (ComponentService.plugin.js:251)
+[16:27:48.72] [ComponentService] <INFO> 正在注册： vm-tree-menu.vue文件 (ComponentService.plugin.js:251)
+[16:27:48.73] [ComponentService] <INFO> 正在注册： vm-tree-role.vue文件 (ComponentService.plugin.js:251)
+[16:27:48.91] [App] <ERROR> 404: Not Found ... /components/css-loader.css (app.js:100)
+[16:27:49.59] [App] <ERROR> 404: Not Found ... /favicon.ico (app.js:100)
+[16:27:54.96] [ServiceLoader] <INFO> 注册服务ComponentService 成功！ (ServiceLoader.js:69)
+[16:27:54.97] [ServiceLoader] <INFO> 注册服务PageService 成功！ (ServiceLoader.js:69)
+[16:30:30.53] [App] <ERROR> 404: Not Found ... /components/css-loader.css (app.js:100)
+[16:30:31.11] [App] <ERROR> 404: Not Found ... /favicon.ico (app.js:100)
+[16:30:57.07] [App] <ERROR> 404: Not Found ... /components/css-loader.css (app.js:100)
+[16:30:57.75] [App] <ERROR> 404: Not Found ... /favicon.ico (app.js:100)
+[16:32:30.14] [App] <ERROR> 404: Not Found ... /components/css-loader.css (app.js:100)
+[16:32:30.68] [App] <ERROR> 404: Not Found ... /favicon.ico (app.js:100)
+[16:32:40.53] [App] <ERROR> 404: Not Found ... /components/css-loader.css (app.js:100)
+[16:32:41.13] [App] <ERROR> 404: Not Found ... /favicon.ico (app.js:100)
+[16:34:22.81] [App] <ERROR> 404: Not Found ... /components/css-loader.css (app.js:100)
+[16:34:23.40] [App] <ERROR> 404: Not Found ... /favicon.ico (app.js:100)
+[16:34:56.96] [App] <ERROR> 404: Not Found ... /components/css-loader.css (app.js:100)
+[16:34:57.49] [App] <ERROR> 404: Not Found ... /favicon.ico (app.js:100)
+[16:40:46.25] [ComponentService] <INFO> 正在注册： vm-form-usergroupplugin.vue文件 (ComponentService.plugin.js:251)
+[16:40:48.56] [App] <ERROR> 404: Not Found ... /components/css-loader.css (app.js:100)
+[16:40:49.11] [App] <ERROR> 404: Not Found ... /favicon.ico (app.js:100)
+[16:40:58.35] [ComponentService] <INFO> 正在注册： vm-form-usergroupplugin.vue文件 (ComponentService.plugin.js:251)
+[16:40:59.58] [App] <ERROR> 404: Not Found ... /components/css-loader.css (app.js:100)
+[16:41:00.25] [App] <ERROR> 404: Not Found ... /favicon.ico (app.js:100)
+[16:41:30.100] [ComponentService] <INFO> 正在注册： vm-form-usergroupzone.vue文件 (ComponentService.plugin.js:251)
+[16:41:56.65] [ComponentService] <INFO> 正在注册： vm-form-usergroupreportpage.vue文件 (ComponentService.plugin.js:251)
+[17:15:06.59] [ServiceLoader] <ERROR> ServiceLoader http://192.168.10.62:9109/ApiService.html?op=register connected err:  (ServiceLoader.js:204)
+[17:15:06.61] [ServiceLoader] <ERROR> 注册服务ComponentService 时失败：Error: connect ECONNREFUSED 192.168.10.62:9109 (ServiceLoader.js:66)
+[17:15:06.60] [ServiceLoader] <ERROR> ServiceLoader { Error: connect ECONNREFUSED 192.168.10.62:9109
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.10.62',
+  port: 9109 } (ServiceLoader.js:205)
+[17:15:06.62] [ServiceLoader] <ERROR> ServiceLoader { Error: connect ECONNREFUSED 192.168.10.62:9109
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.10.62',
+  port: 9109 } (ServiceLoader.js:205)
+[17:15:06.62] [ServiceLoader] <ERROR> ServiceLoader http://192.168.10.62:9109/ApiService.html?op=register connected err:  (ServiceLoader.js:204)
+[17:15:06.62] [ServiceLoader] <ERROR> 注册服务PageService 时失败：Error: connect ECONNREFUSED 192.168.10.62:9109 (ServiceLoader.js:66)
+[17:15:15.58] [ServiceLoader] <INFO> 注册服务ComponentService 成功！ (ServiceLoader.js:69)
+[17:15:15.59] [ServiceLoader] <INFO> 注册服务PageService 成功！ (ServiceLoader.js:69)
+[18:08:39.69] [ServiceLoader] <ERROR> ServiceLoader http://192.168.10.62:9109/ApiService.html?op=register connected err:  (ServiceLoader.js:204)
+[18:08:39.71] [ServiceLoader] <ERROR> 注册服务ComponentService 时失败：Error: connect ECONNREFUSED 192.168.10.62:9109 (ServiceLoader.js:66)
+[18:08:39.70] [ServiceLoader] <ERROR> ServiceLoader { Error: connect ECONNREFUSED 192.168.10.62:9109
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.10.62',
+  port: 9109 } (ServiceLoader.js:205)
+[18:08:39.71] [ServiceLoader] <ERROR> ServiceLoader http://192.168.10.62:9109/ApiService.html?op=register connected err:  (ServiceLoader.js:204)
+[18:08:39.71] [ServiceLoader] <ERROR> ServiceLoader { Error: connect ECONNREFUSED 192.168.10.62:9109
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.10.62',
+  port: 9109 } (ServiceLoader.js:205)
+[18:08:39.71] [ServiceLoader] <ERROR> 注册服务PageService 时失败：Error: connect ECONNREFUSED 192.168.10.62:9109 (ServiceLoader.js:66)
+[18:08:47.19] [ServiceLoader] <ERROR> ServiceLoader http://192.168.10.62:9109/ApiService.html?op=register connected err:  (ServiceLoader.js:204)
+[18:08:47.20] [ServiceLoader] <ERROR> ServiceLoader { Error: connect ECONNREFUSED 192.168.10.62:9109
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.10.62',
+  port: 9109 } (ServiceLoader.js:205)
+[18:08:47.21] [ServiceLoader] <ERROR> ServiceLoader http://192.168.10.62:9109/ApiService.html?op=register connected err:  (ServiceLoader.js:204)
+[18:08:47.22] [ServiceLoader] <ERROR> ServiceLoader { Error: connect ECONNREFUSED 192.168.10.62:9109
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.10.62',
+  port: 9109 } (ServiceLoader.js:205)
+[18:08:57.25] [ServiceLoader] <ERROR> ServiceLoader http://192.168.10.62:9109/ApiService.html?op=register connected err:  (ServiceLoader.js:204)
+[18:08:57.25] [ServiceLoader] <ERROR> ServiceLoader { Error: connect ECONNREFUSED 192.168.10.62:9109
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.10.62',
+  port: 9109 } (ServiceLoader.js:205)
+[18:08:57.26] [ServiceLoader] <ERROR> ServiceLoader { Error: connect ECONNREFUSED 192.168.10.62:9109
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.10.62',
+  port: 9109 } (ServiceLoader.js:205)
+[18:08:57.26] [ServiceLoader] <ERROR> ServiceLoader http://192.168.10.62:9109/ApiService.html?op=register connected err:  (ServiceLoader.js:204)
+[18:09:07.19] [ServiceLoader] <ERROR> ServiceLoader http://192.168.10.62:9109/ApiService.html?op=register connected err:  (ServiceLoader.js:204)
+[18:09:07.19] [ServiceLoader] <ERROR> ServiceLoader { Error: connect ECONNREFUSED 192.168.10.62:9109
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.10.62',
+  port: 9109 } (ServiceLoader.js:205)
+[18:09:07.20] [ServiceLoader] <ERROR> ServiceLoader http://192.168.10.62:9109/ApiService.html?op=register connected err:  (ServiceLoader.js:204)
+[18:09:07.20] [ServiceLoader] <ERROR> ServiceLoader { Error: connect ECONNREFUSED 192.168.10.62:9109
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.10.62',
+  port: 9109 } (ServiceLoader.js:205)
+[18:09:17.20] [ServiceLoader] <ERROR> ServiceLoader http://192.168.10.62:9109/ApiService.html?op=register connected err:  (ServiceLoader.js:204)
+[18:09:17.20] [ServiceLoader] <ERROR> ServiceLoader { Error: connect ECONNREFUSED 192.168.10.62:9109
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.10.62',
+  port: 9109 } (ServiceLoader.js:205)
+[18:09:17.20] [ServiceLoader] <ERROR> ServiceLoader http://192.168.10.62:9109/ApiService.html?op=register connected err:  (ServiceLoader.js:204)
+[18:09:17.20] [ServiceLoader] <ERROR> ServiceLoader { Error: connect ECONNREFUSED 192.168.10.62:9109
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.10.62',
+  port: 9109 } (ServiceLoader.js:205)
+[18:09:27.20] [ServiceLoader] <ERROR> ServiceLoader http://192.168.10.62:9109/ApiService.html?op=register connected err:  (ServiceLoader.js:204)
+[18:09:27.20] [ServiceLoader] <ERROR> ServiceLoader { Error: connect ECONNREFUSED 192.168.10.62:9109
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.10.62',
+  port: 9109 } (ServiceLoader.js:205)
+[18:09:27.20] [ServiceLoader] <ERROR> ServiceLoader http://192.168.10.62:9109/ApiService.html?op=register connected err:  (ServiceLoader.js:204)
+[18:09:27.20] [ServiceLoader] <ERROR> ServiceLoader { Error: connect ECONNREFUSED 192.168.10.62:9109
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.10.62',
+  port: 9109 } (ServiceLoader.js:205)
+[18:09:37.20] [ServiceLoader] <ERROR> ServiceLoader http://192.168.10.62:9109/ApiService.html?op=register connected err:  (ServiceLoader.js:204)
+[18:09:37.20] [ServiceLoader] <ERROR> ServiceLoader { Error: connect ECONNREFUSED 192.168.10.62:9109
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.10.62',
+  port: 9109 } (ServiceLoader.js:205)
+[18:09:37.20] [ServiceLoader] <ERROR> ServiceLoader http://192.168.10.62:9109/ApiService.html?op=register connected err:  (ServiceLoader.js:204)
+[18:09:37.20] [ServiceLoader] <ERROR> ServiceLoader { Error: connect ECONNREFUSED 192.168.10.62:9109
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.10.62',
+  port: 9109 } (ServiceLoader.js:205)
+[18:09:47.21] [ServiceLoader] <ERROR> ServiceLoader http://192.168.10.62:9109/ApiService.html?op=register connected err:  (ServiceLoader.js:204)
+[18:09:47.21] [ServiceLoader] <ERROR> ServiceLoader { Error: connect ECONNREFUSED 192.168.10.62:9109
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.10.62',
+  port: 9109 } (ServiceLoader.js:205)
+[18:09:47.21] [ServiceLoader] <ERROR> ServiceLoader http://192.168.10.62:9109/ApiService.html?op=register connected err:  (ServiceLoader.js:204)
+[18:09:47.21] [ServiceLoader] <ERROR> ServiceLoader { Error: connect ECONNREFUSED 192.168.10.62:9109
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.10.62',
+  port: 9109 } (ServiceLoader.js:205)
+[18:09:57.22] [ServiceLoader] <ERROR> ServiceLoader http://192.168.10.62:9109/ApiService.html?op=register connected err:  (ServiceLoader.js:204)
+[18:09:57.22] [ServiceLoader] <ERROR> ServiceLoader { Error: connect ECONNREFUSED 192.168.10.62:9109
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.10.62',
+  port: 9109 } (ServiceLoader.js:205)
+[18:09:57.22] [ServiceLoader] <ERROR> ServiceLoader http://192.168.10.62:9109/ApiService.html?op=register connected err:  (ServiceLoader.js:204)
+[18:09:57.22] [ServiceLoader] <ERROR> ServiceLoader { Error: connect ECONNREFUSED 192.168.10.62:9109
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.10.62',
+  port: 9109 } (ServiceLoader.js:205)
+[18:10:07.20] [ServiceLoader] <ERROR> ServiceLoader { Error: connect ECONNREFUSED 192.168.10.62:9109
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.10.62',
+  port: 9109 } (ServiceLoader.js:205)
+[18:10:07.20] [ServiceLoader] <ERROR> ServiceLoader http://192.168.10.62:9109/ApiService.html?op=register connected err:  (ServiceLoader.js:204)
+[18:10:07.20] [ServiceLoader] <ERROR> ServiceLoader http://192.168.10.62:9109/ApiService.html?op=register connected err:  (ServiceLoader.js:204)
+[18:10:07.21] [ServiceLoader] <ERROR> ServiceLoader { Error: connect ECONNREFUSED 192.168.10.62:9109
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.10.62',
+  port: 9109 } (ServiceLoader.js:205)
+[18:10:17.21] [ServiceLoader] <ERROR> ServiceLoader http://192.168.10.62:9109/ApiService.html?op=register connected err:  (ServiceLoader.js:204)
+[18:10:17.21] [ServiceLoader] <ERROR> ServiceLoader { Error: connect ECONNREFUSED 192.168.10.62:9109
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.10.62',
+  port: 9109 } (ServiceLoader.js:205)
+[18:10:17.21] [ServiceLoader] <ERROR> ServiceLoader http://192.168.10.62:9109/ApiService.html?op=register connected err:  (ServiceLoader.js:204)
+[18:10:17.21] [ServiceLoader] <ERROR> ServiceLoader { Error: connect ECONNREFUSED 192.168.10.62:9109
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.10.62',
+  port: 9109 } (ServiceLoader.js:205)
+[18:10:27.20] [ServiceLoader] <ERROR> ServiceLoader http://192.168.10.62:9109/ApiService.html?op=register connected err:  (ServiceLoader.js:204)
+[18:10:27.21] [ServiceLoader] <ERROR> ServiceLoader { Error: connect ECONNREFUSED 192.168.10.62:9109
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.10.62',
+  port: 9109 } (ServiceLoader.js:205)
+[18:10:27.21] [ServiceLoader] <ERROR> ServiceLoader { Error: connect ECONNREFUSED 192.168.10.62:9109
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.10.62',
+  port: 9109 } (ServiceLoader.js:205)
+[18:10:27.21] [ServiceLoader] <ERROR> ServiceLoader http://192.168.10.62:9109/ApiService.html?op=register connected err:  (ServiceLoader.js:204)
+[18:10:37.21] [ServiceLoader] <ERROR> ServiceLoader http://192.168.10.62:9109/ApiService.html?op=register connected err:  (ServiceLoader.js:204)
+[18:10:37.21] [ServiceLoader] <ERROR> ServiceLoader { Error: connect ECONNREFUSED 192.168.10.62:9109
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.10.62',
+  port: 9109 } (ServiceLoader.js:205)
+[18:10:37.21] [ServiceLoader] <ERROR> ServiceLoader http://192.168.10.62:9109/ApiService.html?op=register connected err:  (ServiceLoader.js:204)
+[18:10:37.21] [ServiceLoader] <ERROR> ServiceLoader { Error: connect ECONNREFUSED 192.168.10.62:9109
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.10.62',
+  port: 9109 } (ServiceLoader.js:205)
+[18:10:47.21] [ServiceLoader] <ERROR> ServiceLoader http://192.168.10.62:9109/ApiService.html?op=register connected err:  (ServiceLoader.js:204)
+[18:10:47.22] [ServiceLoader] <ERROR> ServiceLoader { Error: connect ECONNREFUSED 192.168.10.62:9109
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.10.62',
+  port: 9109 } (ServiceLoader.js:205)
+[18:10:47.22] [ServiceLoader] <ERROR> ServiceLoader http://192.168.10.62:9109/ApiService.html?op=register connected err:  (ServiceLoader.js:204)
+[18:10:47.22] [ServiceLoader] <ERROR> ServiceLoader { Error: connect ECONNREFUSED 192.168.10.62:9109
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.10.62',
+  port: 9109 } (ServiceLoader.js:205)
+[18:10:57.21] [ServiceLoader] <ERROR> ServiceLoader http://192.168.10.62:9109/ApiService.html?op=register connected err:  (ServiceLoader.js:204)
+[18:10:57.21] [ServiceLoader] <ERROR> ServiceLoader { Error: connect ECONNREFUSED 192.168.10.62:9109
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.10.62',
+  port: 9109 } (ServiceLoader.js:205)
+[18:10:57.22] [ServiceLoader] <ERROR> ServiceLoader { Error: connect ECONNREFUSED 192.168.10.62:9109
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.10.62',
+  port: 9109 } (ServiceLoader.js:205)
+[18:10:57.22] [ServiceLoader] <ERROR> ServiceLoader http://192.168.10.62:9109/ApiService.html?op=register connected err:  (ServiceLoader.js:204)
+[18:11:07.22] [ServiceLoader] <ERROR> ServiceLoader http://192.168.10.62:9109/ApiService.html?op=register connected err:  (ServiceLoader.js:204)
+[18:11:07.22] [ServiceLoader] <ERROR> ServiceLoader { Error: connect ECONNREFUSED 192.168.10.62:9109
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.10.62',
+  port: 9109 } (ServiceLoader.js:205)
+[18:11:07.22] [ServiceLoader] <ERROR> ServiceLoader http://192.168.10.62:9109/ApiService.html?op=register connected err:  (ServiceLoader.js:204)
+[18:11:07.23] [ServiceLoader] <ERROR> ServiceLoader { Error: connect ECONNREFUSED 192.168.10.62:9109
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.10.62',
+  port: 9109 } (ServiceLoader.js:205)
+[18:11:17.22] [ServiceLoader] <ERROR> ServiceLoader http://192.168.10.62:9109/ApiService.html?op=register connected err:  (ServiceLoader.js:204)
+[18:11:17.22] [ServiceLoader] <ERROR> ServiceLoader http://192.168.10.62:9109/ApiService.html?op=register connected err:  (ServiceLoader.js:204)
+[18:11:17.22] [ServiceLoader] <ERROR> ServiceLoader { Error: connect ECONNREFUSED 192.168.10.62:9109
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.10.62',
+  port: 9109 } (ServiceLoader.js:205)
+[18:11:17.22] [ServiceLoader] <ERROR> ServiceLoader { Error: connect ECONNREFUSED 192.168.10.62:9109
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.10.62',
+  port: 9109 } (ServiceLoader.js:205)
+[18:11:27.23] [ServiceLoader] <ERROR> ServiceLoader http://192.168.10.62:9109/ApiService.html?op=register connected err:  (ServiceLoader.js:204)
+[18:11:27.23] [ServiceLoader] <ERROR> ServiceLoader { Error: connect ECONNREFUSED 192.168.10.62:9109
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.10.62',
+  port: 9109 } (ServiceLoader.js:205)
+[18:11:27.24] [ServiceLoader] <ERROR> ServiceLoader { Error: connect ECONNREFUSED 192.168.10.62:9109
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.10.62',
+  port: 9109 } (ServiceLoader.js:205)
+[18:11:27.23] [ServiceLoader] <ERROR> ServiceLoader http://192.168.10.62:9109/ApiService.html?op=register connected err:  (ServiceLoader.js:204)
+[18:11:37.23] [ServiceLoader] <ERROR> ServiceLoader http://192.168.10.62:9109/ApiService.html?op=register connected err:  (ServiceLoader.js:204)
+[18:11:37.24] [ServiceLoader] <ERROR> ServiceLoader http://192.168.10.62:9109/ApiService.html?op=register connected err:  (ServiceLoader.js:204)
+[18:11:37.24] [ServiceLoader] <ERROR> ServiceLoader { Error: connect ECONNREFUSED 192.168.10.62:9109
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.10.62',
+  port: 9109 } (ServiceLoader.js:205)
+[18:11:37.24] [ServiceLoader] <ERROR> ServiceLoader { Error: connect ECONNREFUSED 192.168.10.62:9109
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.10.62',
+  port: 9109 } (ServiceLoader.js:205)
+[18:11:47.25] [ServiceLoader] <ERROR> ServiceLoader http://192.168.10.62:9109/ApiService.html?op=register connected err:  (ServiceLoader.js:204)
+[18:11:47.25] [ServiceLoader] <ERROR> ServiceLoader { Error: connect ECONNREFUSED 192.168.10.62:9109
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.10.62',
+  port: 9109 } (ServiceLoader.js:205)
+[18:11:47.25] [ServiceLoader] <ERROR> ServiceLoader http://192.168.10.62:9109/ApiService.html?op=register connected err:  (ServiceLoader.js:204)
+[18:11:47.26] [ServiceLoader] <ERROR> ServiceLoader { Error: connect ECONNREFUSED 192.168.10.62:9109
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.10.62',
+  port: 9109 } (ServiceLoader.js:205)
+[18:11:57.25] [ServiceLoader] <ERROR> ServiceLoader http://192.168.10.62:9109/ApiService.html?op=register connected err:  (ServiceLoader.js:204)
+[18:11:57.25] [ServiceLoader] <ERROR> ServiceLoader { Error: connect ECONNREFUSED 192.168.10.62:9109
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.10.62',
+  port: 9109 } (ServiceLoader.js:205)
+[18:11:57.25] [ServiceLoader] <ERROR> ServiceLoader http://192.168.10.62:9109/ApiService.html?op=register connected err:  (ServiceLoader.js:204)
+[18:11:57.26] [ServiceLoader] <ERROR> ServiceLoader { Error: connect ECONNREFUSED 192.168.10.62:9109
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.10.62',
+  port: 9109 } (ServiceLoader.js:205)
+[18:12:07.26] [ServiceLoader] <ERROR> ServiceLoader http://192.168.10.62:9109/ApiService.html?op=register connected err:  (ServiceLoader.js:204)
+[18:12:07.26] [ServiceLoader] <ERROR> ServiceLoader { Error: connect ECONNREFUSED 192.168.10.62:9109
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.10.62',
+  port: 9109 } (ServiceLoader.js:205)
+[18:12:07.27] [ServiceLoader] <ERROR> ServiceLoader { Error: connect ECONNREFUSED 192.168.10.62:9109
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.10.62',
+  port: 9109 } (ServiceLoader.js:205)
+[18:12:07.27] [ServiceLoader] <ERROR> ServiceLoader http://192.168.10.62:9109/ApiService.html?op=register connected err:  (ServiceLoader.js:204)
+[18:12:17.26] [ServiceLoader] <ERROR> ServiceLoader http://192.168.10.62:9109/ApiService.html?op=register connected err:  (ServiceLoader.js:204)
+[18:12:17.26] [ServiceLoader] <ERROR> ServiceLoader { Error: connect ECONNREFUSED 192.168.10.62:9109
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.10.62',
+  port: 9109 } (ServiceLoader.js:205)
+[18:12:17.27] [ServiceLoader] <ERROR> ServiceLoader http://192.168.10.62:9109/ApiService.html?op=register connected err:  (ServiceLoader.js:204)
+[18:12:17.27] [ServiceLoader] <ERROR> ServiceLoader { Error: connect ECONNREFUSED 192.168.10.62:9109
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.10.62',
+  port: 9109 } (ServiceLoader.js:205)
+[18:12:27.27] [ServiceLoader] <ERROR> ServiceLoader http://192.168.10.62:9109/ApiService.html?op=register connected err:  (ServiceLoader.js:204)
+[18:12:27.27] [ServiceLoader] <ERROR> ServiceLoader { Error: connect ECONNREFUSED 192.168.10.62:9109
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.10.62',
+  port: 9109 } (ServiceLoader.js:205)
+[18:12:27.28] [ServiceLoader] <ERROR> ServiceLoader http://192.168.10.62:9109/ApiService.html?op=register connected err:  (ServiceLoader.js:204)
+[18:12:27.28] [ServiceLoader] <ERROR> ServiceLoader { Error: connect ECONNREFUSED 192.168.10.62:9109
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.10.62',
+  port: 9109 } (ServiceLoader.js:205)
+[18:12:37.27] [ServiceLoader] <ERROR> ServiceLoader http://192.168.10.62:9109/ApiService.html?op=register connected err:  (ServiceLoader.js:204)
+[18:12:37.27] [ServiceLoader] <ERROR> ServiceLoader { Error: connect ECONNREFUSED 192.168.10.62:9109
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.10.62',
+  port: 9109 } (ServiceLoader.js:205)
+[18:12:37.28] [ServiceLoader] <ERROR> ServiceLoader http://192.168.10.62:9109/ApiService.html?op=register connected err:  (ServiceLoader.js:204)
+[18:12:37.28] [ServiceLoader] <ERROR> ServiceLoader { Error: connect ECONNREFUSED 192.168.10.62:9109
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.10.62',
+  port: 9109 } (ServiceLoader.js:205)
+[18:12:47.28] [ServiceLoader] <ERROR> ServiceLoader http://192.168.10.62:9109/ApiService.html?op=register connected err:  (ServiceLoader.js:204)
+[18:12:47.29] [ServiceLoader] <ERROR> ServiceLoader { Error: connect ECONNREFUSED 192.168.10.62:9109
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.10.62',
+  port: 9109 } (ServiceLoader.js:205)
+[18:12:47.29] [ServiceLoader] <ERROR> ServiceLoader http://192.168.10.62:9109/ApiService.html?op=register connected err:  (ServiceLoader.js:204)
+[18:12:47.29] [ServiceLoader] <ERROR> ServiceLoader { Error: connect ECONNREFUSED 192.168.10.62:9109
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.10.62',
+  port: 9109 } (ServiceLoader.js:205)
+[18:12:57.28] [ServiceLoader] <ERROR> ServiceLoader http://192.168.10.62:9109/ApiService.html?op=register connected err:  (ServiceLoader.js:204)
+[18:12:57.29] [ServiceLoader] <ERROR> ServiceLoader { Error: connect ECONNREFUSED 192.168.10.62:9109
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.10.62',
+  port: 9109 } (ServiceLoader.js:205)
+[18:12:57.29] [ServiceLoader] <ERROR> ServiceLoader http://192.168.10.62:9109/ApiService.html?op=register connected err:  (ServiceLoader.js:204)
+[18:12:57.30] [ServiceLoader] <ERROR> ServiceLoader { Error: connect ECONNREFUSED 192.168.10.62:9109
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.10.62',
+  port: 9109 } (ServiceLoader.js:205)
+[18:13:07.30] [ServiceLoader] <ERROR> ServiceLoader http://192.168.10.62:9109/ApiService.html?op=register connected err:  (ServiceLoader.js:204)
+[18:13:07.30] [ServiceLoader] <ERROR> ServiceLoader http://192.168.10.62:9109/ApiService.html?op=register connected err:  (ServiceLoader.js:204)
+[18:13:07.30] [ServiceLoader] <ERROR> ServiceLoader { Error: connect ECONNREFUSED 192.168.10.62:9109
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.10.62',
+  port: 9109 } (ServiceLoader.js:205)
+[18:13:07.31] [ServiceLoader] <ERROR> ServiceLoader { Error: connect ECONNREFUSED 192.168.10.62:9109
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.10.62',
+  port: 9109 } (ServiceLoader.js:205)
+[18:13:17.29] [ServiceLoader] <ERROR> ServiceLoader http://192.168.10.62:9109/ApiService.html?op=register connected err:  (ServiceLoader.js:204)
+[18:13:17.30] [ServiceLoader] <ERROR> ServiceLoader { Error: connect ECONNREFUSED 192.168.10.62:9109
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.10.62',
+  port: 9109 } (ServiceLoader.js:205)
+[18:13:17.30] [ServiceLoader] <ERROR> ServiceLoader http://192.168.10.62:9109/ApiService.html?op=register connected err:  (ServiceLoader.js:204)
+[18:13:17.30] [ServiceLoader] <ERROR> ServiceLoader { Error: connect ECONNREFUSED 192.168.10.62:9109
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.10.62',
+  port: 9109 } (ServiceLoader.js:205)
+[18:13:27.30] [ServiceLoader] <ERROR> ServiceLoader http://192.168.10.62:9109/ApiService.html?op=register connected err:  (ServiceLoader.js:204)
+[18:13:27.30] [ServiceLoader] <ERROR> ServiceLoader { Error: connect ECONNREFUSED 192.168.10.62:9109
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.10.62',
+  port: 9109 } (ServiceLoader.js:205)
+[18:13:27.31] [ServiceLoader] <ERROR> ServiceLoader http://192.168.10.62:9109/ApiService.html?op=register connected err:  (ServiceLoader.js:204)
+[18:13:27.31] [ServiceLoader] <ERROR> ServiceLoader { Error: connect ECONNREFUSED 192.168.10.62:9109
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.10.62',
+  port: 9109 } (ServiceLoader.js:205)
+[18:13:37.30] [ServiceLoader] <ERROR> ServiceLoader http://192.168.10.62:9109/ApiService.html?op=register connected err:  (ServiceLoader.js:204)
+[18:13:37.30] [ServiceLoader] <ERROR> ServiceLoader { Error: connect ECONNREFUSED 192.168.10.62:9109
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.10.62',
+  port: 9109 } (ServiceLoader.js:205)
+[18:13:37.31] [ServiceLoader] <ERROR> ServiceLoader http://192.168.10.62:9109/ApiService.html?op=register connected err:  (ServiceLoader.js:204)
+[18:13:37.31] [ServiceLoader] <ERROR> ServiceLoader { Error: connect ECONNREFUSED 192.168.10.62:9109
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.10.62',
+  port: 9109 } (ServiceLoader.js:205)
+[18:13:46.31] [ServiceLoader] <INFO> 注册服务ComponentService 成功！ (ServiceLoader.js:69)
+[18:13:46.32] [ServiceLoader] <INFO> 注册服务PageService 成功！ (ServiceLoader.js:69)
+[19:34:48.43] [ServiceLoader] <ERROR> ServiceLoader http://192.168.10.62:9109/ApiService.html?op=register connected err:  (ServiceLoader.js:204)
+[19:34:48.43] [ServiceLoader] <ERROR> ServiceLoader { Error: connect ETIMEDOUT 192.168.10.62:9109
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+  code: 'ETIMEDOUT',
+  errno: 'ETIMEDOUT',
+  syscall: 'connect',
+  address: '192.168.10.62',
+  port: 9109 } (ServiceLoader.js:205)
+[19:34:48.43] [ServiceLoader] <ERROR> 注册服务PageService 时失败：Error: connect ETIMEDOUT 192.168.10.62:9109 (ServiceLoader.js:66)
+[19:34:48.43] [ServiceLoader] <ERROR> ServiceLoader http://192.168.10.62:9109/ApiService.html?op=register connected err:  (ServiceLoader.js:204)
+[19:34:48.44] [ServiceLoader] <ERROR> ServiceLoader { Error: connect ETIMEDOUT 192.168.10.62:9109
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+  code: 'ETIMEDOUT',
+  errno: 'ETIMEDOUT',
+  syscall: 'connect',
+  address: '192.168.10.62',
+  port: 9109 } (ServiceLoader.js:205)
+[19:34:48.44] [ServiceLoader] <ERROR> 注册服务ComponentService 时失败：Error: connect ETIMEDOUT 192.168.10.62:9109 (ServiceLoader.js:66)
+[19:34:58.43] [ServiceLoader] <ERROR> ServiceLoader http://192.168.10.62:9109/ApiService.html?op=register connected err:  (ServiceLoader.js:204)
+[19:34:58.43] [ServiceLoader] <ERROR> ServiceLoader { Error: connect ETIMEDOUT 192.168.10.62:9109
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+  code: 'ETIMEDOUT',
+  errno: 'ETIMEDOUT',
+  syscall: 'connect',
+  address: '192.168.10.62',
+  port: 9109 } (ServiceLoader.js:205)
+[19:34:58.44] [ServiceLoader] <ERROR> 注册服务PageService 时失败：Error: connect ETIMEDOUT 192.168.10.62:9109 (ServiceLoader.js:66)
+[19:34:58.44] [ServiceLoader] <ERROR> 注册服务ComponentService 时失败：Error: connect ETIMEDOUT 192.168.10.62:9109 (ServiceLoader.js:66)
+[19:34:58.44] [ServiceLoader] <ERROR> ServiceLoader http://192.168.10.62:9109/ApiService.html?op=register connected err:  (ServiceLoader.js:204)
+[19:34:58.44] [ServiceLoader] <ERROR> ServiceLoader { Error: connect ETIMEDOUT 192.168.10.62:9109
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+  code: 'ETIMEDOUT',
+  errno: 'ETIMEDOUT',
+  syscall: 'connect',
+  address: '192.168.10.62',
+  port: 9109 } (ServiceLoader.js:205)
+[19:35:08.43] [ServiceLoader] <ERROR> ServiceLoader http://192.168.10.62:9109/ApiService.html?op=register connected err:  (ServiceLoader.js:204)
+[19:35:08.43] [ServiceLoader] <ERROR> ServiceLoader { Error: connect ETIMEDOUT 192.168.10.62:9109
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+  code: 'ETIMEDOUT',
+  errno: 'ETIMEDOUT',
+  syscall: 'connect',
+  address: '192.168.10.62',
+  port: 9109 } (ServiceLoader.js:205)
+[19:35:08.44] [ServiceLoader] <ERROR> 注册服务ComponentService 时失败：Error: connect ETIMEDOUT 192.168.10.62:9109 (ServiceLoader.js:66)
+[19:35:08.44] [ServiceLoader] <ERROR> ServiceLoader { Error: connect ETIMEDOUT 192.168.10.62:9109
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+  code: 'ETIMEDOUT',
+  errno: 'ETIMEDOUT',
+  syscall: 'connect',
+  address: '192.168.10.62',
+  port: 9109 } (ServiceLoader.js:205)
+[19:35:08.44] [ServiceLoader] <ERROR> ServiceLoader http://192.168.10.62:9109/ApiService.html?op=register connected err:  (ServiceLoader.js:204)
+[19:35:08.44] [ServiceLoader] <ERROR> 注册服务PageService 时失败：Error: connect ETIMEDOUT 192.168.10.62:9109 (ServiceLoader.js:66)
+[19:35:18.44] [ServiceLoader] <ERROR> ServiceLoader http://192.168.10.62:9109/ApiService.html?op=register connected err:  (ServiceLoader.js:204)
+[19:35:18.44] [ServiceLoader] <ERROR> ServiceLoader { Error: connect ETIMEDOUT 192.168.10.62:9109
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+  code: 'ETIMEDOUT',
+  errno: 'ETIMEDOUT',
+  syscall: 'connect',
+  address: '192.168.10.62',
+  port: 9109 } (ServiceLoader.js:205)
+[19:35:18.44] [ServiceLoader] <ERROR> ServiceLoader http://192.168.10.62:9109/ApiService.html?op=register connected err:  (ServiceLoader.js:204)
+[19:35:18.44] [ServiceLoader] <ERROR> ServiceLoader { Error: connect ETIMEDOUT 192.168.10.62:9109
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+  code: 'ETIMEDOUT',
+  errno: 'ETIMEDOUT',
+  syscall: 'connect',
+  address: '192.168.10.62',
+  port: 9109 } (ServiceLoader.js:205)
+[19:35:28.44] [ServiceLoader] <ERROR> ServiceLoader http://192.168.10.62:9109/ApiService.html?op=register connected err:  (ServiceLoader.js:204)
+[19:35:28.44] [ServiceLoader] <ERROR> ServiceLoader { Error: connect ETIMEDOUT 192.168.10.62:9109
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+  code: 'ETIMEDOUT',
+  errno: 'ETIMEDOUT',
+  syscall: 'connect',
+  address: '192.168.10.62',
+  port: 9109 } (ServiceLoader.js:205)
+[19:35:28.44] [ServiceLoader] <ERROR> ServiceLoader { Error: connect ETIMEDOUT 192.168.10.62:9109
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+  code: 'ETIMEDOUT',
+  errno: 'ETIMEDOUT',
+  syscall: 'connect',
+  address: '192.168.10.62',
+  port: 9109 } (ServiceLoader.js:205)
+[19:35:28.44] [ServiceLoader] <ERROR> ServiceLoader http://192.168.10.62:9109/ApiService.html?op=register connected err:  (ServiceLoader.js:204)
+[19:35:38.44] [ServiceLoader] <ERROR> ServiceLoader http://192.168.10.62:9109/ApiService.html?op=register connected err:  (ServiceLoader.js:204)
+[19:35:38.45] [ServiceLoader] <ERROR> ServiceLoader { Error: connect ETIMEDOUT 192.168.10.62:9109
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+  code: 'ETIMEDOUT',
+  errno: 'ETIMEDOUT',
+  syscall: 'connect',
+  address: '192.168.10.62',
+  port: 9109 } (ServiceLoader.js:205)
+[19:35:38.45] [ServiceLoader] <ERROR> ServiceLoader http://192.168.10.62:9109/ApiService.html?op=register connected err:  (ServiceLoader.js:204)
+[19:35:38.46] [ServiceLoader] <ERROR> ServiceLoader { Error: connect ETIMEDOUT 192.168.10.62:9109
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+  code: 'ETIMEDOUT',
+  errno: 'ETIMEDOUT',
+  syscall: 'connect',
+  address: '192.168.10.62',
+  port: 9109 } (ServiceLoader.js:205)
+[19:35:48.44] [ServiceLoader] <ERROR> ServiceLoader http://192.168.10.62:9109/ApiService.html?op=register connected err:  (ServiceLoader.js:204)
+[19:35:48.44] [ServiceLoader] <ERROR> ServiceLoader http://192.168.10.62:9109/ApiService.html?op=register connected err:  (ServiceLoader.js:204)
+[19:35:48.44] [ServiceLoader] <ERROR> ServiceLoader { Error: connect ETIMEDOUT 192.168.10.62:9109
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+  code: 'ETIMEDOUT',
+  errno: 'ETIMEDOUT',
+  syscall: 'connect',
+  address: '192.168.10.62',
+  port: 9109 } (ServiceLoader.js:205)
+[19:35:48.45] [ServiceLoader] <ERROR> ServiceLoader { Error: connect ETIMEDOUT 192.168.10.62:9109
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+  code: 'ETIMEDOUT',
+  errno: 'ETIMEDOUT',
+  syscall: 'connect',
+  address: '192.168.10.62',
+  port: 9109 } (ServiceLoader.js:205)
+[19:35:58.44] [ServiceLoader] <ERROR> ServiceLoader http://192.168.10.62:9109/ApiService.html?op=register connected err:  (ServiceLoader.js:204)
+[19:35:58.45] [ServiceLoader] <ERROR> ServiceLoader { Error: connect ETIMEDOUT 192.168.10.62:9109
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+  code: 'ETIMEDOUT',
+  errno: 'ETIMEDOUT',
+  syscall: 'connect',
+  address: '192.168.10.62',
+  port: 9109 } (ServiceLoader.js:205)
+[19:35:58.45] [ServiceLoader] <ERROR> ServiceLoader http://192.168.10.62:9109/ApiService.html?op=register connected err:  (ServiceLoader.js:204)
+[19:35:58.45] [ServiceLoader] <ERROR> ServiceLoader { Error: connect ETIMEDOUT 192.168.10.62:9109
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+  code: 'ETIMEDOUT',
+  errno: 'ETIMEDOUT',
+  syscall: 'connect',
+  address: '192.168.10.62',
+  port: 9109 } (ServiceLoader.js:205)
+[19:36:08.44] [ServiceLoader] <ERROR> ServiceLoader http://192.168.10.62:9109/ApiService.html?op=register connected err:  (ServiceLoader.js:204)
+[19:36:08.44] [ServiceLoader] <ERROR> ServiceLoader { Error: connect ETIMEDOUT 192.168.10.62:9109
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+  code: 'ETIMEDOUT',
+  errno: 'ETIMEDOUT',
+  syscall: 'connect',
+  address: '192.168.10.62',
+  port: 9109 } (ServiceLoader.js:205)
+[19:36:08.45] [ServiceLoader] <ERROR> ServiceLoader { Error: connect ETIMEDOUT 192.168.10.62:9109
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+  code: 'ETIMEDOUT',
+  errno: 'ETIMEDOUT',
+  syscall: 'connect',
+  address: '192.168.10.62',
+  port: 9109 } (ServiceLoader.js:205)
+[19:36:08.45] [ServiceLoader] <ERROR> ServiceLoader http://192.168.10.62:9109/ApiService.html?op=register connected err:  (ServiceLoader.js:204)
+[19:36:18.45] [ServiceLoader] <ERROR> ServiceLoader http://192.168.10.62:9109/ApiService.html?op=register connected err:  (ServiceLoader.js:204)
+[19:36:18.45] [ServiceLoader] <ERROR> ServiceLoader { Error: connect ETIMEDOUT 192.168.10.62:9109
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+  code: 'ETIMEDOUT',
+  errno: 'ETIMEDOUT',
+  syscall: 'connect',
+  address: '192.168.10.62',
+  port: 9109 } (ServiceLoader.js:205)
+[19:36:18.46] [ServiceLoader] <ERROR> ServiceLoader http://192.168.10.62:9109/ApiService.html?op=register connected err:  (ServiceLoader.js:204)
+[19:36:18.46] [ServiceLoader] <ERROR> ServiceLoader { Error: connect ETIMEDOUT 192.168.10.62:9109
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+  code: 'ETIMEDOUT',
+  errno: 'ETIMEDOUT',
+  syscall: 'connect',
+  address: '192.168.10.62',
+  port: 9109 } (ServiceLoader.js:205)
+[19:36:28.45] [ServiceLoader] <ERROR> ServiceLoader http://192.168.10.62:9109/ApiService.html?op=register connected err:  (ServiceLoader.js:204)
+[19:36:28.45] [ServiceLoader] <ERROR> ServiceLoader { Error: connect ETIMEDOUT 192.168.10.62:9109
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+  code: 'ETIMEDOUT',
+  errno: 'ETIMEDOUT',
+  syscall: 'connect',
+  address: '192.168.10.62',
+  port: 9109 } (ServiceLoader.js:205)
+[19:36:28.46] [ServiceLoader] <ERROR> ServiceLoader http://192.168.10.62:9109/ApiService.html?op=register connected err:  (ServiceLoader.js:204)
+[19:36:28.46] [ServiceLoader] <ERROR> ServiceLoader { Error: connect ETIMEDOUT 192.168.10.62:9109
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+  code: 'ETIMEDOUT',
+  errno: 'ETIMEDOUT',
+  syscall: 'connect',
+  address: '192.168.10.62',
+  port: 9109 } (ServiceLoader.js:205)
+[19:36:38.45] [ServiceLoader] <ERROR> ServiceLoader http://192.168.10.62:9109/ApiService.html?op=register connected err:  (ServiceLoader.js:204)
+[19:36:38.45] [ServiceLoader] <ERROR> ServiceLoader { Error: connect ETIMEDOUT 192.168.10.62:9109
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+  code: 'ETIMEDOUT',
+  errno: 'ETIMEDOUT',
+  syscall: 'connect',
+  address: '192.168.10.62',
+  port: 9109 } (ServiceLoader.js:205)
+[19:36:38.46] [ServiceLoader] <ERROR> ServiceLoader { Error: connect ETIMEDOUT 192.168.10.62:9109
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+  code: 'ETIMEDOUT',
+  errno: 'ETIMEDOUT',
+  syscall: 'connect',
+  address: '192.168.10.62',
+  port: 9109 } (ServiceLoader.js:205)
+[19:36:38.45] [ServiceLoader] <ERROR> ServiceLoader http://192.168.10.62:9109/ApiService.html?op=register connected err:  (ServiceLoader.js:204)
+[19:36:48.45] [ServiceLoader] <ERROR> ServiceLoader http://192.168.10.62:9109/ApiService.html?op=register connected err:  (ServiceLoader.js:204)
+[19:36:48.45] [ServiceLoader] <ERROR> ServiceLoader { Error: connect ETIMEDOUT 192.168.10.62:9109
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+  code: 'ETIMEDOUT',
+  errno: 'ETIMEDOUT',
+  syscall: 'connect',
+  address: '192.168.10.62',
+  port: 9109 } (ServiceLoader.js:205)
+[19:36:48.46] [ServiceLoader] <ERROR> ServiceLoader http://192.168.10.62:9109/ApiService.html?op=register connected err:  (ServiceLoader.js:204)
+[19:36:48.46] [ServiceLoader] <ERROR> ServiceLoader { Error: connect ETIMEDOUT 192.168.10.62:9109
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+  code: 'ETIMEDOUT',
+  errno: 'ETIMEDOUT',
+  syscall: 'connect',
+  address: '192.168.10.62',
+  port: 9109 } (ServiceLoader.js:205)
+[19:36:58.45] [ServiceLoader] <ERROR> ServiceLoader http://192.168.10.62:9109/ApiService.html?op=register connected err:  (ServiceLoader.js:204)
+[19:36:58.45] [ServiceLoader] <ERROR> ServiceLoader { Error: connect ETIMEDOUT 192.168.10.62:9109
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+  code: 'ETIMEDOUT',
+  errno: 'ETIMEDOUT',
+  syscall: 'connect',
+  address: '192.168.10.62',
+  port: 9109 } (ServiceLoader.js:205)
+[19:36:58.46] [ServiceLoader] <ERROR> ServiceLoader http://192.168.10.62:9109/ApiService.html?op=register connected err:  (ServiceLoader.js:204)
+[19:36:58.46] [ServiceLoader] <ERROR> ServiceLoader { Error: connect ETIMEDOUT 192.168.10.62:9109
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+  code: 'ETIMEDOUT',
+  errno: 'ETIMEDOUT',
+  syscall: 'connect',
+  address: '192.168.10.62',
+  port: 9109 } (ServiceLoader.js:205)
+[19:37:08.45] [ServiceLoader] <ERROR> ServiceLoader http://192.168.10.62:9109/ApiService.html?op=register connected err:  (ServiceLoader.js:204)
+[19:37:08.45] [ServiceLoader] <ERROR> ServiceLoader { Error: connect ETIMEDOUT 192.168.10.62:9109
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+  code: 'ETIMEDOUT',
+  errno: 'ETIMEDOUT',
+  syscall: 'connect',
+  address: '192.168.10.62',
+  port: 9109 } (ServiceLoader.js:205)
+[19:37:08.46] [ServiceLoader] <ERROR> ServiceLoader http://192.168.10.62:9109/ApiService.html?op=register connected err:  (ServiceLoader.js:204)
+[19:37:08.46] [ServiceLoader] <ERROR> ServiceLoader { Error: connect ETIMEDOUT 192.168.10.62:9109
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+  code: 'ETIMEDOUT',
+  errno: 'ETIMEDOUT',
+  syscall: 'connect',
+  address: '192.168.10.62',
+  port: 9109 } (ServiceLoader.js:205)
+[19:37:18.45] [ServiceLoader] <ERROR> ServiceLoader http://192.168.10.62:9109/ApiService.html?op=register connected err:  (ServiceLoader.js:204)
+[19:37:18.46] [ServiceLoader] <ERROR> ServiceLoader { Error: connect ETIMEDOUT 192.168.10.62:9109
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+  code: 'ETIMEDOUT',
+  errno: 'ETIMEDOUT',
+  syscall: 'connect',
+  address: '192.168.10.62',
+  port: 9109 } (ServiceLoader.js:205)
+[19:37:18.46] [ServiceLoader] <ERROR> ServiceLoader { Error: connect ETIMEDOUT 192.168.10.62:9109
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+  code: 'ETIMEDOUT',
+  errno: 'ETIMEDOUT',
+  syscall: 'connect',
+  address: '192.168.10.62',
+  port: 9109 } (ServiceLoader.js:205)
+[19:37:18.46] [ServiceLoader] <ERROR> ServiceLoader http://192.168.10.62:9109/ApiService.html?op=register connected err:  (ServiceLoader.js:204)
+[19:37:28.45] [ServiceLoader] <ERROR> ServiceLoader http://192.168.10.62:9109/ApiService.html?op=register connected err:  (ServiceLoader.js:204)
+[19:37:28.46] [ServiceLoader] <ERROR> ServiceLoader { Error: connect ETIMEDOUT 192.168.10.62:9109
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+  code: 'ETIMEDOUT',
+  errno: 'ETIMEDOUT',
+  syscall: 'connect',
+  address: '192.168.10.62',
+  port: 9109 } (ServiceLoader.js:205)
+[19:37:28.46] [ServiceLoader] <ERROR> ServiceLoader http://192.168.10.62:9109/ApiService.html?op=register connected err:  (ServiceLoader.js:204)
+[19:37:28.46] [ServiceLoader] <ERROR> ServiceLoader { Error: connect ETIMEDOUT 192.168.10.62:9109
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+  code: 'ETIMEDOUT',
+  errno: 'ETIMEDOUT',
+  syscall: 'connect',
+  address: '192.168.10.62',
+  port: 9109 } (ServiceLoader.js:205)
+[19:37:38.45] [ServiceLoader] <ERROR> ServiceLoader http://192.168.10.62:9109/ApiService.html?op=register connected err:  (ServiceLoader.js:204)
+[19:37:38.46] [ServiceLoader] <ERROR> ServiceLoader { Error: connect ETIMEDOUT 192.168.10.62:9109
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+  code: 'ETIMEDOUT',
+  errno: 'ETIMEDOUT',
+  syscall: 'connect',
+  address: '192.168.10.62',
+  port: 9109 } (ServiceLoader.js:205)
+[19:37:38.46] [ServiceLoader] <ERROR> ServiceLoader http://192.168.10.62:9109/ApiService.html?op=register connected err:  (ServiceLoader.js:204)
+[19:37:38.46] [ServiceLoader] <ERROR> ServiceLoader { Error: connect ETIMEDOUT 192.168.10.62:9109
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+  code: 'ETIMEDOUT',
+  errno: 'ETIMEDOUT',
+  syscall: 'connect',
+  address: '192.168.10.62',
+  port: 9109 } (ServiceLoader.js:205)
+[19:37:48.46] [ServiceLoader] <ERROR> ServiceLoader http://192.168.10.62:9109/ApiService.html?op=register connected err:  (ServiceLoader.js:204)
+[19:37:48.46] [ServiceLoader] <ERROR> ServiceLoader { Error: connect ETIMEDOUT 192.168.10.62:9109
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+  code: 'ETIMEDOUT',
+  errno: 'ETIMEDOUT',
+  syscall: 'connect',
+  address: '192.168.10.62',
+  port: 9109 } (ServiceLoader.js:205)
+[19:37:48.46] [ServiceLoader] <ERROR> ServiceLoader http://192.168.10.62:9109/ApiService.html?op=register connected err:  (ServiceLoader.js:204)
+[19:37:48.46] [ServiceLoader] <ERROR> ServiceLoader { Error: connect ETIMEDOUT 192.168.10.62:9109
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+  code: 'ETIMEDOUT',
+  errno: 'ETIMEDOUT',
+  syscall: 'connect',
+  address: '192.168.10.62',
+  port: 9109 } (ServiceLoader.js:205)
+[19:37:58.46] [ServiceLoader] <ERROR> ServiceLoader http://192.168.10.62:9109/ApiService.html?op=register connected err:  (ServiceLoader.js:204)
+[19:37:58.46] [ServiceLoader] <ERROR> ServiceLoader { Error: connect ETIMEDOUT 192.168.10.62:9109
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+  code: 'ETIMEDOUT',
+  errno: 'ETIMEDOUT',
+  syscall: 'connect',
+  address: '192.168.10.62',
+  port: 9109 } (ServiceLoader.js:205)
+[19:37:58.46] [ServiceLoader] <ERROR> ServiceLoader http://192.168.10.62:9109/ApiService.html?op=register connected err:  (ServiceLoader.js:204)
+[19:37:58.47] [ServiceLoader] <ERROR> ServiceLoader { Error: connect ETIMEDOUT 192.168.10.62:9109
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+  code: 'ETIMEDOUT',
+  errno: 'ETIMEDOUT',
+  syscall: 'connect',
+  address: '192.168.10.62',
+  port: 9109 } (ServiceLoader.js:205)
+[19:38:08.46] [ServiceLoader] <ERROR> ServiceLoader http://192.168.10.62:9109/ApiService.html?op=register connected err:  (ServiceLoader.js:204)
+[19:38:08.46] [ServiceLoader] <ERROR> ServiceLoader { Error: connect ETIMEDOUT 192.168.10.62:9109
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+  code: 'ETIMEDOUT',
+  errno: 'ETIMEDOUT',
+  syscall: 'connect',
+  address: '192.168.10.62',
+  port: 9109 } (ServiceLoader.js:205)
+[19:38:08.46] [ServiceLoader] <ERROR> ServiceLoader http://192.168.10.62:9109/ApiService.html?op=register connected err:  (ServiceLoader.js:204)
+[19:38:08.47] [ServiceLoader] <ERROR> ServiceLoader { Error: connect ETIMEDOUT 192.168.10.62:9109
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+  code: 'ETIMEDOUT',
+  errno: 'ETIMEDOUT',
+  syscall: 'connect',
+  address: '192.168.10.62',
+  port: 9109 } (ServiceLoader.js:205)
+[19:38:18.46] [ServiceLoader] <ERROR> ServiceLoader http://192.168.10.62:9109/ApiService.html?op=register connected err:  (ServiceLoader.js:204)
+[19:38:18.46] [ServiceLoader] <ERROR> ServiceLoader { Error: connect ETIMEDOUT 192.168.10.62:9109
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+  code: 'ETIMEDOUT',
+  errno: 'ETIMEDOUT',
+  syscall: 'connect',
+  address: '192.168.10.62',
+  port: 9109 } (ServiceLoader.js:205)
+[19:38:18.47] [ServiceLoader] <ERROR> ServiceLoader http://192.168.10.62:9109/ApiService.html?op=register connected err:  (ServiceLoader.js:204)
+[19:38:18.48] [ServiceLoader] <ERROR> ServiceLoader { Error: connect ETIMEDOUT 192.168.10.62:9109
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+  code: 'ETIMEDOUT',
+  errno: 'ETIMEDOUT',
+  syscall: 'connect',
+  address: '192.168.10.62',
+  port: 9109 } (ServiceLoader.js:205)
+[19:38:28.46] [ServiceLoader] <ERROR> ServiceLoader http://192.168.10.62:9109/ApiService.html?op=register connected err:  (ServiceLoader.js:204)
+[19:38:28.46] [ServiceLoader] <ERROR> ServiceLoader { Error: connect ETIMEDOUT 192.168.10.62:9109
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+  code: 'ETIMEDOUT',
+  errno: 'ETIMEDOUT',
+  syscall: 'connect',
+  address: '192.168.10.62',
+  port: 9109 } (ServiceLoader.js:205)
+[19:38:28.47] [ServiceLoader] <ERROR> ServiceLoader { Error: connect ETIMEDOUT 192.168.10.62:9109
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+  code: 'ETIMEDOUT',
+  errno: 'ETIMEDOUT',
+  syscall: 'connect',
+  address: '192.168.10.62',
+  port: 9109 } (ServiceLoader.js:205)
+[19:38:28.46] [ServiceLoader] <ERROR> ServiceLoader http://192.168.10.62:9109/ApiService.html?op=register connected err:  (ServiceLoader.js:204)
+[19:38:38.46] [ServiceLoader] <ERROR> ServiceLoader http://192.168.10.62:9109/ApiService.html?op=register connected err:  (ServiceLoader.js:204)
+[19:38:38.46] [ServiceLoader] <ERROR> ServiceLoader { Error: connect ETIMEDOUT 192.168.10.62:9109
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+  code: 'ETIMEDOUT',
+  errno: 'ETIMEDOUT',
+  syscall: 'connect',
+  address: '192.168.10.62',
+  port: 9109 } (ServiceLoader.js:205)
+[19:38:38.47] [ServiceLoader] <ERROR> ServiceLoader http://192.168.10.62:9109/ApiService.html?op=register connected err:  (ServiceLoader.js:204)
+[19:38:38.48] [ServiceLoader] <ERROR> ServiceLoader { Error: connect ETIMEDOUT 192.168.10.62:9109
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+  code: 'ETIMEDOUT',
+  errno: 'ETIMEDOUT',
+  syscall: 'connect',
+  address: '192.168.10.62',
+  port: 9109 } (ServiceLoader.js:205)
+[19:38:48.46] [ServiceLoader] <ERROR> ServiceLoader http://192.168.10.62:9109/ApiService.html?op=register connected err:  (ServiceLoader.js:204)
+[19:38:48.46] [ServiceLoader] <ERROR> ServiceLoader { Error: connect ETIMEDOUT 192.168.10.62:9109
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+  code: 'ETIMEDOUT',
+  errno: 'ETIMEDOUT',
+  syscall: 'connect',
+  address: '192.168.10.62',
+  port: 9109 } (ServiceLoader.js:205)
+[19:38:48.47] [ServiceLoader] <ERROR> ServiceLoader http://192.168.10.62:9109/ApiService.html?op=register connected err:  (ServiceLoader.js:204)
+[19:38:48.47] [ServiceLoader] <ERROR> ServiceLoader { Error: connect ETIMEDOUT 192.168.10.62:9109
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+  code: 'ETIMEDOUT',
+  errno: 'ETIMEDOUT',
+  syscall: 'connect',
+  address: '192.168.10.62',
+  port: 9109 } (ServiceLoader.js:205)
+[19:38:56.47] [ServiceLoader] <INFO> 注册服务ComponentService 成功！ (ServiceLoader.js:69)
+[19:38:56.47] [ServiceLoader] <INFO> 注册服务PageService 成功！ (ServiceLoader.js:69)
+[19:38:58.46] [ServiceLoader] <ERROR> ServiceLoader http://192.168.10.62:9109/ApiService.html?op=register connected err:  (ServiceLoader.js:204)
+[19:38:58.46] [ServiceLoader] <ERROR> ServiceLoader { Error: connect ETIMEDOUT 192.168.10.62:9109
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+  code: 'ETIMEDOUT',
+  errno: 'ETIMEDOUT',
+  syscall: 'connect',
+  address: '192.168.10.62',
+  port: 9109 } (ServiceLoader.js:205)
+[19:38:58.47] [ServiceLoader] <ERROR> ServiceLoader http://192.168.10.62:9109/ApiService.html?op=register connected err:  (ServiceLoader.js:204)
+[19:38:58.47] [ServiceLoader] <ERROR> ServiceLoader { Error: connect ETIMEDOUT 192.168.10.62:9109
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+  code: 'ETIMEDOUT',
+  errno: 'ETIMEDOUT',
+  syscall: 'connect',
+  address: '192.168.10.62',
+  port: 9109 } (ServiceLoader.js:205)
+[19:39:07.47] [ServiceLoader] <INFO> 注册服务ComponentService 成功！ (ServiceLoader.js:69)
+[19:39:07.48] [ServiceLoader] <INFO> 注册服务PageService 成功！ (ServiceLoader.js:69)
+[19:43:28.60] [ServiceLoader] <ERROR> ServiceLoader http://192.168.10.62:9109/ApiService.html?op=register connected err:  (ServiceLoader.js:204)
+[19:43:28.61] [ServiceLoader] <ERROR> ServiceLoader { Error: connect ECONNREFUSED 192.168.10.62:9109
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.10.62',
+  port: 9109 } (ServiceLoader.js:205)
+[19:43:28.61] [ServiceLoader] <ERROR> 注册服务ComponentService 时失败：Error: connect ECONNREFUSED 192.168.10.62:9109 (ServiceLoader.js:66)
+[19:43:28.61] [ServiceLoader] <ERROR> ServiceLoader http://192.168.10.62:9109/ApiService.html?op=register connected err:  (ServiceLoader.js:204)
+[19:43:28.61] [ServiceLoader] <ERROR> ServiceLoader { Error: connect ECONNREFUSED 192.168.10.62:9109
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.10.62',
+  port: 9109 } (ServiceLoader.js:205)
+[19:43:28.62] [ServiceLoader] <ERROR> 注册服务PageService 时失败：Error: connect ECONNREFUSED 192.168.10.62:9109 (ServiceLoader.js:66)
+[19:43:38.60] [ServiceLoader] <ERROR> ServiceLoader http://192.168.10.62:9109/ApiService.html?op=register connected err:  (ServiceLoader.js:204)
+[19:43:38.61] [ServiceLoader] <ERROR> ServiceLoader { Error: connect ECONNREFUSED 192.168.10.62:9109
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.10.62',
+  port: 9109 } (ServiceLoader.js:205)
+[19:43:38.61] [ServiceLoader] <ERROR> ServiceLoader { Error: connect ECONNREFUSED 192.168.10.62:9109
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.10.62',
+  port: 9109 } (ServiceLoader.js:205)
+[19:43:38.61] [ServiceLoader] <ERROR> ServiceLoader http://192.168.10.62:9109/ApiService.html?op=register connected err:  (ServiceLoader.js:204)
+[19:43:48.62] [ServiceLoader] <ERROR> ServiceLoader http://192.168.10.62:9109/ApiService.html?op=register connected err:  (ServiceLoader.js:204)
+[19:43:48.62] [ServiceLoader] <ERROR> ServiceLoader { Error: connect ECONNREFUSED 192.168.10.62:9109
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.10.62',
+  port: 9109 } (ServiceLoader.js:205)
+[19:43:48.62] [ServiceLoader] <ERROR> ServiceLoader http://192.168.10.62:9109/ApiService.html?op=register connected err:  (ServiceLoader.js:204)
+[19:43:48.62] [ServiceLoader] <ERROR> ServiceLoader { Error: connect ECONNREFUSED 192.168.10.62:9109
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.10.62',
+  port: 9109 } (ServiceLoader.js:205)
+[19:43:58.62] [ServiceLoader] <ERROR> ServiceLoader http://192.168.10.62:9109/ApiService.html?op=register connected err:  (ServiceLoader.js:204)
+[19:43:58.63] [ServiceLoader] <ERROR> ServiceLoader http://192.168.10.62:9109/ApiService.html?op=register connected err:  (ServiceLoader.js:204)
+[19:43:58.63] [ServiceLoader] <ERROR> ServiceLoader { Error: connect ECONNREFUSED 192.168.10.62:9109
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.10.62',
+  port: 9109 } (ServiceLoader.js:205)
+[19:43:58.62] [ServiceLoader] <ERROR> ServiceLoader { Error: connect ECONNREFUSED 192.168.10.62:9109
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.10.62',
+  port: 9109 } (ServiceLoader.js:205)
+[19:44:08.62] [ServiceLoader] <ERROR> ServiceLoader http://192.168.10.62:9109/ApiService.html?op=register connected err:  (ServiceLoader.js:204)
+[19:44:08.62] [ServiceLoader] <ERROR> ServiceLoader { Error: connect ECONNREFUSED 192.168.10.62:9109
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.10.62',
+  port: 9109 } (ServiceLoader.js:205)
+[19:44:08.63] [ServiceLoader] <ERROR> ServiceLoader http://192.168.10.62:9109/ApiService.html?op=register connected err:  (ServiceLoader.js:204)
+[19:44:08.63] [ServiceLoader] <ERROR> ServiceLoader { Error: connect ECONNREFUSED 192.168.10.62:9109
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.10.62',
+  port: 9109 } (ServiceLoader.js:205)
+[19:44:18.62] [ServiceLoader] <ERROR> ServiceLoader http://192.168.10.62:9109/ApiService.html?op=register connected err:  (ServiceLoader.js:204)
+[19:44:18.63] [ServiceLoader] <ERROR> ServiceLoader { Error: connect ECONNREFUSED 192.168.10.62:9109
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.10.62',
+  port: 9109 } (ServiceLoader.js:205)
+[19:44:18.63] [ServiceLoader] <ERROR> ServiceLoader http://192.168.10.62:9109/ApiService.html?op=register connected err:  (ServiceLoader.js:204)
+[19:44:18.64] [ServiceLoader] <ERROR> ServiceLoader { Error: connect ECONNREFUSED 192.168.10.62:9109
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.10.62',
+  port: 9109 } (ServiceLoader.js:205)
+[19:44:28.63] [ServiceLoader] <ERROR> ServiceLoader http://192.168.10.62:9109/ApiService.html?op=register connected err:  (ServiceLoader.js:204)
+[19:44:28.64] [ServiceLoader] <ERROR> ServiceLoader { Error: connect ECONNREFUSED 192.168.10.62:9109
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.10.62',
+  port: 9109 } (ServiceLoader.js:205)
+[19:44:28.64] [ServiceLoader] <ERROR> ServiceLoader http://192.168.10.62:9109/ApiService.html?op=register connected err:  (ServiceLoader.js:204)
+[19:44:28.65] [ServiceLoader] <ERROR> ServiceLoader { Error: connect ECONNREFUSED 192.168.10.62:9109
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.10.62',
+  port: 9109 } (ServiceLoader.js:205)
+[19:44:38.64] [ServiceLoader] <ERROR> ServiceLoader http://192.168.10.62:9109/ApiService.html?op=register connected err:  (ServiceLoader.js:204)
+[19:44:38.64] [ServiceLoader] <ERROR> ServiceLoader { Error: connect ECONNREFUSED 192.168.10.62:9109
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.10.62',
+  port: 9109 } (ServiceLoader.js:205)
+[19:44:38.64] [ServiceLoader] <ERROR> ServiceLoader http://192.168.10.62:9109/ApiService.html?op=register connected err:  (ServiceLoader.js:204)
+[19:44:38.64] [ServiceLoader] <ERROR> ServiceLoader { Error: connect ECONNREFUSED 192.168.10.62:9109
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.10.62',
+  port: 9109 } (ServiceLoader.js:205)
+[19:44:48.63] [ServiceLoader] <ERROR> ServiceLoader http://192.168.10.62:9109/ApiService.html?op=register connected err:  (ServiceLoader.js:204)
+[19:44:48.64] [ServiceLoader] <ERROR> ServiceLoader http://192.168.10.62:9109/ApiService.html?op=register connected err:  (ServiceLoader.js:204)
+[19:44:48.63] [ServiceLoader] <ERROR> ServiceLoader { Error: connect ECONNREFUSED 192.168.10.62:9109
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.10.62',
+  port: 9109 } (ServiceLoader.js:205)
+[19:44:48.64] [ServiceLoader] <ERROR> ServiceLoader { Error: connect ECONNREFUSED 192.168.10.62:9109
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.10.62',
+  port: 9109 } (ServiceLoader.js:205)
+[19:44:58.64] [ServiceLoader] <ERROR> ServiceLoader http://192.168.10.62:9109/ApiService.html?op=register connected err:  (ServiceLoader.js:204)
+[19:44:58.64] [ServiceLoader] <ERROR> ServiceLoader { Error: connect ECONNREFUSED 192.168.10.62:9109
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.10.62',
+  port: 9109 } (ServiceLoader.js:205)
+[19:44:58.65] [ServiceLoader] <ERROR> ServiceLoader http://192.168.10.62:9109/ApiService.html?op=register connected err:  (ServiceLoader.js:204)
+[19:44:58.65] [ServiceLoader] <ERROR> ServiceLoader { Error: connect ECONNREFUSED 192.168.10.62:9109
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.10.62',
+  port: 9109 } (ServiceLoader.js:205)
+[19:45:07.65] [ServiceLoader] <INFO> 注册服务ComponentService 成功！ (ServiceLoader.js:69)
+[19:45:07.65] [ServiceLoader] <INFO> 注册服务PageService 成功！ (ServiceLoader.js:69)
+[19:51:18.70] [ServiceLoader] <ERROR> ServiceLoader http://192.168.10.62:9109/ApiService.html?op=register connected err:  (ServiceLoader.js:204)
+[19:51:18.70] [ServiceLoader] <ERROR> ServiceLoader { Error: connect ECONNREFUSED 192.168.10.62:9109
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.10.62',
+  port: 9109 } (ServiceLoader.js:205)
+[19:51:18.71] [ServiceLoader] <ERROR> 注册服务PageService 时失败：Error: connect ECONNREFUSED 192.168.10.62:9109 (ServiceLoader.js:66)
+[19:51:18.72] [ServiceLoader] <ERROR> ServiceLoader http://192.168.10.62:9109/ApiService.html?op=register connected err:  (ServiceLoader.js:204)
+[19:51:18.72] [ServiceLoader] <ERROR> ServiceLoader { Error: connect ECONNREFUSED 192.168.10.62:9109
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.10.62',
+  port: 9109 } (ServiceLoader.js:205)
+[19:51:18.72] [ServiceLoader] <ERROR> 注册服务ComponentService 时失败：Error: connect ECONNREFUSED 192.168.10.62:9109 (ServiceLoader.js:66)
+[19:51:27.69] [ServiceLoader] <INFO> 注册服务ComponentService 成功！ (ServiceLoader.js:69)
+[19:51:27.70] [ServiceLoader] <INFO> 注册服务PageService 成功！ (ServiceLoader.js:69)
+[19:56:38.72] [ServiceLoader] <ERROR> ServiceLoader http://192.168.10.62:9109/ApiService.html?op=register connected err:  (ServiceLoader.js:204)
+[19:56:38.72] [ServiceLoader] <ERROR> ServiceLoader { Error: connect ECONNREFUSED 192.168.10.62:9109
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.10.62',
+  port: 9109 } (ServiceLoader.js:205)
+[19:56:38.73] [ServiceLoader] <ERROR> 注册服务ComponentService 时失败：Error: connect ECONNREFUSED 192.168.10.62:9109 (ServiceLoader.js:66)
+[19:56:38.73] [ServiceLoader] <ERROR> ServiceLoader http://192.168.10.62:9109/ApiService.html?op=register connected err:  (ServiceLoader.js:204)
+[19:56:38.73] [ServiceLoader] <ERROR> ServiceLoader { Error: connect ECONNREFUSED 192.168.10.62:9109
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.10.62',
+  port: 9109 } (ServiceLoader.js:205)
+[19:56:38.73] [ServiceLoader] <ERROR> 注册服务PageService 时失败：Error: connect ECONNREFUSED 192.168.10.62:9109 (ServiceLoader.js:66)
+[19:56:47.72] [ServiceLoader] <INFO> 注册服务PageService 成功！ (ServiceLoader.js:69)
+[19:56:47.73] [ServiceLoader] <INFO> 注册服务ComponentService 成功！ (ServiceLoader.js:69)

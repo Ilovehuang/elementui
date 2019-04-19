@@ -1,0 +1,150 @@
+@font-face {
+	font-family: 'Glyphicons Halflings';
+	src: url('./fonts/glyphicons-halflings-regular.eot');
+	src: url('./fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('./fonts/glyphicons-halflings-regular.woff') format('woff'), url('./fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('./fonts/glyphicons-halflings-regular.svg#glyphicons-halflingsregular') format('svg');
+}
+@font-face {
+	font-family: 'FontAwesome';
+	src: url('./plugins/fonts/fontawesome-webfont.eot?v=4.6.1');
+	src: url('./plugins/fonts/fontawesome-webfont.eot?#iefix&v=4.6.1') format('embedded-opentype'), url('./plugins/fonts/fontawesome-webfont.woff2?v=4.6.1') format('woff2'), url('./plugins/fonts/fontawesome-webfont.woff?v=4.6.1') format('woff'), url('./plugins/fonts/fontawesome-webfont.ttf?v=4.6.1') format('truetype'), url('./fonts/plugins/fontawesome-webfont.svg?v=4.6.1#fontawesomeregular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+.glyphicon {
+	position: relative;
+	top: 1px;
+	display: inline-block;
+	font-family: 'Glyphicons Halflings';
+	font-style: normal;
+	font-weight: normal;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+*{
+	box-sizing: border-box;
+}
+html{
+	color:#000;
+	background:#FFF;
+}
+body{
+	background:#FFF;
+	/*color:#666;*/
+   position: relative;
+   font-size: 13px;
+	font-family: "Helvetica Neue",Helvetica,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","微软雅黑",Arial,sans-serif;
+	margin: 0px auto;
+}
+body, div, dl, dt, dd, ul, ol, li,h1, h2, h3, h4, h5, h6, pre, code,form, fieldset, legend, input, button,textarea, p, blockquote, th, td {
+	margin: 0;
+	padding: 0;
+}
+fieldset, img{
+	border:0;
+}
+input,select,textarea{
+	outline:none;
+}
+textarea{
+	resize:none;
+}
+a{
+	text-decoration:none;
+}
+table {
+	border-collapse:collapse;
+	border-spacing:0;
+}
+
+
+ol,
+ul {
+	list-style:none;
+}
+
+caption,
+th {
+	text-align:left;
+}
+
+/* 清除浮动*/
+.clearfix:after{
+	content:"";
+	display:block;
+	clear:both;
+}
+.clear{
+	clear:both;
+}
+button{
+	outline:none
+}
+.fr{
+	float:right;
+}
+.fl{
+	float:left;
+}
+.text-left {
+	text-align: left;
+}
+.text-center {
+	text-align: center;
+}
+.text-right {
+	text-align: right;
+}
+.hide {
+	display: none;
+}
+
+input[readonly].readonly {
+	color: #999;
+	background-color: #f3f3f3;
+	cursor: not-allowed;
+}
+
+div.form-validator .layui-layer-title{
+		font-size: 18px;
+		background: -webkit-linear-gradient( top, #f1f1f1, #ccc);
+		border-bottom: 1px solid #eee;
+		padding: 0;
+		text-indent: 1em;
+		font-family: "Microsoft YaHei", "微软雅黑", "SimHei", "黑体";
+		line-height: 44px;
+		color: #333;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+		background-color: #F8F8F8;
+		border-radius: 2px 2px 0 0;
+}
+
+div.form-validator div.layui-layer-content {
+	left: -4px;
+	background-color: #ffffff;
+	box-shadow: none;
+	font-size: 13px;
+	border: 0px;
+	color: #ff6f6f;
+	padding: 6px 0px;
+	line-height: 15px;
+
+}
+div.form-validator div.layui-layer-content i {
+			border-bottom-color: transparent;
+}
+.invalid-input {
+	border: 1px solid #ffa4a4 !important;
+}
+.invalid-input:hover {
+	border: 1px solid #ff4848 !important;
+}
+
+/*
+操作与提示色彩
+*/
+.warning {
+   color: #e6a23c
+}

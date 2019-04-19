@@ -1,0 +1,35 @@
+<template>
+   <vx-form-transfer :options="List"  labelfield="Name" keyfield="Id" v-model="Value" mode="object" :values.sync="options">
+      <vd-company-physicalzone operate="load" :query="Query" method="grid" :result.sync="List"></vd-company-physicalzone>
+   </vx-form-transfer>
+</template>
+<script>
+Vue.component("vm-transfer-physicalzone", {
+   
+   props: [
+      "value", /// 选中的id
+      "values" /// 存放选中数据的数组],
+   ],
+   data() {
+      return {
+         Query: {
+            ZoneTypeId:["1f41336b31a4400eabae2f099d99be17","268dece4837b484d92abc389bad3f2ec"]
+         },
+         List: [],
+         result: "",
+         options: []
+      };
+   },
+   computed: {
+      Value: {
+         get() {
+            return this.value;
+         },
+         set(val) {
+            this.$emit("input", val);
+            this.$emit("update:values", this.value);
+         }
+      }
+   }
+});
+</script>

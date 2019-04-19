@@ -1,0 +1,24 @@
+[16:56:28.19] [ServiceLoader] <ERROR> ServiceLoader http://192.168.10.68:9109/ApiService.html?op=register connected err:  (ServiceLoader.js:204)
+[16:56:28.19] [ServiceLoader] <ERROR> ServiceLoader { Error: connect ECONNREFUSED 192.168.10.68:9109
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.10.68',
+  port: 9109 } (ServiceLoader.js:205)
+[16:56:28.21] [ServiceLoader] <ERROR> 注册服务ComponentService 时失败：Error: connect ECONNREFUSED 192.168.10.68:9109 (ServiceLoader.js:66)
+[16:56:28.22] [ServiceLoader] <ERROR> 注册服务PageService 时失败：Error: connect ECONNREFUSED 192.168.10.68:9109 (ServiceLoader.js:66)
+[16:56:28.21] [ServiceLoader] <ERROR> ServiceLoader { Error: connect ECONNREFUSED 192.168.10.68:9109
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.10.68',
+  port: 9109 } (ServiceLoader.js:205)
+[16:56:28.21] [ServiceLoader] <ERROR> ServiceLoader http://192.168.10.68:9109/ApiService.html?op=register connected err:  (ServiceLoader.js:204)
+[16:56:34.67] [ServiceLoader] <INFO> 注册服务ComponentService 成功！ (ServiceLoader.js:69)
+[16:56:34.68] [ServiceLoader] <INFO> 注册服务PageService 成功！ (ServiceLoader.js:69)

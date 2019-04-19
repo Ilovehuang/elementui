@@ -1,0 +1,156 @@
+let $info = Vue.prototype.$info;
+Vue.prototype.$info = function(message) {
+   let messageConfig = {
+      type: "info"
+   };
+   if (typeof message == "object") {
+      for (let key in message) messageConfig[key] = message[key];
+   } else messageConfig.message = message;
+   this.$message(messageConfig);
+};
+let $success = Vue.prototype.$success;
+Vue.prototype.$success = function(message) {
+   let messageConfig = {
+      type: "success",
+      message: message
+   };
+   this.$message(messageConfig);
+};
+let $warning = Vue.prototype.$warning;
+Vue.prototype.$warning = function(message) {
+   let messageConfig = {
+      type: "warning",
+      message: message
+   };
+   this.$message(messageConfig);
+};
+let $error = Vue.prototype.$error;
+Vue.prototype.$error = function(message) {
+   let messageConfig = {
+      type: "error",
+      message: message
+   };
+   this.$message(messageConfig);
+};
+let $messagebox = Vue.prototype.$messagebox;
+Vue.prototype.$messagebox = function(message, confirmcall, cancelcall) {
+   let LoaderDict = {
+      Common: {
+         Confirm: "确定"
+      },
+      Title: {
+         Information: "提示信息！"
+      }
+   };
+   let messageConfig = {
+      title: LoaderDict.Common.Information,
+      type: "info",
+      confirmButtonText: LoaderDict.Common.Confirm
+   };
+   if (typeof message == "object") {
+      for (let key in message) messageConfig[key] = message[key];
+      if (message && message.type == "warning") messageConfig.iconClass = "fa fa-question-circle";
+   } else messageConfig.message = message;
+
+   this.$msgbox(messageConfig);
+};
+
+let $alert = Vue.prototype.$alert;
+Vue.prototype.$alert = function(message) {
+   let LoaderDict = {
+      Title: {
+         Alert: "发生错误！"
+      }
+   };
+   let messageConfig = {
+      type: "error",
+      showClose: false,
+      title: LoaderDict.Title.Alert
+   };
+   if (typeof message == "object") {
+      for (let key in message) messageConfig[key] = message[key];
+   } else messageConfig.message = message;
+   $alert.call(this, messageConfig.message, messageConfig);
+};
+
+let $confirm = Vue.prototype.$confirm;
+Vue.prototype.$confirm = function(message, confirmcall, cancelcall) {
+   let LoaderDict = {
+      Common: {
+         Cancel: "取消"
+      },
+      Title: {
+         ConfirmOperate: "是否确认？"
+      }
+   };
+   let messageConfig = {
+      type: "question",
+      title: LoaderDict.Title.ConfirmOperate,
+      cancelButtonText: LoaderDict.Common.Cancel,
+      showCancelButton: true,
+      callback: function(action) {
+         switch (action) {
+            case "confirm":
+               if (confirmcall && typeof confirmcall == "function") confirmcall.call(this);
+               break;
+            case "cancel":
+               if (cancelcall && typeof cancelcall == "function") cancelcall.call(this);
+               break;
+            default:
+               break;
+         }
+      }
+   };
+   if (typeof message == "object") {
+      for (let key in message) messageConfig[key] = message[key];
+   } else messageConfig.message = message;
+   if (messageConfig.type == "question") messageConfig.iconClass = "warning fa fa-question-circle";
+   $confirm.call(this, messageConfig.message, messageConfig);
+};
+let $showLoading = Vue.prototype.$showLoading;
+Vue.prototype.$showLoading = function(options) {
+   let loadingConfig = {
+      lock: true,
+      text: "Loading",
+      spinner: "el-icon-loading",
+      background: "rgba(0, 0, 0, 0.7)"
+   };
+   if (options) for (key in options) loadingConfig[key] = options[key];
+   const loading = this.$loading(loadingConfig);
+   this.LoadingCircle = loading;
+};
+let $closeLoading = Vue.prototype.$closeLoading;
+Vue.prototype.$closeLoading = function() {
+   if (this.LoadingCircle) {
+      this.LoadingCircle.close();
+      delete this.LoadingCircle;
+   }
+};
+
+_.replaceField = function(data, fields, childField) {
+   fields.forEach(item => {
+      data[item[1]] = data[item[0]];
+   });
+
+   if(Array.isArray(data[childField])) {
+      data[childField].forEach(child => {
+         _.replaceField(child, fields, childField);
+      });
+   }
+};
+
+_.getFieldValue = function(list, keyField, keyValue, fields, values) {
+   let result = null;
+   for(let i = 0; i < list.length; i++) {
+      let item = list[i];
+      if(item[keyField] == keyValue) {
+         fields.forEach(field => {
+            if(values[field] === undefined) values[field] = [];
+            values[field].push(item[field]);
+         });
+         result = item;
+         break;
+      }
+   }
+   return result ? result["children"] : null;
+};

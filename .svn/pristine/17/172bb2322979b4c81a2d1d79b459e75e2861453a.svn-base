@@ -1,0 +1,226 @@
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <base href="../">
+   <meta http-equiv="content-type" content="text/html;charset=utf-8;" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="styles/plugins/elementui.css">
+   <link rel="stylesheet" href="https://unpkg.com/element-ui/lib/theme-chalk/index.css">
+   <link rel="stylesheet" href="components/css-loader.css">
+   <link rel="stylesheet" href="styles/plugins/font-awesome.css">
+   <link rel="stylesheet" href="styles/style.css">
+
+   <title>组件开发环境</title>
+   <style>
+   </style>
+</head>
+
+<body>
+   <div id="app">
+      <el-row>
+         <el-col :span="16">
+            <el-card class="box-card">
+               <div slot="header" class="clearfix title">
+                  <span>组件测试条件（包括props、内部条件等）</span>
+               </div>
+               <div>
+                  <table border="1">
+                     <tr>
+                        <td>参数</td>
+                        <td>说明</td>
+                        <td>类型</td>
+                        <td>可选值</td>
+                        <td>默认值</td>
+                     </tr>
+                     <tr>
+                        <td>title</td>
+                        <td>标题</td>
+                        <td>string</td>
+                        <td>
+                           <input type="text" v-model="Notification.title" placeholder="请输入title名称">
+                        </td>
+                        <td>-</td>
+                     </tr>
+                     <tr>
+                        <td>type</td>
+                        <td>主题样式，如果不在可选值内将被忽略</td>
+                        <td>string</td>
+                        <td>
+                           <select v-model="type">
+                              <option value="customicon">自定义图标</option>
+                              <option value="success">success</option>
+                              <option value="warning">warning</option>
+                              <option value="info">info</option>
+                              <option value="error">err</option>
+                           </select>
+                        </td>
+                        <td>-</td>
+                     </tr>
+                     <tr>
+                        <td>message</td>
+                        <td>说明文字</td>
+                        <td>string</td>
+                        <td>
+                           <input type="text" v-model="Notification.message" placeholder="请输入message信息">
+                        </td>
+                        <td>-</td>
+                     </tr>
+                     <tr v-if="visible">
+                        <td>iconClass</td>
+                        <td>自定义图标的类名。若设置了 type，则 iconClass 会被覆盖</td>
+                        <td>string</td>
+                        <td>
+                           <input type="text" v-model="Notification.iconClass" placeholder="请输入图标类名">
+                        </td>
+                        <td>-</td>
+                     </tr>
+                     <tr>
+                        <td>duration</td>
+                        <td>显示时间, 毫秒。设为 0 则不会自动关闭</td>
+                        <td>number</td>
+                        <td>
+                           <input type="number" placeholder="请输入自动关闭时间(毫秒)" v-model="Notification.duration">
+                        </td>
+                        <td>4500</td>
+                     </tr>
+                     <tr>
+                        <td>dangerouslyUseHTMLString</td>
+                        <td>是否将 message 属性作为 HTML 片段处理</td>
+                        <td>boolean</td>
+                        <td>
+                           <select v-model="Notification.dangerouslyUseHTML">
+                              <option value="true">true</option>
+                              <option value="false">false</option>
+                           </select>
+                        </td>
+                        <td>false</td>
+                     </tr>
+                     <tr>
+                        <td>position</td>
+                        <td>自定义弹出位置</td>
+                        <td>string</td>
+                        <td>
+                           <select v-model="Notification.position">
+                              <option value="">自定义</option>
+                              <option value="top-right">top-right</option>
+                              <option value="top-left">top-left</option>
+                              <option value="bottom-right">bottom-right</option>
+                              <option value="bottom-left">bottom-left</option>
+                           </select>
+                        </td>
+                        <td>top-right</td>
+                     </tr>
+                     <tr>
+                        <td>offset</td>
+                        <td>偏移的距离，在同一时刻，所有的 Notification 实例应当具有一个相同的偏移量</td>
+                        <td>number</td>
+                        <td>
+                           <input type="number" placeholder="请输入偏移距离" v-model="Notification.offset">
+                        </td>
+                        <td>0</td>
+                     </tr>
+                     <tr>
+                        <td>showClose</td>
+                        <td>是否显示关闭按钮</td>
+                        <td>boolean</td>
+                        <td>
+                           <select v-model="Notification.showClose">
+                              <option value="true">true</option>
+                              <option value="false">false</option>
+                           </select>
+                        </td>
+                        <td>true</td>
+                     </tr>
+                  </table>
+               </div>
+            </el-card>
+            <el-card class="box-card" style="margin-top: 10px;">
+               <div slot="header" class="clearfix">
+                  <span>组件显示</span>
+               </div>
+               <vx-tip-notify :notification.aync="Notification"> </vx-tip-notify>
+            </el-card>
+            <el-card class="box-card" style="margin-top: 10px;">
+               <div slot="header" class="clearfix title">
+                  <span>组件数据变量（包括输出结果、内部数据等）</span>
+               </div>
+               <div>
+                  <!-- 输出的结果与内部数据 -->
+               </div>
+            </el-card>
+         </el-col>
+         <el-col :span="8">
+            <el-card class="box-card" style="margin-left: 10px;">
+               <div slot="header" class="clearfix">
+                  <span>自动化测试脚本</span>
+                  <el-button style="float: right; padding: 3px 0;" type="text">开始测试</el-button>
+               </div>
+               <textarea style="border-radius: 5px; width: 100%; height: 80%;"></textarea>
+            </el-card>
+         </el-col>
+      </el-row>
+   </div>
+</body>
+
+<script type="text/javascript" src="scripts/plugins/echarts.js"></script>
+<!-- 先引入 Vue -->
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script type="text/javascript" src="scripts/plugins/vuex.js"></script>
+<!-- 引入组件库 -->
+<script type="text/javascript" src="scripts/plugins/elementui.min.js"></script>
+<script src="https://unpkg.com/element-ui/lib/index.js"></script>
+
+<!-- 常用控件库 -->
+<script type="text/javascript" src="scripts/plugins/jquery-2.0.3.min.js"></script>
+<script type="text/javascript" src="scripts/plugins/moment/moment.min.js"></script>
+<script type="text/javascript" src="scripts/plugins/moment/moment.zh-cn.js"></script>
+
+<!-- 自定义JS库 -->
+<script type="text/javascript" src="scripts/common/jquery.ajax.js"></script>
+
+
+<script type="text/javascript" src="scripts/common/components-init.js"></script>
+<script>
+   vueOptions = {
+      data() {
+         return {
+            Search: "测试条件",
+            PageTitle: "组件开发环境",
+            Notification: {
+               title: "通知",
+               type: "success",
+               message: "通知信息",
+               iconClass: "",
+               duration: 4500,
+               dangerouslyUseHTML: false,
+               position: "top-right",
+               offset: 0,
+               showClose: true
+            },
+            type: "success",
+            visible: false
+         }
+      },
+      watch: {
+         type() {
+            this.Notification.type = this.type;
+            if (this.type == "customicon") {
+               this.visible = true;
+            } else {
+               this.visible = false;
+            }
+         }
+      }
+
+   }
+</script>
+<style>
+   table {
+      /* width: 100%; */
+      border-collapse: separate;
+      border-spacing: 2;
+   }
+</style>
+
+</html>

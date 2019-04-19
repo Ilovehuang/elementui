@@ -1,0 +1,221 @@
+if (typeof axios == "function") Vue.prototype.$axios = axios;
+let vueOptions = null;
+let componentInit = function() {
+   Vue.prototype.$Bus = Vue.prototype.$Bus || new Vue();
+   let vm = new Vue({
+      el: "#app",
+      data() {
+         return {
+            PageTitle: "",
+            LogoTitle: "商业数据分析平台"
+         };
+      },
+      created() {
+         document.title = this.PageTitle + " | IntForce " + this.LogoTitle;
+      },
+      mixins: [vueOptions]
+   });
+};
+let componentLoad = function() {
+   let components = {};
+   let componentL = [];
+   let Tags = {};
+   let htmlTags = [];
+   //components
+   try {
+      componentL = JSON.parse(localStorage.componentList);
+   } catch (error) {
+      console.info("fristLoad");
+   }
+   if (componentL && componentL.length) {
+      for (let i = 0; i < componentL.length; i++) {
+         const component = componentL[i];
+         components[component.Name] = component.Time;
+      }
+   }
+
+   // let $ = null;
+   let tagPrefix = ["vx-", "vm-", "vd-"];
+   let componentTags = [];
+   // try {
+   //    dom = $.load(html);
+   // } catch (ep) {
+   //    console.error(ep);
+   //    console.error(html);
+   // }
+   let results = $("*");
+   for (let i = 0; i < results.length; i++) {
+      let item = results[i];
+      for (let j = 0; j < tagPrefix.length; j++) {
+         if (item.tagName.toLocaleLowerCase().indexOf(tagPrefix[j]) == 0) {
+            let tagName = item.tagName.toLocaleLowerCase() + ".vue";
+            componentTags.push(tagName);
+            htmlTags.push(tagName);
+         }
+      }
+   }
+   //对比已有的组件与页面组件时间，没有就新建
+   for (let i = 0; i < componentTags.length; i++) {
+      const tag = componentTags[i];
+      let isNew = true;
+      for (const key in components) {
+         if (key == tag && Object.hasOwnProperty(key)) {
+            Tags[key] = componentTags[tag];
+            isNew = false;
+         }
+      }
+      if (isNew) {
+         Tags[tag] = "";
+      }
+   }
+   checkLoadTags(Tags, function() {
+      componentInit();
+   });
+};
+let checkLoadTags = function(Tags, callback) {
+   $.ajaxPost(
+      "/PageService.html?op=checkTags",
+      {
+         Query: {
+            Tags: Tags
+         }
+      },
+      function(result) {
+         console.log("CheckTags", result);
+         let components = {};
+         let componentL = [];
+         let Tags = {};
+         try {
+            // componentList=JSON.parse(localStorage.componentList)
+            try {
+               if (JSON.parse(localStorage.componentList)) componentL = JSON.parse(localStorage.componentList);
+            } catch (error) {
+               console.info("fristLoad");
+            }
+            for (let i = 0; i < componentL.length; i++) {
+               const component = componentL[i];
+               components[component.Name] = component.Time;
+            }
+         } catch (error) {
+            console.error(error);
+         }
+         for (const key in result.data) {
+            if (components[key] != result.data[key]) Tags[key] = result.data[key];
+         }
+         console.log("Tags", Tags);
+         $.ajaxPost(
+            "/PageService.html?op=loadTags",
+            {
+               Query: {
+                  Tags: Tags
+               }
+            },
+            function(r) {
+               console.log("LoadTags", r);
+               loadTags(r, result.data, callback);
+            }
+         );
+      }
+   );
+};
+let loadTags = function(r, Tags, callback) {
+   let componentList = r.data;
+   let newComponent = [];
+   if (!Boolean(localStorage.componentList)) localStorage.componentList = "[]";
+   let localList = JSON.parse(localStorage.componentList);
+   //将组件添加到本地组件数组
+   for (let i = 0; i < componentList.length; i++) {
+      let component = componentList[i];
+      let isNew = true;
+      for (let j = 0; j < localList.length; j++) {
+         let local = localList[j];
+         if (local.Name == component.Name) {
+            localList[j] = component;
+            newComponent.push(component);
+            isNew = false;
+         }
+      }
+      if (isNew) {
+         localList.push(component);
+      }
+   }
+   for (let i = 0; i < localList.length; i++) {
+      let local = localList[i];
+      if (Tags[local.Name]) {
+         newComponent.push(local);
+      }
+   }
+   let cssStr = "";
+   localStorage.componentList = JSON.stringify(localList);
+   //将本地数组注册
+   console.log("Vue组件注册", localList, newComponent);
+   console.time("开始时间");
+   console.group("组件注册");
+   for (let i = 0; i < newComponent.length; i++) {
+      let component = newComponent[i];
+      loadVue(component);
+      if (component.Css) cssStr += component.Css;
+   }
+   console.groupEnd();
+   console.time("开始时间");
+   //添加css到页面
+   if (cssStr) {
+      cssLoad(cssStr);
+   }
+   callback && callback();
+};
+let cssLoad = function(cssStr) {
+   let st = document.createElement("style");
+   st.appendChild(document.createTextNode(cssStr));
+   document.body.appendChild(st);
+};
+let loadVue = function(component) {
+   try {
+      let vueOption = JSON.parse(component.Options, function(k, v) {
+         if (v && v.indexOf && v.indexOf("function") > -1) {
+            if (v.indexOf("[native code]") > -1) {
+               let reg = / (.+)\(\)/;
+               return eval("(function(){return " + reg.exec(v)[1] + " })()");
+            }
+            return eval("(function(){return " + v + " })()");
+         }
+         return v;
+      });
+      if (vueOption.mixins) {
+         for (let i = 0; i < vueOption.mixins.length; i++) {
+            if (window[vueOption.mixins[i]]) {
+               vueOption.mixins[i] = window[vueOption.mixins[i]];
+            }
+         }
+      }
+      // console.log(component.Name, component.Time, vueOption)
+      Vue.component(component.Name.replace(".vue", ""), vueOption);
+   } catch (error) {
+      console.error(error);
+   }
+};
+// let TraversalObject = function (obj){
+//    for (let a in obj) {
+//       if (typeof (obj[a]) == "object" && !obj[a].length) {
+//          TraversalObject(obj[a]); //递归遍历
+//       }else {
+//          if(typeof obj[a]=="string" && obj[a].indexOf("function")>-1){
+//             try {
+//                let temp=eval("({"+a+":"+obj[a]+"})")
+//                // let temp=eval("({sss:function(){}})")
+//                obj[a]=temp[a]
+//             } catch (error) { console.error(error, "{"+a+":"+obj[a]+"}") }
+//          } //处理值
+//       }
+//    }
+//    return obj
+// }
+
+let doInit = function() {
+   if (vueOptions) {
+      componentLoad();
+   } else {
+      setTimeout(doInit, 10);
+   }
+};
+doInit();

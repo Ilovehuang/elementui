@@ -1,0 +1,14 @@
+{
+   "ApiService": {
+      "Url": "/ApiService.html",
+      "host": "192.168.10.234",
+      "port": 9109
+   },
+   "ComponentService": {
+      "host": "localhost",
+      "port": 8040
+   },
+   "website": {
+      "port": 8160
+   }
+}

@@ -1,0 +1,3 @@
+[15:34:56.45] [ConfigLoader] <INFO> init ConfigLoader (ConfigLoader.js:13)
+[15:34:57.38] [ServiceLoader] <INFO> init ServiceLoader (ServiceLoader.js:27)
+[15:34:57.40] [PluginLoader] <INFO> init PluginLoader (PluginLoader.js:18)

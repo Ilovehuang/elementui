@@ -1,0 +1,70 @@
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <base href="../">
+   <meta http-equiv="content-type" content="text/html;charset=utf-8;" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title></title>
+   <link rel="stylesheet" href="styles/plugins/elementui.css">
+   <link rel="stylesheet" href="scripts/plugins/datatables/datatables.min.css">
+   <link rel="stylesheet" href="scripts/plugins/datatables/DT_bootstrap.css">
+   <link rel="stylesheet" href="components/css-loader.css">
+   <link rel="stylesheet" href="styles/plugins/font-awesome.css">
+   <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+   <div id="app">
+      <vx-unify-header></vx-unify-header>
+      <vx-main-content>
+         <vx-side-menu ></vx-side-menu>
+         <vx-right-content>
+            <vx-page-header>
+               <div slot="buttons">
+                  button
+               </div>
+            </vx-page-header>
+            <vx-page-content>
+               table
+            </vx-page-content>
+         </vx-right-content>
+      </vx-main-content>
+      <vx-unify-footer></vx-unify-footer>
+   </div>
+</body>
+<!-- 先引入 Vue -->
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script type="text/javascript" src="scripts/plugins/vuex.js"></script>
+<!-- 引入组件库 -->
+<script type="text/javascript" src="scripts/plugins/elementui.min.js"></script>
+
+<!-- 常用控件库 -->
+<script type="text/javascript" src="scripts/plugins/jquery-2.0.3.min.js"></script>
+<script type="text/javascript" src="scripts/plugins/moment/moment.min.js"></script>
+<script type="text/javascript" src="scripts/plugins/moment/moment.zh-cn.js"></script>
+<script type="text/javascript" src="scripts/plugins/layer/layer.js"></script>
+<script type="text/javascript" src="scripts/plugins/datatables/datatables.min.js"></script>
+<script type="text/javascript" src="scripts/plugins/datatables/DT_bootstrap.js"></script>
+
+<!-- 自定义JS库 -->
+<script type="text/javascript" src="scripts/common/languages.cn.js"></script>
+<script type="text/javascript" src="scripts/common/jquery.ajax.js"></script>
+<script type="text/javascript" src="scripts/common/vue.factory.js"></script>
+<script type="text/javascript" src="scripts/common/jquery.form.js"></script>
+<script type="text/javascript" src="scripts/common/jquery.common.js"></script>
+
+
+<script type="text/javascript" src="scripts/common/components-init.js"></script>
+   <script>
+      vueOptions = {
+         data() {
+            return {
+               PageTitle: "商业实践",
+               Create: false,
+
+            }
+         }
+      };
+   </script>
+
+</html>

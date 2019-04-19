@@ -1,0 +1,234 @@
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <base href="../">
+   <meta http-equiv="content-type" content="text/html;charset=utf-8;" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title></title>
+   <link rel="stylesheet" href="styles/plugins/elementui.css">
+   <link rel="stylesheet" href="styles/plugins/font-awesome.css">
+   <link rel="stylesheet" href="styles/style.css">
+   <style>
+
+   </style>
+</head>
+
+<body>
+   <div id="app" :style="'background-image: url('+bgUrl+')'">
+      <div class="head">
+         <div class="left">初始化配置</div>
+         <div class="right">系统管理<div class="exit"><i class="el-icon-caret-left"></i> 退出系统管理</div>
+         </div>
+      </div>
+      <div class="pageList">
+         <div class="pageItem" v-for="(item,index) in list"  @click='clickItem(index)'>
+            <img :src="'images/initaialization/'+(activeIndex<index?item.icon:item.Aicon)" alt="">
+            <!-- <h5>{{item.title}}</h5> -->
+            <p class="note" v-if="activeIndex>=index">{{item.note}}</p>
+            <p class="rate" :class="activeIndex>=index?'active':''">
+               <span>{{index+1}}</span>
+               <b></b>
+            </p>
+            <!-- <img v-if="index==3||index==7" class="border" :src="'/images/initaialization/left'+(activeIndex<=index?'':'-a')+'.jpg'" alt=""> -->
+            <p :style="'border-color:'+(activeIndex<=index?'#ebebeb':'#2f5bc9')" v-if="index==3||index==7" class="border"></p>
+         </div>
+      </div>
+   </div>
+</body>
+<style>
+   .pageList .pageItem:nth-child(5),.pageList .pageItem:nth-child(6),.pageList .pageItem:nth-child(7),.pageList .pageItem:nth-child(8){
+      float:right
+   }
+   .pageList .pageItem:nth-child(1) .rate b,.pageList .pageItem:nth-child(8) .rate b,.pageList .pageItem:nth-child(9) .rate b{
+      width: 100%
+   }
+   .pageList .pageItem:nth-child(4) .border{
+         position:absolute;
+         right: -35px;
+         bottom: -236px;
+         height: 259px;
+         width:36px;
+         border: 4px solid #2f5bc9;
+         border-left: 0
+   }
+   .pageList .pageItem:nth-child(8) .border{
+      position:absolute;
+         left: -35px;
+         bottom: -236px;
+         transform: rotate(180deg);
+         height: 259px;
+         width:36px;
+         border: 4px solid #2f5bc9;
+         border-left: 0
+   }
+   .head{
+      padding: 0.1px;
+   }
+   .head .left{
+      background: #4195d5;
+      color: #fff
+   }
+   .head .right{
+      background:#eaf5fb;
+      color: #4195d5
+   }
+   .head>div{
+      float: left;
+      width: 50%;
+      text-align: center;
+      line-height: 45px;
+      font-size: 18px;
+      height: 45px;
+      font-weight: 900;
+
+   }
+   .head .exit{
+      width: 200px;
+      float: right;
+      background: #d6ecfa
+   }
+   .pageList{
+      max-width: 1285px;
+      margin: 0 auto;
+      margin-top: 50px;
+   }
+   .pageList .pageItem{
+      width: 200px;
+      float: left;
+      margin:0 60px;
+      height:215px;
+      border: 0px solid #2f5bc8;
+      text-align: center;
+      margin-top:40px;
+      cursor: pointer;
+      position: relative;
+   }
+   
+   .pageList .pageItem .note{
+      font-size:12px;
+      color: #95a7e3;
+      width:100%;
+      margin-top: -45px;
+   }
+   .pageList .pageItem .rate span{
+      width:38px;height:38px;border-radius: 100%;display: inline-block;
+      line-height: 38px;
+      font-size: 16px;
+      background: #ebebeb;
+      font-weight: 900;
+      color: #b9b9b9;
+      position: relative;
+      z-index: 10;
+   }
+   .pageList .pageItem .rate.active span{
+      background: #2f5bc9;
+      color:#fff;
+   }
+   
+   .pageList .pageItem .rate.active b{
+      background: #2f5bc9
+   }
+   .pageList .pageItem .rate b{
+      position: absolute;
+      width: 320px;
+      background: #ebebeb;
+      height: 4px;
+      bottom: 19px;
+      right: 0;
+   }
+   .pageList .pageItem .rate{
+      position: absolute;
+      bottom:0;
+      text-align: center;
+      width: 100%;
+      /* margin-top: 70px; */
+      /* margin-bottom: 00px; */
+   }
+</style>
+<!-- 先引入 Vue -->
+<script type="text/javascript" src="scripts/plugins/vue.js"></script>
+<!-- 引入组件库 -->
+<script type="text/javascript" src="scripts/plugins/elementui.min.js"></script>
+
+<!-- 常用控件库 -->
+<script type="text/javascript" src="scripts/plugins/jquery-2.0.3.min.js"></script>
+<script type="text/javascript" src="scripts/plugins/moment/moment.min.js"></script>
+<script type="text/javascript" src="scripts/plugins/moment/moment.zh-cn.js"></script>
+<!-- 自定义JS库 -->
+<script type="text/javascript" src="scripts/common/languages.cn.js"></script>
+<script type="text/javascript" src="scripts/common/jquery.ajax.js"></script>
+<script type="text/javascript" src="scripts/common/components-init.js"></script>
+<script>
+   vueOptions = {
+      data() {
+         return {
+            activeIndex:0,
+            list:[{
+               href:"company/CompanyManager.html",
+               icon:"11.png",
+               Aicon:"a11.png",
+               title:"集团管理",
+               note:"点此，跳转到详情操作页"
+            },{
+               href:"company/MallManager.html",
+               icon:"12.png",
+               Aicon:"a12.png",
+               title:"案场管理",
+               note:"点此，跳转到详情操作页"
+            },{
+               href:"company/BusinessManager.html",
+               icon:"13.png",
+               Aicon:"a13.png",
+               title:"设置营业时间",
+               note:"点此，跳转到详情操作页"
+            },{
+               href:"company/PhysicalManager.html",
+               icon:"14.png",
+               Aicon:"a14.png",
+               title:"物理区域管理",
+               note:"点此，跳转到详情操作页"
+            },{
+               href:"system/UserGroupManager.html",
+               icon:"15.png",
+               Aicon:"a15.png",
+               title:"用户组管理",
+               note:"点此，跳转到详情操作页"
+            },{
+               href:"system/RoleManager.html",
+               icon:"16.png",
+               Aicon:"a16.png",
+               title:"角色授权",
+               note:"点此，跳转到详情操作页"
+            },{
+               href:"",
+               Aicon:"a17.png",
+               icon:"17.png",
+               title:"物理区域关联",
+               note:"点此，跳转到详情操作页"
+            },{
+               href:"",
+               icon:"18.png",
+               Aicon:"a18.png",
+               title:"采集主机管理",
+               note:"点此，跳转到详情操作页"
+            },{
+               href:"",
+               icon:"19.png",
+               Aicon:"a19.png",
+               title:"用户管理",
+               note:"点此，跳转到详情操作页"
+            }]
+         }
+      },
+      methods: {
+         clickItem(index){
+            this.activeIndex=index
+            window.open(this.list[index].href)
+         }
+
+      }
+   };
+</script>
+
+</html>

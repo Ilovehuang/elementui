@@ -1,0 +1,111 @@
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <base href="../">
+   <meta http-equiv="content-type" content="text/html;charset=utf-8;" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title></title>
+   <link rel="stylesheet" href="styles/plugins/elementui.css">
+   <link rel="stylesheet" href="scripts/plugins/datatables/datatables.min.css">
+   <link rel="stylesheet" href="scripts/plugins/datatables/DT_bootstrap.css">
+   <link rel="stylesheet" href="components/css-loader.css">
+   <link rel="stylesheet" href="styles/plugins/font-awesome.css">
+   <link rel="stylesheet" href="styles/style.css">
+   <link rel="stylesheet" href="scripts/plugins/daterangepicker/daterangepicker.css">
+   <link rel="stylesheet" href="scripts/plugins/clockpicker/bootstrap-clockpicker.css">
+</head>
+
+<body>
+   <div id="app">
+      <el-card class="box-card" style="margin-top: 10px;">
+         <el-row>
+            <el-col :span="20">
+               <vm-report-times></vm-report-times>
+            </el-col>
+         </el-row>
+      </el-card>
+
+      <el-card class="box-card" style="margin-top: 10px;">
+            <el-row>
+                  <el-col :span="20">
+                     <div :is="tabName"></div>
+                  </el-col>
+               </el-row>
+         </el-card>
+   </div>
+</body>
+<!-- 先引入 Vue -->
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<!-- 引入组件库 -->
+<script type="text/javascript" src="scripts/plugins/elementui.min.js"></script>
+
+<!-- 常用控件库 -->
+<script type="text/javascript" src="scripts/plugins/jquery-2.0.3.min.js"></script>
+<script type="text/javascript" src="scripts/plugins/moment/moment.min.js"></script>
+
+<!-- 自定义JS库 -->
+<script type="text/javascript" src="scripts/common/jquery.ajax.js"></script>
+<script type="text/javascript" src="scripts/common/components-init.js"></script>
+
+<script type="text/javascript" src="scripts/common/jquery.form.js"></script>
+<script type="text/javascript" src="scripts/common/vue.factory.js"></script>
+<script type="text/javascript" src="scripts/common/languages.cn.js"></script>
+<script type="text/javascript" src="scripts/plugins/daterangepicker/daterangepicker.js"></script>
+<script type="text/javascript" src="scripts/plugins/daterangepicker/daterangepicker.js"></script>
+<script type="text/javascript" src="scripts/plugins/clockpicker/bootstrap-clockpicker.js"></script>
+
+<script type="text/javascript" src="scripts/plugins/moment/moment.zh-cn.js"></script>
+<script type="text/javascript" src="scripts/plugins/layer/layer.js"></script>
+<script type="text/javascript" src="scripts/plugins/heatmap-2.0.2.min.js"></script>
+<script type="text/javascript" src="scripts/plugins/datatables/datatables.min.js"></script>
+<script type="text/javascript" src="scripts/plugins/datatables/DT_bootstrap.js"></script>
+<script>
+
+   vueOptions = {
+      data() {
+         return {
+            tabName: "vm-grid-historicalcount",
+            PageTitle: LoaderDict.Pages.Business.HistoryFlowManager,
+            Create: false,
+            Button: {
+               type: "check",
+               btncolor: "primary",
+               round: false,
+               plain: false,
+               disabled: false,
+               background: "",
+               visible: false,
+               label: "查询",
+               icon: "btnIcon fa fa-flash",
+               color: ""
+            },
+            radioList: [{ label: "Count", value: 1 }, { label: "Passby", value: 2 }, { label: "Fitting", value: 3 }, { label: "Dwell", value: 4 }],
+            radio: 1,
+            date: null,
+            options: [{
+               id: "1",
+               "Name": "1分钟",
+               "ZoneClass": "1分钟"
+            }, {
+               id: "2",
+               "Name": "5分钟",
+               "ZoneClass": "5分钟"
+            }, {
+               id: "3",
+               "Name": "10分钟",
+               "ZoneClass": "10分钟"
+            }]
+         }
+      },
+      methods: {
+      },
+      created() {
+         this.$Bus.$on("ReportTable.Change", (name, tabName) => {
+            this.tabName = tabName
+         });
+      }
+   };
+</script>
+
+</html>

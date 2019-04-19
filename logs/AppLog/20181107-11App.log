@@ -1,0 +1,5 @@
+[11:07:21.93] [App] <ERROR> 404: Not Found ... /location/CompanyManager.html (app.js:100)
+[11:07:22.06] [App] <ERROR> 404: Not Found ... /favicon.ico (app.js:100)
+[11:07:23.27] [App] <ERROR> 404: Not Found ... /components/css-loader.css (app.js:100)
+[11:07:23.90] [App] <ERROR> 404: Not Found ... /favicon.ico (app.js:100)
+[11:16:05.63] [ComponentService] <INFO> 正在注册： vd-company-mall.vue文件 (ComponentService.plugin.js:249)

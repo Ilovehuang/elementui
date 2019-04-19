@@ -1,0 +1,18 @@
+<template>
+   <div>
+      <vd-bd-loaddata :autoload="Autoload" :url="Url" :method="method" :query="query" :trigger.sync="LoadTrigger" :result.sync="Result"></vd-bd-loaddata>
+      <vd-bd-savedata :url="url" method="save" :data="data" :query="query" :trigger.sync="SaveTrigger" :result.sync="SaveResult"></vd-bd-savedata>
+   </div>
+</template>
+<script>
+Vue.component("vd-bd-mall", {
+   data(){
+      return {
+         url:"/DeviceService.html"
+      }
+   },
+   created(){
+   },
+   mixins:["defaultBusinessData"]
+});
+</script>

@@ -1,0 +1,145 @@
+<html>
+
+<head>
+   <meta charset="UTF-8">
+   <base href="../">
+   <meta http-equiv="content-type" content="text/html;charset=utf-8;" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="styles/plugins/elementui.css">
+   <link rel="stylesheet" href="scripts/plugins/datatables/datatables.min.css">
+   <link rel="stylesheet" href="scripts/plugins/datatables/DT_bootstrap.css">
+   <link rel="stylesheet" href="components/css-loader.css">
+   <link rel="stylesheet" href="styles/plugins/font-awesome.css">
+   <link rel="stylesheet" href="styles/style.css">
+   <link rel="stylesheet" href="scripts/plugins/daterangepicker/daterangepicker.css">
+   <link rel="stylesheet" href="scripts/plugins/clockpicker/bootstrap-clockpicker.css">
+   <title>组件开发环境</title>
+   <style>
+   </style>
+</head>
+
+<body>
+   <div id="app">
+      <el-row>
+         <el-col :span="16">
+            <el-card class="box-card" style="margin-top: 10px;">
+               <div slot="header" class="clearfix title">
+                  <span>
+                     <b>数据表格显示</b>：组件测试条件（包括props、内部条件等）</span>
+               </div>
+               <div>
+                     <table border="1" style="width: 100%;">
+                           <tr>
+                              <td>参数</td>
+                              <td>方向</td>
+                              <td>说明</td>
+                              <td>类型</td>
+                              <td>可选值</td>
+                              <td>默认值</td>
+                           </tr>
+                           <tr>
+                              <td>query</td>
+                              <td>输入</td>
+                              <td>查询参数</td>
+                              <td>object</td>
+                              <td></td>
+                              <td>{Query:{}}</td>
+                           </tr>
+                           <tr>
+                              <td>trigger</td>
+                              <td>输入/输出</td>
+                              <td>表格更新操作后的标记</td>
+                              <td>boolean</td>
+                              <td></td>
+                              <td>false</td>
+                           </tr>
+                        </table>
+               </div>
+            </el-card>
+            <el-card class="box-card" style="margin-top: 10px;">
+               <div slot="header" class="clearfix">
+                  <span>组件显示</span>
+               </div>
+               <vx-basic-button :type="Button.type" :label="Button.label" :icon="Button.icon" :btncolor="Button.btncolor" :color="Button.color"
+                  :round="Button.round" :plain="Button.plain" :disabled="Button.disabled" :background="Button.background" @click="FormVisible">
+               </vx-basic-button>
+               <vm-page-tag></vm-page-tag>
+            </el-card>
+            <el-card class="box-card" style="margin-top: 10px;">
+               <div slot="header" class="clearfix title">
+                  <span>组件数据变量（包括输出结果、内部数据等）</span>
+               </div>
+               <div>
+                  <!-- 输出的结果与内部数据 -->
+               </div>
+            </el-card>
+         </el-col>
+         <el-col :span="8">
+            <el-card class="box-card" style="margin-left: 10px;">
+               <div slot="header" class="clearfix">
+                  <span>自动化测试脚本</span>
+                  <el-button style="float: right; padding: 3px 0" type="text">开始测试</el-button>
+               </div>
+               <textarea style="border-radius: 5px; width: 100%; height: 80%;"></textarea>
+            </el-card>
+         </el-col>
+      </el-row>
+   </div>
+</body>
+<!-- 先引入 Vue -->
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script type="text/javascript" src="scripts/plugins/vuex.js"></script>
+<!-- 引入组件库 -->
+<script type="text/javascript" src="scripts/plugins/elementui.min.js"></script>
+
+<!-- 常用控件库 -->
+<script type="text/javascript" src="scripts/plugins/pubsub.min.js"></script>
+<script type="text/javascript" src="scripts/plugins/jquery-2.0.3.min.js"></script>
+<script type="text/javascript" src="scripts/plugins/moment/moment.min.js"></script>
+<script type="text/javascript" src="scripts/plugins/moment/moment.zh-cn.js"></script>
+<script type="text/javascript" src="scripts/plugins/layer/layer.js"></script>
+<script type="text/javascript" src="scripts/plugins/datatables/datatables.min.js"></script>
+<script type="text/javascript" src="scripts/plugins/datatables/DT_bootstrap.js"></script>
+<script type="text/javascript" src="scripts/plugins/daterangepicker/daterangepicker.js"></script>
+<script type="text/javascript" src="scripts/plugins/clockpicker/bootstrap-clockpicker.js"></script>
+<!-- 自定义JS库 -->
+<script type="text/javascript" src="scripts/common/languages.cn.js"></script>
+<script type="text/javascript" src="scripts/common/jquery.ajax.js"></script>
+<script type="text/javascript" src="scripts/common/vue.factory.js"></script>
+<script type="text/javascript" src="scripts/common/jquery.form.js"></script>
+<script type="text/javascript" src="scripts/common/jquery.common.js"></script>
+
+
+<script type="text/javascript" src="scripts/common/components-init.js"></script>
+<script>
+   vueOptions = {
+      data() {
+         return {
+            Button: {
+               type: "create",
+               btncolor: "primary",
+               round: false,
+               plain: false,
+               disabled: false,
+               background: "",
+               visible: false,
+               label: "",
+               icon: "",
+               color: ""
+            }
+         }
+      },
+      methods: {
+         FormVisible() {
+            this.$Bus.$emit('Form.Visible');
+         }
+      }
+   }
+</script>
+<style>
+   table {
+      /* width: 100%; */
+      border-collapse: separate;
+      border-spacing: 2;
+   }
+</style>

@@ -1,0 +1,22 @@
+{
+   "git.ignoreMissingGitWarning": true,
+   "editor.tabSize": 3,
+   "editor.useTabStops": false,
+   "terminal.explorerKind": "external",
+
+   "prettier.printWidth": 120,
+   "prettier.tabWidth": 3,
+   "prettier.parser": "babylon",
+   "prettier.trailingComma": "none",
+   "prettier.semi": true,
+   "prettier.singleQuote": true,
+   "prettier.eslintIntegration": true,
+   "vetur.format.defaultFormatter.html":"js-beautify-html",
+   "vetur.format.defaultFormatter.css":"prettier",
+   "vetur.format.defaultFormatter.less":"prettier",
+   "vetur.format.defaultFormatter.js": "prettier",
+   "window.zoomLevel": 1,
+   "javascript.updateImportsOnFileMove.enabled": "never",
+
+   "previewjsdoc.autoOpenBrowser": false
+}

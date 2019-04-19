@@ -1,0 +1,296 @@
+<html>
+
+<head>
+   <meta charset="UTF-8">
+   <base href="../">
+   <meta http-equiv="content-type" content="text/html;charset=utf-8;" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="styles/plugins/elementui.css">
+   <link rel="stylesheet" href="components/css-loader.css">
+   <link rel="stylesheet" href="styles/plugins/font-awesome.css">
+   <link rel="stylesheet" href="styles/style.css">
+
+   <title>组件开发环境</title>
+   <style>
+   </style>
+</head>
+
+<body>
+   <div id="app">
+      <el-row>
+         <el-col :span="16">
+            <el-card class="box-card" style="margin-top: 10px;">
+               <div slot="header" class="clearfix title">
+                  <span><b>可操作窗口</b>：组件测试条件（包括props、内部条件等）</span>
+               </div>
+               <div>
+                  <table border="1" style="width: 100%;">
+                     <tr>
+                        <td>参数</td>
+                        <td>方向</td>
+                        <td>说明</td>
+                        <td>类型</td>
+                        <td>可选值</td>
+                        <td>默认值</td>
+                     </tr>
+                     <tr>
+                        <td>visible</td>
+                        <td>输入/输出</td>
+                        <td>弹出窗口是否显示</td>
+                        <td>boolean</td>
+                        <td>
+                           <el-select v-model="visible" placeholder="请选择">
+                                 <el-option
+                                   v-for="item in [{label:'true',value:true},{label:'false',value:false}]"
+                                   :key="item.value"
+                                   :label="item.label"
+                                   :value="item.value">
+                                 </el-option>
+                              </el-select>
+                        </td>
+                        <td>false</td>
+                     </tr>
+                     <tr>
+                        <td>refresh</td>
+                        <td>输出</td>
+                        <td>点击保存后更新为true，只读</td>
+                        <td>boolean</td>
+                        <td>
+                        </td>
+                        <td>false</td>
+                     </tr>
+                     <tr>
+                        <td>autoclose</td>
+                        <td>输入</td>
+                        <td>保存后自动关闭窗口</td>
+                        <td>boolean</td>
+                        <td>
+                           <el-select v-model="autoclose" placeholder="请选择">
+                              <el-option
+                                v-for="item in [{label:'true',value:true},{label:'false',value:false}]"
+                                :key="item.value"
+                                :label="item.label"
+                                :value="item.value">
+                              </el-option>
+                           </el-select>
+                        </td>
+                        <td>true</td>
+                     </tr>
+                     <tr>
+                        <td>title</td>
+                        <td>输入</td>
+                        <td>窗口标题</td>
+                        <td>string</td>
+                        <td>
+                           <input type="text" v-model="title" placeholder="请输入标题">
+                        </td>
+                        <td></td>
+                     </tr>
+                     <tr>
+                        <td>width</td>
+                        <td>输入</td>
+                        <td>窗口宽度</td>
+                        <td>number</td>
+                        <td>
+                           <input type="text" v-model="width" placeholder="请输入宽度">
+                        </td>
+                        <td></td>
+                     </tr>
+                     <tr>
+                        <td>url</td>
+                        <td>输入</td>
+                        <td>后端服务地址</td>
+                        <td>string</td>
+                        <td>
+                           <input type="text" v-model="url" placeholder="请输入服务地址">
+                        </td>
+                        <td></td>
+                     </tr>
+                     <tr>
+                        <td>method</td>
+                        <td>输入</td>
+                        <td>服务接口</td>
+                        <td>string</td>
+                        <td>
+                           <input type="text" v-model="method" placeholder="请输入服务接口">
+                        </td>
+                        <td>save</td>
+                     </tr>
+                     <tr>
+                        <td>form</td>
+                        <td>输入/输出</td>
+                        <td>数据对象</td>
+                        <td>object</td>
+                        <td>
+
+                        </td>
+                        <td></td>
+                     </tr>
+                     <tr>
+                        <td>rules</td>
+                        <td>输入/输出</td>
+                        <td>验证条件对象</td>
+                        <td>object { Field: { required: true }}</td>
+                        <td>
+                           <input type="text" v-model="Rules" placeholder="请输入验证条件对象">
+                        </td>
+                        <td></td>
+                     </tr>
+                  </table>
+                  <br>
+                  <table border="1" style="width: 100%;">
+                     <tr>
+                        <td>slot名称</td>
+                        <td>说明</td>
+                        <td>默认值</td>
+                     </tr>
+                     <tr>
+                        <td>没有名称</td>
+                        <td>主体slot</td>
+                        <td></td>
+                     </tr>
+                     <tr>
+                        <td>footer</td>
+                        <td>页脚slot，可以更换全部按钮</td>
+                        <td>保存、取消</td>
+                     </tr>
+                     <tr>
+                        <td>cancel</td>
+                        <td>取消按钮位置，可以更换取消按钮</td>
+                        <td>取消</td>
+                     </tr>
+                     <tr>
+                        <td>moreBtn</td>
+                        <td>更多按钮位置，可添加更多按钮，显示在上述按钮前面</td>
+                        <td></td>
+                     </tr>
+                  </table>
+               </div>
+            </el-card>
+            <el-card class="box-card" style="margin-top: 10px;">
+               <div slot="header" class="clearfix">
+                  <span>组件数据</span>
+               </div>
+            </el-card>
+            <el-card class="box-card" style="margin-top: 10px;">
+               <div slot="header" class="clearfix">
+                  <span>组件显示</span>
+               </div>
+               <vx-basic-button :type="Button.type" :label="Button.label" :icon="Button.icon" :btncolor="Button.btncolor" :color="Button.color"
+                  :round="Button.round" :plain="Button.plain" :disabled="Button.disabled" :background="Button.background" @click="visible=!visible">
+               </vx-basic-button>
+               <vx-container-dialog :visible.sync="visible" :refresh.sync="refresh" :autoclose="autoclose" :title="title" :width="width" :url="url" :method="method" :form="form" :rules="rules">
+                  <vx-container-item label="案场名称：" :rule="rules.MallName">
+                     <el-input type="text" v-model="form.MallName"/>
+                  </vx-container-item>
+                  <vx-container-item label="地址：" :rule="rules.Address">
+                     <el-input type="text" v-model="form.Address" width="100px"/>
+                  </vx-container-item>
+                  <vx-container-item label="邮编：" :rule="rules.PostCode">
+                     <el-input type="text" v-model="form.PostCode" />
+                  </vx-container-item>
+               </vx-container-dialog>
+            </el-card>
+            <el-card class="box-card" style="margin-top: 10px;">
+               <div slot="header" class="clearfix title">
+                  <span>组件数据变量（包括输出结果、内部数据等）</span>
+               </div>
+               <div>
+                  <!-- 输出的结果与内部数据 -->
+                  窗口显示/隐藏：visible: {{visible}}
+                  <br/>
+                  点击保存后：refresh={{refresh}}
+                  <br/>
+                  form对象: {{ form }}
+                  <br/>
+                  rules对象: {{ rules }}
+                  <br/>
+               </div>
+            </el-card>
+         </el-col>
+         <el-col :span="8">
+            <el-card class="box-card" style="margin-left: 10px;">
+               <div slot="header" class="clearfix">
+                  <span>自动化测试脚本</span>
+                  <el-button style="float: right; padding: 3px 0" type="text">开始测试</el-button>
+               </div>
+               <textarea style="border-radius: 5px; width: 100%; height: 80%;"></textarea>
+            </el-card>
+         </el-col>
+      </el-row>
+   </div>
+</body>
+<!-- 先引入 Vue -->
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script type="text/javascript" src="scripts/plugins/vuex.js"></script>
+<!-- 引入组件库 -->
+<script type="text/javascript" src="scripts/plugins/elementui.min.js"></script>
+
+<!-- 常用控件库 -->
+<script type="text/javascript" src="scripts/plugins/jquery-2.0.3.min.js"></script>
+<script type="text/javascript" src="scripts/plugins/moment/moment.min.js"></script>
+<script type="text/javascript" src="scripts/plugins/moment/moment.zh-cn.js"></script>
+<script type="text/javascript" src="scripts/plugins/layer/layer.js"></script>
+
+<!-- 自定义JS库 -->
+<script type="text/javascript" src="scripts/common/jquery.ajax.js"></script>
+<script type="text/javascript" src="scripts/common/jquery.form.js"></script>
+<script type="text/javascript" src="scripts/common/languages.cn.js"></script>
+<script type="text/javascript" src="scripts/common/components-init.js"></script>
+<script>
+   vueOptions = {
+      data() {
+         return {
+            Search: "测试条件",
+            PageTitle: "组件开发环境",
+            visible: false,
+            refresh: false,
+            autoclose: true,
+            form: {
+               MallName: "案场名称",
+               Address:"",
+               PostCode:""
+            },
+            title: "信息窗口",
+            width: 580,
+            url: "/DemoService.html",
+            method: "test",
+            rules: { "MallName": { "required": true}, "Address": {"required": true} },
+            Button: {
+               type: "create",
+               btncolor: "primary",
+               round: false,
+               plain: false,
+               disabled: false,
+               background: "",
+               visible: false,
+               label: "",
+               icon: "",
+               color: ""
+            }
+         }
+      },
+      computed: {
+         Rules: {
+            get()  {
+               if(!this.rules) return null;
+               return JSON.stringify(this.rules);
+            },
+            set(val) {
+               try {
+                  if(val) this.rules = JSON.parse(val);
+               }
+               catch(ep) {
+               }
+            }
+         }
+      },
+   }
+</script>
+<style>
+   table {
+      /* width: 100%; */
+      border-collapse: separate;
+      border-spacing: 2;
+   }
+</style>

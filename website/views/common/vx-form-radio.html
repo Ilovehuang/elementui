@@ -1,0 +1,208 @@
+<html>
+
+<head>
+   <meta charset="UTF-8">
+   <base href="../">
+   <meta http-equiv="content-type" content="text/html;charset=utf-8;" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="styles/plugins/elementui.css">
+   <link rel="stylesheet" href="components/css-loader.css">
+   <link rel="stylesheet" href="styles/plugins/font-awesome.css">
+   <link rel="stylesheet" href="styles/style.css">
+
+   <title>组件开发环境</title>
+   <style>
+   </style>
+</head>
+
+<body>
+   <div id="app">
+      <el-row>
+         <el-col :span="16">
+            <el-card class="box-card">
+               <div slot="header" class="clearfix title">
+                  <span><b>单选框显示</b>组件测试条件（包括props、内部条件等）</span>
+               </div>
+               <div>
+                  <table border="1">
+                     <tr>
+                        <td>参数</td>
+                        <td>说明</td>
+                        <td>方向</td>
+                        <td>类型</td>
+                        <td>可选值</td>
+                        <td>默认值</td>
+                     </tr>
+                     <tr>
+                        <td>type</td>
+
+                        <td>常用单选</td>
+                        <td>输入</td>
+                        <td>string</td>
+                        <td>
+                           <select v-model="type">
+                              <option value="">无</option>
+                              <option value="EnabledStatus">EnabledStatus</option>
+                              <option value="Reverse">Reverse</option>
+                              <option value="Visible">Visible</option>
+                           </select>
+                        </td>
+                        <td>false</td>
+                     </tr>
+                     <tr>
+                        <td>disabled</td>
+                        <td>是否禁用状态</td>
+                        <td>输入</td>
+                        <td>boolean</td>
+                        <td>
+                           <el-select v-model="disabled" placeholder="请选择">
+                              <el-option
+                                v-for="item in [{label:'true',value:true},{label:'false',value:false}]"
+                                :key="item.value"
+                                :label="item.label"
+                                :value="item.value">
+                              </el-option>
+                           </el-select>
+                        </td>
+                        <td>false</td>
+                     </tr>
+                     <tr>
+                           <td>radio</td>
+                           <td>单选框</td>
+                           <td>输入</td>
+                           <td>String</td>
+                           <td>
+                              <input type="text" v-model="checkString" placeholder="请输入复选框的value">
+                           </td>
+                           <td>数值</td>
+                        </tr>
+                        <tr>
+                           <td>list</td>
+                           <td>list数据</td>
+                           <td>输入/输出</td>
+                           <td>Array</td>
+                           <td>
+                              <input type="text" v-model="list">
+                           </td>
+                           <td>数组</td>
+                        </tr>
+                  </table>
+                  <h3>添加子选项:</h3>
+                  label:
+                  <input type="text" v-model="label"> value:
+                  <input type="text" v-model="value">
+                  <el-button @click="add()" type="create">添加</el-button>
+               </div>
+            </el-card>
+            <el-card class="box-card" style="margin-top: 10px;">
+               <div slot="header" class="clearfix">
+                  <span>组件显示</span>
+               </div>
+               <vx-form-radio v-if="false"></vx-form-radio>
+               <div :is="componentsName" v-model="result" :list="list" :disabled="disabled" :border="border" :type="type"></div>
+            </el-card>
+            <el-card class="box-card" style="margin-top: 10px;">
+               <div slot="header" class="clearfix title">
+                  <span>组件数据变量（包括输出结果、内部数据等）</span>
+               </div>
+               <div>
+                  <!-- 输出的结果与内部数据 -->
+                  value: {{result}}
+               </div>
+            </el-card>
+         </el-col>
+         <el-col :span="8">
+            <el-card class="box-card" style="margin-left: 10px;">
+               <div slot="header" class="clearfix">
+                  <span>自动化测试脚本</span>
+                  <el-button style="float: right; padding: 3px 0" type="text" @click="exitNew">重载组件</el-button>
+               </div>
+               <textarea style="border-radius: 5px; width: 100%; height: 80%;"></textarea>
+            </el-card>
+         </el-col>
+      </el-row>
+   </div>
+</body>
+<!-- 先引入 Vue -->
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script type="text/javascript" src="scripts/plugins/underscore.min.js"></script>
+<!-- 引入组件库 -->
+<script type="text/javascript" src="scripts/plugins/elementui.min.js"></script>
+
+<!-- 常用控件库 -->
+<script type="text/javascript" src="scripts/plugins/jquery-2.0.3.min.js"></script>
+<script type="text/javascript" src="scripts/plugins/moment/moment.min.js"></script>
+<script type="text/javascript" src="scripts/plugins/moment/moment.zh-cn.js"></script>
+<script type="text/javascript" src="scripts/plugins/layer/layer.js"></script>
+<script type="text/javascript" src="scripts/plugins/datatables/datatables.min.js"></script>
+<script type="text/javascript" src="scripts/plugins/datatables/DT_bootstrap.js"></script>
+<script type="text/javascript" src="scripts/plugins/daterangepicker/daterangepicker.js"></script>
+<script type="text/javascript" src="scripts/plugins/clockpicker/bootstrap-clockpicker.js"></script>
+<!-- 自定义JS库 -->
+<script type="text/javascript" src="scripts/common/languages.cn.js"></script>
+<script type="text/javascript" src="scripts/common/jquery.ajax.js"></script>
+<script type="text/javascript" src="scripts/common/vue.factory.js"></script>
+<script type="text/javascript" src="scripts/common/jquery.form.js"></script>
+<script type="text/javascript" src="scripts/common/jquery.common.js"></script>
+<script type="text/javascript" src="scripts/common/components-init.js"></script>
+<script>
+   vueOptions = {
+      data() {
+         return {
+            componentsName:"vx-form-radio",
+            Search: "测试条件",
+            PageTitle: "组件开发环境",
+            checked: true,
+            disabled: false,
+            label: "",
+            border:true,
+            result: [],
+            value: "",
+            type:"Level",
+            checkString: "", //
+            list: [
+               {
+                  label: 'A',
+                  value: 'A'
+               },
+               {
+                  label: 'B',
+                  value: 'B'
+               }
+            ]
+         }
+      },
+      methods: {
+         add() {
+            this.list.push({
+               value: this.value,
+               label: this.label,
+            })
+            this.value = "";
+            this.label = "";
+         },exitNew(){
+            var temp=this.componentsName
+            this.componentsName="";
+            setTimeout(() => {
+               this.componentsName=temp
+            }, 0);
+
+         }
+      },
+      watch: {
+         checkString() {
+            if (this.checkString)
+               this.result = this.checkString
+            else
+               this.result = [];
+         }
+      },
+   }
+</script>
+<style>
+   table {
+      /* width: 100%; */
+      border-collapse: separate;
+      border-spacing: 2;
+   }
+</style>

@@ -1,0 +1,43 @@
+<template>
+   <vx-form-select :options="List" labelfield="MallName" :placeholder="placeholder" valuefield="Id"  v-model="Value" :label.sync="Label">
+      <vd-company-company operate="load" :autoload="true" :query="Query" method="select" :result.sync="List"></vd-company-company>
+   </vx-form-select>
+</template>
+<script>
+Vue.component("vm-select-company", {
+   template: template,
+   props: [
+      "value", /// 输出的值
+      "label" /// 输出的文字
+   ],
+   data() {
+      return {
+         Query: {},
+         List: [],
+         result: "",
+         // label: "",
+         placeholder: ""
+      };
+   },
+   computed: {
+      Value: {
+         get() {
+            return this.value;
+         },
+         set(val) {
+            this.$emit("input", val);
+            this.$emit("update:label", this.label);
+            this.$Bus.$emit("Select.Mall",{Id:val});
+         }
+      },
+      Label:{
+         get(){
+            return this.label;
+         },
+         set(){
+            this.$emit("update:label", this.label);
+         }
+      }
+   }   
+});
+</script>

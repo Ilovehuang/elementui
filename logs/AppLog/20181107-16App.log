@@ -1,0 +1,4 @@
+[16:02:23.27] [App] <ERROR> 404: Not Found ... /components/css-loader.css (app.js:100)
+[16:02:24.11] [App] <ERROR> 404: Not Found ... /favicon.ico (app.js:100)
+[16:51:47.80] [ServiceLoader] <INFO> 注册服务ComponentService 成功！ (ServiceLoader.js:69)
+[16:51:47.81] [ServiceLoader] <INFO> 注册服务PageService 成功！ (ServiceLoader.js:69)

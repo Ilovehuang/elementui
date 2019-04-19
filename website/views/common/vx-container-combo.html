@@ -1,0 +1,217 @@
+<html>
+
+<head>
+   <meta charset="UTF-8">
+   <base href="../">
+   <meta http-equiv="content-type" content="text/html;charset=utf-8;" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="styles/plugins/elementui.css">
+   <link rel="stylesheet" href="components/css-loader.css">
+   <link rel="stylesheet" href="styles/plugins/font-awesome.css">
+   <link rel="stylesheet" href="styles/style.css">
+
+   <title>组件开发环境</title>
+   <style>
+   </style>
+</head>
+
+<body>
+   <div id="app">
+      <el-row>
+         <el-col :span="16">
+            <el-card class="box-card">
+               <div slot="header" class="clearfix title">
+                  <span>
+                     <b>复合型输入框显示</b>组件测试条件（包括props、内部条件等）</span>
+               </div>
+               <div>
+                  <table border="1">
+                     <tr>
+                        <td>参数</td>
+                        <td>说明</td>
+                        <td>方向</td>
+                        <td>类型</td>
+                        <td>可选值</td>
+                        <td>默认值</td>
+                     </tr>
+                     <tr>
+                        <td>leftvisible</td>
+                        <td>左边div是否显示</td>
+                        <td>输入</td>
+                        <td>boolean</td>
+                        <td>
+                           <el-select v-model="leftvisible" placeholder="请选择">
+                              <el-option
+                                v-for="item in [{label:'true',value:true},{label:'false',value:false}]"
+                                :key="item.value"
+                                :label="item.label"
+                                :value="item.value">
+                              </el-option>
+                           </el-select>
+                        </td>
+                        <td>false</td>
+                     </tr>
+                     <tr>
+                        <td>rightvisible</td>
+                        <td>右边div是否显示</td>
+                        <td>输入</td>
+                        <td>boolean</td>
+                        <td>
+                           <el-select v-model="rightvisible" placeholder="请选择">
+                              <el-option
+                                v-for="item in [{label:'true',value:true},{label:'false',value:false}]"
+                                :key="item.value"
+                                :label="item.label"
+                                :value="item.value">
+                              </el-option>
+                           </el-select>
+                        </td>
+                        <td>false</td>
+                     </tr>
+                     <tr>
+                        <td>leftbackground</td>
+                        <td>左边div背景颜色</td>
+                        <td>输入</td>
+                        <td>string</td>
+                        <td>
+                           <input type="text" v-model="leftbackground" placeholder="请输入十六进制颜色值">
+                        </td>
+                        <td>#f5f7fa</td>
+                     </tr>
+                     <tr>
+                        <td>rightbackground</td>
+                        <td>右边div按钮背景颜色</td>
+                        <td>输入</td>
+                        <td>string</td>
+                        <td>
+                           <input type="text" v-model="rightbackground" placeholder="请输入十六进制颜色值">
+                        </td>
+                        <td>#f5f7fa</td>
+                     </tr>
+                     <tr>
+                        <td>leftwidth</td>
+                        <td>左边div宽度</td>
+                        <td>输入</td>
+                        <td>string</td>
+                        <td>
+                           <input type="text" v-model="leftwidth" placeholder="请输入左边div宽度">
+                        </td>
+                        <td>100px</td>
+                     </tr>
+                     <tr>
+                        <td>rightwidth</td>
+                        <td>右边div宽度</td>
+                        <td>输入</td>
+                        <td>string</td>
+                        <td>
+                           <input type="text" v-model="rightwidth" placeholder="请输入右边div宽度">
+                        </td>
+                        <td>100px</td>
+                     </tr>
+                  </table>
+                  <br>
+                  <table border="1" style="width: 100%;">
+                     <tr>
+                        <td>slot名称</td>
+                        <td>说明</td>
+                        <td>默认值</td>
+                     </tr>
+                     <tr>
+                        <td>leftslot</td>
+                        <td>左边div</td>
+                        <td></td>
+                     </tr>
+                     <tr>
+                        <td>center</td>
+                        <td>中间div</td>
+                        <td></td>
+                     </tr>
+                     <tr>
+                        <td>rightslot</td>
+                        <td>右边div</td>
+                        <td></td>
+                     </tr>
+                  </table>
+               </div>
+            </el-card>
+            <el-card class="box-card" style="margin-top: 10px;">
+               <div slot="header" class="clearfix">
+                  <span>组件显示</span>
+               </div>
+               <div>
+                  <vx-container-combo :leftvisible="leftvisible" :rightvisible="rightvisible" :leftbackground="leftbackground" :rightbackground="rightbackground" :leftwidth="leftwidth" :rightwidth="rightwidth">
+                     <div slot="leftslot"></div>
+                     <div>
+                        <el-input placeholder="请输入内容"></el-input>
+                     </div>
+                     <div slot="rightslot"></div>
+                  </vx-container-combo>
+               </div>
+            </el-card>
+            <el-card class="box-card" style="margin-top: 10px;">
+               <div slot="header" class="clearfix title">
+                  <span>组件数据变量（包括输出结果、内部数据等）</span>
+               </div>
+               <div>
+                  <!-- 输出的结果与内部数据 -->
+                  左边div是否显示{{leftvisible}} <br/>
+                  右边div是否显示{{rightvisible}} <br/>
+                  左边div背景颜色{{leftbackground}} <br/>
+                  右边div背景颜色{{rightbackground}} <br/>
+                  左边div背景颜色{{leftwidth}} <br/>
+                  右边div背景颜色{{rightwidth}} <br/>
+               </div>
+            </el-card>
+         </el-col>
+         <el-col :span="8">
+            <el-card class="box-card" style="margin-left: 10px;">
+               <div slot="header" class="clearfix">
+                  <span>自动化测试脚本</span>
+                  <el-button style="float: right; padding: 3px 0" type="text">开始测试</el-button>
+               </div>
+               <textarea style="border-radius: 5px; width: 100%; height: 80%;"></textarea>
+            </el-card>
+         </el-col>
+      </el-row>
+   </div>
+</body>
+<!-- 先引入 Vue -->
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script type="text/javascript" src="scripts/plugins/vuex.js"></script>
+<!-- 引入组件库 -->
+<script type="text/javascript" src="scripts/plugins/elementui.min.js"></script>
+
+<!-- 常用控件库 -->
+<script type="text/javascript" src="scripts/plugins/jquery-2.0.3.min.js"></script>
+<script type="text/javascript" src="scripts/plugins/moment/moment.min.js"></script>
+<script type="text/javascript" src="scripts/plugins/moment/moment.zh-cn.js"></script>
+
+<!-- 自定义JS库 -->
+<script type="text/javascript" src="scripts/common/jquery.ajax.js"></script>
+<script type="text/javascript" src="scripts/common/components-init.js"></script>
+<script>
+   vueOptions = {
+      data() {
+         return {
+            Search: "测试条件",
+            PageTitle: "组件开发环境",
+            type: "input",
+            value: "",
+            placeholder: "请填写",
+            leftvisible: true,
+            rightvisible: true,
+            leftbackground:"#f5f7fa",
+            rightbackground:"#f5f7fa",
+            leftwidth:100,
+            rightwidth:100
+         }
+      },
+   }
+</script>
+<style>
+   table {
+      /* width: 100%; */
+      border-collapse: separate;
+      border-spacing: 2;
+   }
+</style>

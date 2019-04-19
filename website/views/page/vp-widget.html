@@ -1,0 +1,288 @@
+<html>
+
+<head>
+   <meta charset="UTF-8">
+   <base href="../">
+   <meta http-equiv="content-type" content="text/html;charset=utf-8;" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="styles/plugins/elementui.css">
+   <link rel="stylesheet" href="components/css-loader.css">
+   <link rel="stylesheet" href="styles/plugins/font-awesome.css">
+   <link rel="stylesheet" href="styles/style.css">
+
+   <title>组件开发环境</title>
+   <style>
+   </style>
+</head>
+
+<body>
+   <div id="app">
+      <el-row>
+         <el-col :span="16">
+            <el-card class="box-card">
+               <div slot="header" class="clearfix title">
+                  <span><b>Widget测试</b>：组件测试条件（包括props、内部条件等）</span>
+               </div>
+               <div>
+                  <table border="1">
+                     <tr>
+                        <td>参数</td>
+                        <td>方向</td>
+                        <td>说明</td>
+                        <td>类型</td>
+                        <td>可选值</td>
+                        <td>默认值</td>
+                     </tr>
+                     <tr>
+                        <td>events</td>
+                        <td>类型</td>
+                        <td>输入</td>
+                        <td>array</td>
+                        <td>
+                        </td>
+                        <td></td>
+                     </tr>
+                     <tr>
+                        <td>url</td>
+                        <td>服务地址</td>
+                        <td>输入</td>
+                        <td>string</td>
+                        <td>
+                           <input type="text" v-model="url" placeholder="请输入服务地址">
+                        </td>
+                        <td>{{url}}</td>
+                     </tr>
+                     <tr>
+                        <td>query</td>
+                        <td>查询参数定义</td>
+                        <td>输入</td>
+                        <td>object</td>
+                        <td>
+                        </td>
+                        <td></td>
+                     </tr>
+                     <tr>
+                        <td>options</td>
+                        <td>显示参数定义</td>
+                        <td>输入</td>
+                        <td>object</td>
+                        <td>
+                        </td>
+                        <td></td>
+                     </tr>
+                     <tr>
+                        <td>method</td>
+                        <td>显示方法</td>
+                        <td>输入</td>
+                        <td>string</td>
+                        <td>
+                           <input type="text" v-model="method" placeholder="请输入显示方法（必须要有这个JS方法）">
+                        </td>
+                        <td></td>
+                     </tr>
+                  </table>
+               </div>
+            </el-card>
+            <el-card class="box-card" style="margin-top: 10px;">
+               <div slot="header" class="clearfix">
+                  <span>组件显示</span>
+               </div>
+               <el-row>
+                  <el-col :span="2">
+                     <vx-basic-button label="换指标" :icon="Button.icon" :btncolor="Button.btncolor" :color="Button.color" :round="Button.round" :plain="Button.plain"
+                        :background="Button.background" :buttonname="Button.buttonname" :buttonicon="Button.buttonicon" @click="Click1">
+                     </vx-basic-button>
+                  </el-col>
+                  <el-col :span="2">
+                     <vx-basic-button label="换颗粒度" :icon="Button.icon" :btncolor="Button.btncolor" :color="Button.color" :round="Button.round" :plain="Button.plain"
+                        :background="Button.background" :buttonname="Button.buttonname" :buttonicon="Button.buttonicon" @click="Click2">
+                     </vx-basic-button>
+                  </el-col>
+               </el-row>
+               <br/>
+               <br/>
+               <vp-widget :events="Widget.Events" :url="url" :method="method" :query.sync="Widget.Query" :options.sync="Widget.Options" shadow="never" style="height: 500px">
+               </vp-widget>
+            </el-card>
+            <el-card class="box-card" style="margin-top: 10px;">
+               <div slot="header" class="clearfix title">
+                  <span>图表流程定义</span>
+               </div>
+               <div style="float: left">
+                  <!-- 输出的结果与内部数据 -->
+                  <pre>
+   默认为：标准统计报表数据输出（流程为空）
+   自定义流程：报表数据输出后的数据处理
+
+   ProcessList [{
+      Name: "服务名",  /// 必须，服务名称
+      op: "接口名",  /// 必须，服务接口名称
+      Step: "",  /// 可选，流程步骤名称，用于匹配前面服务结果的分支选择
+      QueryFields: [], /// 可选，请求服务时可选的参数，默认全部
+      ResultFields: [], /// 可选，请求服务时可选的参数，默认全部
+      NextStep: "" 可选，为下一流程指定步骤名称，不指定则执行流程下一步
+   }]
+                  </pre>
+               </div>
+            </el-card>
+            <el-card class="box-card" style="margin-top: 10px;">
+               <div slot="header" class="clearfix title">
+                  <span>组件数据变量（包括输出结果、内部数据等）</span>
+               </div>
+               <div>
+                  <!-- 输出的结果与内部数据 -->
+                  Widget: {{Widget}}
+               </div>
+            </el-card>
+         </el-col>
+         <el-col :span="8">
+            <el-card class="box-card" style="margin-left: 10px;">
+               <div slot="header" class="clearfix">
+                  <span>自动化测试脚本</span>
+                  <el-button style="float: right; padding: 3px 0" type="text" @click="runTest">开始测试</el-button>
+               </div>
+               <el-input type="textarea" rows="30" v-model="TestCode" style="border-radius: 5px; width: 100%; height: 80%;"></el-input>
+            </el-card>
+         </el-col>
+      </el-row>
+   </div>
+</body>
+<!-- 先引入 Vue -->
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script type="text/javascript" src="scripts/plugins/vuex.js"></script>
+<!-- 引入组件库 -->
+<script type="text/javascript" src="scripts/plugins/elementui.min.js"></script>
+<!-- 常用控件库 -->
+<script type="text/javascript" src="scripts/plugins/pubsub.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.9.1/underscore-min.js"></script>
+<script type="text/javascript" src="scripts/plugins/jquery-2.0.3.min.js"></script>
+<script type="text/javascript" src="scripts/plugins/moment/moment.min.js"></script>
+<script type="text/javascript" src="scripts/plugins/moment/moment.zh-cn.js"></script>
+<script type="text/javascript" src="scripts/plugins/heatmap-2.0.2.min.js"></script>
+<script type="text/javascript" src="scripts/plugins/echarts.min.js"></script>
+
+<!-- 自定义JS库 -->
+<script type="text/javascript" src="scripts/common/jquery.ajax.js"></script>
+<script type="text/javascript" src="scripts/common/widget.methods.js"></script>
+
+
+<script type="text/javascript" src="scripts/common/languages.cn.js"></script>
+<script type="text/javascript" src="scripts/common/components-init.js"></script>
+<script>
+   vueOptions = {
+      data() {
+         return {
+            Search: "测试条件",
+            PageTitle: "组件开发环境",
+            url: "/ChartService.html?op=processControl",
+            method: "ShowEchart",
+            Widget: {
+               Events: ["PageLoad", "PageTest"],
+               Query: {},
+               Options: {}
+            },
+            Button: {
+               type: "create",
+               btncolor: "",
+               round: false,
+               plain: false,
+               disabled: false,
+               background: "",
+               visible: false,
+               label: "",
+               icon: "",
+               color: "",
+               buttonname:"",
+               buttonicon:""
+            },
+            WidgetInfo: {
+              "Query": {
+                "DataFields": [
+                  "Prefix_Enter",
+                  "Prefix_Exit"
+                ],
+                "Locations": {
+                  "CompanyId": "4ccc681f4eac4cff97f27b6da03fd612",
+                  "MallIds": [
+                    "3a47393d1912485d816f587542153b8d"
+                  ]
+                },
+                "Times": {
+                  "StartTime": "2018-08-01 00:00:00",
+                  "EndTime": "2018-08-31 23:59:59"
+                },
+                "GroupBy": {
+                  "Period": "0",
+                  "Domain": "All"
+                },
+                "Prefix": "Zone"
+              },
+              "Result": {
+                 "Report": [
+                   {
+                     "DomainLabel": "All",
+                     "RowCount": 2,
+                     "TimeLabel": "2018-08-01",
+                     "DomainId": "All",
+                     "Zone_Enter": 112,
+                     "Zone_Exit": 102
+                   },
+                   {
+                     "DomainLabel": "All",
+                     "RowCount": 2,
+                     "TimeLabel": "2018-08-02",
+                     "DomainId": "All",
+                     "Zone_Enter": 148,
+                     "Zone_Exit": 0
+                   }
+                 ]
+               },
+              "Options": {
+                	"SeriesType": {
+                    	"Type": "TimeLabel"
+                   },
+                   "XAxisType":{
+                   	 "TimeFormat":"YYYY-MM-DD HH:mm:ss"
+                   },
+
+                   "Code":"aaa"
+               },
+               "IndexFields":["Zone_Exit"]
+            },
+            TestCode: ''
+         }
+      },
+      created() {
+         this.TestCode = JSON.stringify(this.WidgetInfo, null, 2);
+      },
+      methods: {
+         runTest() {
+            var jsonCode = {};
+            try {
+               jsonCode = JSON.parse(this.TestCode);
+            }
+            catch(ep){
+               console.error(ep);
+               alert("JSON转换出现错误， 请查看Console");
+               return;
+            }
+
+            this.Widget.Query = jsonCode.Query;
+            this.Widget.Options = jsonCode.Options;
+            this.$Bus.$emit("Widget.PageTest", jsonCode);
+            /// this.$Bus.$emit("Widget.PageLoad", this.Widget.Query, this.Widget.Options);
+         },
+         Click1() {
+            //this.Widget.Query.DataFields = ["Mall_Enter", "Mall_Exit"];
+            this.$Bus.$emit("Widget.PageLoad", { DataFields: ["Mall_Enter"]})
+         }
+      }
+   }
+</script>
+<style>
+   table {
+      /* width: 100%; */
+      border-collapse: separate;
+      border-spacing: 2;
+   }
+</style>

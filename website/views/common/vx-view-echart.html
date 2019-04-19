@@ -1,0 +1,221 @@
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <base href="../">
+   <meta http-equiv="content-type" content="text/html;charset=utf-8;" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="styles/plugins/elementui.css">
+   <link rel="stylesheet" href="components/css-loader.css">
+   <link rel="stylesheet" href="styles/plugins/font-awesome.css">
+   <link rel="stylesheet" href="styles/style.css">
+
+   <title>组件开发环境</title>
+   <style>
+   </style>
+</head>
+
+<body>
+   <div id="app">
+      <el-row>
+         <el-col :span="16">
+            <el-card class="box-card">
+               <div slot="header" class="clearfix title">
+                  <span>
+                     <b>chart 数据显示</b>：组件测试条件（包括props、内部条件等）</span>
+               </div>
+               <div>
+                  <table border="1">
+                     <tr>
+                        <td>参数</td>
+                        <td>说明</td>
+                        <td>类型</td>
+                        <td>可选值</td>
+                        <td>默认值</td>
+                     </tr>
+                     <tr>
+                        <td>options</td>
+                        <td>查询数据条件</td>
+                        <td>Object</td>
+                        <td>
+                           <el-button @click="pie">饼图 显示 </el-button>
+                           <el-button @click="line">折线 显示 </el-button>
+                           <el-button @click="bar">柱状 显示 </el-button>
+                        </td>
+                        <td></td>
+                     </tr>
+                  </table>
+               </div>
+            </el-card>
+            <el-card class="box-card" style="margin-top: 10px;">
+               <slot>
+                  <div slot="header" class="clearfix">
+                     <span>组件显示</span>
+                  </div>
+               </slot>
+               <div style="width: 100%;height: 400px;">
+                  <vx-view-echart :options.aync="options"></vx-view-echart>
+               </div>
+            </el-card>
+            <el-card class=" box-card " style="margin-top: 10px; ">
+               <div slot="header " class="clearfix title ">
+                  <span>组件数据变量（包括输出结果、内部数据等）</span>
+               </div>
+               <div>
+                  <!-- 输出的结果与内部数据 -->
+               </div>
+            </el-card>
+         </el-col>
+         <el-col :span="8 ">
+            <el-card class="box-card " style="margin-left: 10px; ">
+               <div slot="header " class="clearfix ">
+                  <span>自动化测试脚本</span>
+                  <el-button style="float: right; padding: 3px 0 " type="text ">开始测试</el-button>
+               </div>
+               <textarea style="border-radius: 5px; width: 100%; height: 80%; "></textarea>
+            </el-card>
+         </el-col>
+      </el-row>
+   </div>
+</body>
+
+<script type="text/javascript " src="scripts/plugins/echarts.js "></script>
+<!-- 先引入 Vue -->
+<script type="text/javascript " src="scripts/plugins/vue.js "></script>
+<script type="text/javascript " src="scripts/plugins/vuex.js "></script>
+<!-- 引入组件库 -->
+<script type="text/javascript " src="scripts/plugins/elementui.min.js "></script>
+<!-- 常用控件库 -->
+<script type="text/javascript " src="scripts/plugins/jquery-2.0.3.min.js "></script>
+<script type="text/javascript " src="scripts/plugins/moment/moment.min.js "></script>
+<script type="text/javascript " src="scripts/plugins/moment/moment.zh-cn.js "></script>
+
+<!-- 自定义JS库 -->
+<script type="text/javascript " src="scripts/common/jquery.ajax.js "></script>
+<script type="text/javascript " src="scripts/common/components-init.js "></script>
+<script>
+   vueOptions = {
+      data() {
+         return {
+            Search: "测试条件 ",
+            PageTitle: "组件开发环境 ",
+            options: {}, /// Chart 图显示配置
+            // 下面是假数据
+            chartline: {
+               xAxis: {
+                  type: 'category',
+                  data: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun']
+               },
+               yAxis: {
+                  type: 'value'
+               },
+               series: [{
+                  data: [820, 932, 901, 934, 1290, 1330, 1320],
+                  type: 'line'
+               }]
+            },
+            Chartbar: {
+               color: ['#3398DB'],
+               tooltip: {
+                  trigger: 'axis',
+                  axisPointer: {            // 坐标轴指示器，坐标轴触发有效
+                     type: 'shadow'        // 默认为直线，可选为：'line' | 'shadow'
+                  }
+               },
+               grid: {
+                  left: '3%',
+                  right: '4%',
+                  bottom: '3%',
+                  containLabel: true
+               },
+               xAxis: [
+                  {
+                     type: 'category',
+                     data: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'],
+                     axisTick: {
+                        alignWithLabel: true
+                     }
+                  }
+               ],
+               yAxis: [
+                  {
+                     type: 'value'
+                  }
+               ],
+               series: [
+                  {
+                     name: '直接访问',
+                     type: 'bar',
+                     barWidth: '60%',
+                     data: [10, 52, 200, 334, 390, 330, 220]
+                  }
+               ]
+            },
+            chartpie: {
+               tooltip: {
+                  trigger: 'item',
+                  formatter: "{a} <br/>{b}: {c} ({d}%)"
+               },
+               legend: {
+                  orient: 'vertical',
+                  x: 'left',
+                  data: ['直接访问', '邮件营销', '联盟广告', '视频广告', '搜索引擎']
+               },
+               series: [
+                  {
+                     name: '访问来源',
+                     type: 'pie',
+                     radius: ['50%', '70%'],
+                     avoidLabelOverlap: false,
+                     label: {
+                        normal: {
+                           show: false,
+                           position: 'center'
+                        },
+                        emphasis: {
+                           show: true,
+                           textStyle: {
+                              fontSize: '30',
+                              fontWeight: 'bold'
+                           }
+                        }
+                     },
+                     labelLine: {
+                        normal: {
+                           show: false
+                        }
+                     },
+                     data: [
+                        { value: 335, name: '直接访问' },
+                        { value: 310, name: '邮件营销' },
+                        { value: 234, name: '联盟广告' },
+                        { value: 135, name: '视频广告' },
+                        { value: 1548, name: '搜索引擎' }
+                     ]
+                  }
+               ]
+            }
+         }
+      },
+      methods: {
+         pie() {
+            this.options = this.chartpie;
+         },
+         line() {
+            this.options = this.chartline;
+         },
+         bar() {
+            this.options = this.Chartbar;
+         }
+      }
+   }
+</script>
+<style>
+   table {
+      /* width: 100%; */
+      border-collapse: separate;
+      border-spacing: 2;
+   }
+</style>
+
+</html>

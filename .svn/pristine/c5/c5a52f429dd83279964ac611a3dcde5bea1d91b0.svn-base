@@ -1,0 +1,12 @@
+root = true #该配置所在路径下所有文件以及目录使用此配置
+
+[*] #此区块配置适用所有文件
+charset = utf-8 #文件编码格式
+indent_style = space #tab键使用空格填充
+indent_size = 3 #tab键大小为三个空格
+end_of_line = crlf #使用Unix风格换行
+insert_final_newline = true #文件结尾插入一行空行
+trim_trailing_whitespace = true #清除每行结尾多余空格
+
+[*.json] #此区块配置为 json 文件补充规则
+indent_size = 3 #tab键大小为四个空格

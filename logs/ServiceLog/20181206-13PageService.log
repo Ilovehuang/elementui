@@ -1,0 +1,24 @@
+[13:38:17.78] [PageService] <ERROR> ReferenceError: LoaderDict is not defined
+    at eval (eval at loadComponent (C:\Users\INTFORCE170914-1\Documents\项目开发\智慧商业4.0\00_组件开发环境\plugins\ComponentService\PageService.plugin.js:172:19), <anonymous>:1:74)
+    at eval (eval at loadComponent (C:\Users\INTFORCE170914-1\Documents\项目开发\智慧商业4.0\00_组件开发环境\plugins\ComponentService\PageService.plugin.js:172:19), <anonymous>:1:153)
+    at loadComponent (C:\Users\INTFORCE170914-1\Documents\项目开发\智慧商业4.0\00_组件开发环境\plugins\ComponentService\PageService.plugin.js:172:19)
+    at loadTags (C:\Users\INTFORCE170914-1\Documents\项目开发\智慧商业4.0\00_组件开发环境\plugins\ComponentService\PageService.plugin.js:126:19)
+    at iService.op_loadTags (C:\Users\INTFORCE170914-1\Documents\项目开发\智慧商业4.0\00_组件开发环境\plugins\ComponentService\PageService.plugin.js:102:7)
+    at async.auto.RunService (C:\Users\INTFORCE170914-1\Documents\项目开发\智慧商业4.0\00_组件开发环境\plugins\ServiceLoader.js:126:56)
+    at runTask (C:\Users\INTFORCE170914-1\Documents\项目开发\智慧商业4.0\00_组件开发环境\node_modules\async\dist\async.js:1632:13)
+    at C:\Users\INTFORCE170914-1\Documents\项目开发\智慧商业4.0\00_组件开发环境\node_modules\async\dist\async.js:1572:13
+    at processQueue (C:\Users\INTFORCE170914-1\Documents\项目开发\智慧商业4.0\00_组件开发环境\node_modules\async\dist\async.js:1582:13)
+    at taskComplete (C:\Users\INTFORCE170914-1\Documents\项目开发\智慧商业4.0\00_组件开发环境\node_modules\async\dist\async.js:1601:9) (PageService.plugin.js:182)
+[13:38:17.78] [PageService] <ERROR> {props:{location:{"default":"end"},content:{"default":LoaderDict.Status.NotChoose}},data:function(){return{LoaderDict:LoaderDict}}} (PageService.plugin.js:183)
+[13:47:11.14] [PageService] <ERROR> ReferenceError: LoaderDict is not defined
+    at eval (eval at loadComponent (C:\Users\INTFORCE170914-1\Documents\项目开发\智慧商业4.0\00_组件开发环境\plugins\ComponentService\PageService.plugin.js:172:19), <anonymous>:1:75)
+    at eval (eval at loadComponent (C:\Users\INTFORCE170914-1\Documents\项目开发\智慧商业4.0\00_组件开发环境\plugins\ComponentService\PageService.plugin.js:172:19), <anonymous>:1:154)
+    at loadComponent (C:\Users\INTFORCE170914-1\Documents\项目开发\智慧商业4.0\00_组件开发环境\plugins\ComponentService\PageService.plugin.js:172:19)
+    at loadTags (C:\Users\INTFORCE170914-1\Documents\项目开发\智慧商业4.0\00_组件开发环境\plugins\ComponentService\PageService.plugin.js:126:19)
+    at iService.op_loadTags (C:\Users\INTFORCE170914-1\Documents\项目开发\智慧商业4.0\00_组件开发环境\plugins\ComponentService\PageService.plugin.js:102:7)
+    at async.auto.RunService (C:\Users\INTFORCE170914-1\Documents\项目开发\智慧商业4.0\00_组件开发环境\plugins\ServiceLoader.js:126:56)
+    at runTask (C:\Users\INTFORCE170914-1\Documents\项目开发\智慧商业4.0\00_组件开发环境\node_modules\async\dist\async.js:1632:13)
+    at C:\Users\INTFORCE170914-1\Documents\项目开发\智慧商业4.0\00_组件开发环境\node_modules\async\dist\async.js:1572:13
+    at processQueue (C:\Users\INTFORCE170914-1\Documents\项目开发\智慧商业4.0\00_组件开发环境\node_modules\async\dist\async.js:1582:13)
+    at taskComplete (C:\Users\INTFORCE170914-1\Documents\项目开发\智慧商业4.0\00_组件开发环境\node_modules\async\dist\async.js:1601:9) (PageService.plugin.js:182)
+[13:47:11.15] [PageService] <ERROR> {props:{placement:{"default":"top"},content:{"default":LoaderDict.Status.NotChoose}},data:function(){return{LoaderDict:LoaderDict}}} (PageService.plugin.js:183)

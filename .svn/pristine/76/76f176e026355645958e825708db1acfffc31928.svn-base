@@ -1,0 +1,148 @@
+<html>
+
+<head>
+   <meta charset="UTF-8">
+   <base href="../">
+   <meta http-equiv="content-type" content="text/html;charset=utf-8;" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="styles/plugins/elementui.css">
+   <link rel="stylesheet" href="styles/plugins/font-awesome.css">
+   <link rel="stylesheet" href="styles/style.css">
+   <title>组件开发环境</title>
+   <style>
+   </style>
+</head>
+
+<body>
+   <div id="app">
+      <el-row>
+         <el-col :span="16">
+            <el-card class="box-card" style="margin-top: 10px;">
+               <div slot="header" class="clearfix title">
+                  <span>
+                     <b>热力图显示</b>：组件测试条件（包括props、内部条件等）</span>
+               </div>
+               <div>
+                  <table border="1" style="width: 100%;">
+                     <tr>
+                        <td>参数</td>
+                        <td>方向</td>
+                        <td>说明</td>
+                        <td>类型</td>
+                        <td>可选值</td>
+                        <td>默认值</td>
+                     </tr>
+                  </table>
+               </div>
+            </el-card>
+            <el-card class="box-card" style="margin-top: 10px;">
+               <div slot="header" class="clearfix">
+                  <span>组件显示</span>
+               </div>
+               <div :is="componentsName" operate="load"   :result.sync="List">
+               </div>
+            </el-card>
+            <el-card class="box-card" style="margin-top: 10px;">
+               <div slot="header" class="clearfix title">
+                  <span>组件数据变量（包括输出结果、内部数据等）</span>
+               </div>
+               <div>
+                  <!-- 输出的结果与内部数据 -->
+                  <template v-if="List.length">{{List}}</template>
+                  <template v-else>无</template>
+
+
+               </div>
+            </el-card>
+         </el-col>
+         <el-col :span="8">
+            <el-card class="box-card" style="margin-left: 10px;">
+               <div slot="header" class="clearfix">
+                  <span>自动化测试脚本</span>
+                  <select v-model="components">
+                     <option v-for="item in optionList" :value="item">{{item}}</option>
+                  </select>
+                  <el-button style="float: right; padding: 3px 0" type="text" @click="exitNew">重载组件</el-button>
+               </div>
+               <textarea style="border-radius: 5px; width: 100%; height: 80%;"></textarea>
+            </el-card>
+         </el-col>
+      </el-row>
+   </div>
+</body>
+<!-- 先引入 Vue -->
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script type="text/javascript" src="scripts/plugins/vuex.js"></script>
+<!-- 引入组件库 -->
+<script type="text/javascript" src="scripts/plugins/elementui.min.js"></script>
+
+<!-- 常用控件库 -->
+<script type="text/javascript" src="scripts/plugins/jquery-2.0.3.min.js"></script>
+<script type="text/javascript" src="scripts/plugins/moment/moment.min.js"></script>
+<script type="text/javascript" src="scripts/plugins/moment/moment.zh-cn.js"></script>
+<script type="text/javascript" src="scripts/plugins/layer/layer.js"></script>
+<script type="text/javascript" src="scripts/plugins/heatmap-2.0.2.min.js"></script>
+
+<!-- 自定义JS库 -->
+<script type="text/javascript" src="scripts/common/jquery.ajax.js"></script>
+<script type="text/javascript" src="scripts/common/jquery.form.js"></script>
+<script type="text/javascript" src="scripts/common/vue.factory.js"></script>
+
+<script type="text/javascript" src="scripts/common/components-init.js"></script>
+<script>
+   vueOptions = {
+      data() {
+         return {
+            componentsName:"",
+            optionList:["vd-company-activity","vd-company-businesstime","vd-system-category","vd-company-company","vd-bd-componentslist","vd-bd-datadetail","vd-company-device",
+                        "vd-bd-fencezone","vd-company-holiday","vd-system-location","vd-company-mall","vd-log-mallupdate","vd-system-menu","vd-company-physicalzone","vd-system-role",
+                     "vd-bd-servicelist","vd-company-tag","vd-system-user","vd-system-usergroup","vd-log-weather","vd-log-zoneupdate","vd-report-chartoption","vd-report-chartstyle",
+                   "vd-report-conditionoption","vd-report-indexoption","vd-report-reportmenu","vd-report-reportpage"],
+            components:"",
+            List:[]
+         }
+      },
+      created() {
+      },
+      watch:{
+         components(){
+            this.checkLoadTags(this.components)
+         }
+      },
+      computed: {
+      },
+      methods: {
+         checkLoadTags(Name){
+            var load={};
+            var me = this;
+            load[Name+".vue"]=""
+            checkLoadTags(load,function(){
+               setTimeout(() => {
+                  me.componentsName=Name
+               }, 1);
+            })
+         },
+         exitNew(){
+            var temp = this.componentsName
+            this.componentsName="";
+            var me=this;
+            setTimeout(() => {
+               var load={}
+               load[temp+".vue"]=""
+               checkLoadTags(load,function(){
+                  setTimeout(() => {
+                     me.componentsName=temp
+                  }, 1);
+               })
+            }, 0);
+         }
+      }
+   }
+</script>
+<style>
+   table {
+      /* width: 100%; */
+      border-collapse: separate;
+      border-spacing: 2;
+   }
+</style>

@@ -1,0 +1,132 @@
+[14:12:48.17] [ComponentService] <INFO> 正在加载： vx-basic-demo.vue文件 (ComponentService.plugin.js:54)
+[14:12:48.23] [ComponentService] <INFO> 正在加载： vd-bd-cloumn.vue文件 (ComponentService.plugin.js:54)
+[14:12:48.24] [ComponentService] <INFO> 正在加载： vd-bd-company.vue文件 (ComponentService.plugin.js:54)
+[14:12:48.24] [ComponentService] <INFO> 正在加载： vd-bd-device.vue文件 (ComponentService.plugin.js:54)
+[14:12:48.24] [ComponentService] <INFO> 正在加载： vd-bd-devicezone.vue文件 (ComponentService.plugin.js:54)
+[14:12:48.25] [ComponentService] <INFO> 正在加载： vd-bd-duration.vue文件 (ComponentService.plugin.js:54)
+[14:12:48.25] [ComponentService] <INFO> 正在加载： vd-bd-fencezone.vue文件 (ComponentService.plugin.js:54)
+[14:12:48.27] [ComponentService] <INFO> 正在加载： vd-bd-online.vue文件 (ComponentService.plugin.js:54)
+[14:12:48.27] [ComponentService] <INFO> 正在加载： vd-bd-onlineuser.vue文件 (ComponentService.plugin.js:54)
+[14:12:48.28] [ComponentService] <INFO> 正在加载： vd-bd-physicallinkeddevice.vue文件 (ComponentService.plugin.js:54)
+[14:12:48.29] [ComponentService] <INFO> 正在加载： vd-bd-physicalzone.vue文件 (ComponentService.plugin.js:54)
+[14:12:48.29] [ComponentService] <INFO> 正在加载： vd-bd-report.vue文件 (ComponentService.plugin.js:54)
+[14:12:48.29] [ComponentService] <INFO> 正在加载： vd-bd-table.vue文件 (ComponentService.plugin.js:54)
+[14:12:48.26] [ComponentService] <INFO> 正在加载： vd-bd-location.vue文件 (ComponentService.plugin.js:54)
+[14:12:48.26] [ComponentService] <INFO> 正在加载： vd-bd-mall.vue文件 (ComponentService.plugin.js:54)
+[14:12:48.28] [ComponentService] <INFO> 正在加载： vd-bd-physicalunlinkeddevice.vue文件 (ComponentService.plugin.js:54)
+[14:29:03.52] [ComponentService] <INFO> 正在加载： vd-bd-cloumn.vue文件 (ComponentService.plugin.js:54)
+[15:17:59.12] [ComponentService] <ERROR> { Tags: [ 'vx-basic-button.vue' ] } { Error: connect ECONNREFUSED 192.168.20.34:8040
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.20.34',
+  port: 8040 } (ComponentService.plugin.js:368)
+[15:17:59.13] [ComponentService] <ERROR> { Error: connect ECONNREFUSED 192.168.20.34:8040
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.20.34',
+  port: 8040 } (ComponentService.plugin.js:282)
+[15:19:52.84] [ComponentService] <ERROR> { Tags: [ 'vx-basic-button.vue' ] } { Error: connect ECONNREFUSED 192.168.20.34:8040
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.20.34',
+  port: 8040 } (ComponentService.plugin.js:368)
+[15:19:52.84] [ComponentService] <ERROR> { Error: connect ECONNREFUSED 192.168.20.34:8040
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.20.34',
+  port: 8040 } (ComponentService.plugin.js:282)
+[15:20:00.57] [ComponentService] <INFO> 正在加载： vx-basic-demo.vue文件 (ComponentService.plugin.js:54)
+[15:20:00.64] [ComponentService] <INFO> 正在加载： vb-form-company.vue文件 (ComponentService.plugin.js:54)
+[15:20:00.65] [ComponentService] <INFO> 正在加载： vb-form-companyindex.vue文件 (ComponentService.plugin.js:54)
+[15:20:00.65] [ComponentService] <INFO> 正在加载： vb-grid-mall.vue文件 (ComponentService.plugin.js:54)
+[15:20:00.65] [ComponentService] <INFO> 正在加载： vd-bd-cloumn.vue文件 (ComponentService.plugin.js:54)
+[15:20:00.66] [ComponentService] <INFO> 正在加载： vd-bd-company.vue文件 (ComponentService.plugin.js:54)
+[15:20:00.66] [ComponentService] <INFO> 正在加载： vd-bd-device.vue文件 (ComponentService.plugin.js:54)
+[15:20:00.67] [ComponentService] <INFO> 正在加载： vd-bd-devicezone.vue文件 (ComponentService.plugin.js:54)
+[15:20:00.67] [ComponentService] <INFO> 正在加载： vd-bd-duration.vue文件 (ComponentService.plugin.js:54)
+[15:20:00.67] [ComponentService] <INFO> 正在加载： vd-bd-fencezone.vue文件 (ComponentService.plugin.js:54)
+[15:20:00.68] [ComponentService] <INFO> 正在加载： vd-bd-location.vue文件 (ComponentService.plugin.js:54)
+[15:20:00.69] [ComponentService] <INFO> 正在加载： vd-bd-mall.vue文件 (ComponentService.plugin.js:54)
+[15:20:00.69] [ComponentService] <INFO> 正在加载： vd-bd-online.vue文件 (ComponentService.plugin.js:54)
+[15:20:00.70] [ComponentService] <INFO> 正在加载： vd-bd-onlineuser.vue文件 (ComponentService.plugin.js:54)
+[15:20:00.70] [ComponentService] <INFO> 正在加载： vd-bd-physicallinkeddevice.vue文件 (ComponentService.plugin.js:54)
+[15:20:00.70] [ComponentService] <INFO> 正在加载： vd-bd-physicalunlinkeddevice.vue文件 (ComponentService.plugin.js:54)
+[15:20:00.71] [ComponentService] <INFO> 正在加载： vd-bd-physicalzone.vue文件 (ComponentService.plugin.js:54)
+[15:20:00.71] [ComponentService] <INFO> 正在加载： vd-bd-report.vue文件 (ComponentService.plugin.js:54)
+[15:20:00.71] [ComponentService] <INFO> 正在加载： vd-bd-table.vue文件 (ComponentService.plugin.js:54)
+[15:20:05.74] [ComponentService] <ERROR> { Tags: [ 'vx-basic-button.vue' ] } { Error: connect ECONNREFUSED 192.168.20.34:8040
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.20.34',
+  port: 8040 } (ComponentService.plugin.js:368)
+[15:20:05.75] [ComponentService] <ERROR> { Error: connect ECONNREFUSED 192.168.20.34:8040
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.20.34',
+  port: 8040 } (ComponentService.plugin.js:282)
+[15:20:46.81] [ComponentService] <INFO> 正在加载： vx-basic-demo.vue文件 (ComponentService.plugin.js:54)
+[15:20:46.86] [ComponentService] <INFO> 正在加载： vb-form-company.vue文件 (ComponentService.plugin.js:54)
+[15:20:46.87] [ComponentService] <INFO> 正在加载： vb-form-companyindex.vue文件 (ComponentService.plugin.js:54)
+[15:20:46.88] [ComponentService] <INFO> 正在加载： vb-grid-mall.vue文件 (ComponentService.plugin.js:54)
+[15:20:46.88] [ComponentService] <INFO> 正在加载： vd-bd-cloumn.vue文件 (ComponentService.plugin.js:54)
+[15:20:46.89] [ComponentService] <INFO> 正在加载： vd-bd-company.vue文件 (ComponentService.plugin.js:54)
+[15:20:46.89] [ComponentService] <INFO> 正在加载： vd-bd-device.vue文件 (ComponentService.plugin.js:54)
+[15:20:46.90] [ComponentService] <INFO> 正在加载： vd-bd-devicezone.vue文件 (ComponentService.plugin.js:54)
+[15:20:46.90] [ComponentService] <INFO> 正在加载： vd-bd-duration.vue文件 (ComponentService.plugin.js:54)
+[15:20:46.91] [ComponentService] <INFO> 正在加载： vd-bd-fencezone.vue文件 (ComponentService.plugin.js:54)
+[15:20:46.91] [ComponentService] <INFO> 正在加载： vd-bd-location.vue文件 (ComponentService.plugin.js:54)
+[15:20:46.92] [ComponentService] <INFO> 正在加载： vd-bd-mall.vue文件 (ComponentService.plugin.js:54)
+[15:20:46.92] [ComponentService] <INFO> 正在加载： vd-bd-online.vue文件 (ComponentService.plugin.js:54)
+[15:20:46.93] [ComponentService] <INFO> 正在加载： vd-bd-onlineuser.vue文件 (ComponentService.plugin.js:54)
+[15:20:46.93] [ComponentService] <INFO> 正在加载： vd-bd-physicallinkeddevice.vue文件 (ComponentService.plugin.js:54)
+[15:20:46.94] [ComponentService] <INFO> 正在加载： vd-bd-physicalunlinkeddevice.vue文件 (ComponentService.plugin.js:54)
+[15:20:46.94] [ComponentService] <INFO> 正在加载： vd-bd-physicalzone.vue文件 (ComponentService.plugin.js:54)
+[15:20:46.94] [ComponentService] <INFO> 正在加载： vd-bd-report.vue文件 (ComponentService.plugin.js:54)
+[15:20:46.95] [ComponentService] <INFO> 正在加载： vd-bd-table.vue文件 (ComponentService.plugin.js:54)
+[15:47:44.25] [ComponentService] <ERROR> { Tags: [ 'vx-basic-button.vue' ] } { Error: connect ECONNREFUSED 192.168.20.34:8040
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.20.34',
+  port: 8040 } (ComponentService.plugin.js:368)
+[15:47:44.26] [ComponentService] <ERROR> { Error: connect ECONNREFUSED 192.168.20.34:8040
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.20.34',
+  port: 8040 } (ComponentService.plugin.js:282)
+[16:01:47.38] [ComponentService] <INFO> 正在加载： vb-form-company.vue文件 (ComponentService.plugin.js:54)
+[16:13:18.58] [ComponentService] <INFO> 正在加载： vb-form-company.vue文件 (ComponentService.plugin.js:54)
+[16:14:23.63] [ComponentService] <INFO> 正在加载： vb-form-company.vue文件 (ComponentService.plugin.js:54)
+[16:14:42.85] [ComponentService] <INFO> 正在加载： vb-form-company.vue文件 (ComponentService.plugin.js:54)
+[16:21:50.23] [ComponentService] <INFO> 正在加载： vb-form-company.vue文件 (ComponentService.plugin.js:54)

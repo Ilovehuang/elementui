@@ -1,0 +1,220 @@
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <base href="../">
+   <meta http-equiv="content-type" content="text/html;charset=utf-8;" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="styles/plugins/elementui.css">
+   <!-- <link rel="stylesheet" href="https://unpkg.com/element-ui/lib/theme-chalk/index.css"> -->
+   <link rel="stylesheet" href="components/css-loader.css">
+   <link rel="stylesheet" href="styles/plugins/font-awesome.css">
+   <link rel="stylesheet" href="styles/style.css">
+
+   <title>组件开发环境</title>
+   <style>
+   </style>
+</head>
+
+<body>
+   <div id="app">
+      <el-row>
+         <el-col :span="16">
+            <el-card class="box-card">
+               <div slot="header" class="clearfix title">
+                  <span>
+                     <b>加载显示</b>：组件测试条件（包括props、内部条件等）</span>
+               </div>
+               <div>
+                  <table border="1">
+                     <tr>
+                        <td>参数</td>
+                        <td>说明</td>
+                        <td>类型</td>
+                        <td>可选值</td>
+                        <td>默认值</td>
+                     </tr>
+                     <tr v-if="visible">
+                        <td>target</td>
+                        <td>Loading 需要覆盖的 DOM 节点。可传入一个 DOM 对象或字符串；若传入字符串，则会将其作为参数传入 document.querySelector以获取到对应 DOM 节点</td>
+                        <td>object/string</td>
+                        <td>
+                           <input type="text" v-model="target" placeholder="请输入DOM节点，如#but">
+                        </td>
+                        <td>document.body</td>
+                     </tr>
+                     <tr>
+                        <td>fullscreen</td>
+                        <td>同 v-loading 指令中的 fullscreen 修饰符,全屏遮罩,遮罩默认插入至 body 上</td>
+                        <td>boolean</td>
+                        <td>
+                           <select v-model=" fullscreen">
+                              <option value="true">true</option>
+                              <option value="false">false</option>
+                           </select>
+                        </td>
+                        <td>true</td>
+                     </tr>
+                     <tr>
+                        <td>lock</td>
+                        <td>同 v-loading 指令中的 lock 修饰符,有遮罩层时锁定屏幕的滚动</td>
+                        <td>boolean</td>
+                        <td>
+                           <select v-model="lock">
+                              <option value="true">true</option>
+                              <option value="false">false</option>
+                           </select>
+                        </td>
+                        <td>false</td>
+                     </tr>
+                     <tr>
+                        <td>text</td>
+                        <td>显示在加载图标下方的加载文案</td>
+                        <td>string</td>
+                        <td>
+                           <input type="text" placeholder="请输入加载图标下方的加载文案" v-model="text">
+                        </td>
+                        <td></td>
+                     </tr>
+                     <tr>
+                        <td>spinner</td>
+                        <td>自定义加载图标类名</td>
+                        <td>string</td>
+                        <td>
+                           <input type="text" placeholder="请输入加载图标类名" v-model="spinner">
+                        </td>
+                        <td></td>
+                     </tr>
+                     <tr>
+                        <td>background</td>
+                        <td>遮罩背景色</td>
+                        <td>string</td>
+                        <td>
+                           <input type="text" v-model="background" placeholder="遮罩背景色rgba(0, 0, 0, 0.7)">
+                        </td>
+                        <td></td>
+                     </tr>
+                     <tr>
+                        <td>customClass</td>
+                        <td>Loading 的自定义类名</td>
+                        <td>string</td>
+                        <td>
+                           <input type="text" placeholder="请输入Loading 的自定义类名">
+                        </td>
+                        <td></td>
+                     </tr>
+                  </table>
+               </div>
+            </el-card>
+            <el-card class="box-card" style="margin-top: 10px;">
+               <div slot="header" class="clearfix">
+                  <span>组件显示</span>
+               </div>
+               <div style="width: 100%px;height: 400px;" id="but">
+                  <el-button type="primary" @click="openFullScreen"> loading </el-button>
+               </div>
+            </el-card>
+            <el-card class="box-card" style="margin-top: 10px;">
+               <div slot="header" class="clearfix title">
+                  <span>组件数据变量（包括输出结果、内部数据等）</span>
+               </div>
+               <div>
+                  <!-- 输出的结果与内部数据 -->
+               </div>
+            </el-card>
+         </el-col>
+         <el-col :span="8">
+            <el-card class="box-card" style="margin-left: 10px;">
+               <div slot="header" class="clearfix">
+                  <span>自动化测试脚本</span>
+                  <el-button style="float: right; padding: 3px 0;" type="text">开始测试</el-button>
+               </div>
+               <textarea style="border-radius: 5px; width: 100%; height: 80%;"></textarea>
+            </el-card>
+         </el-col>
+      </el-row>
+   </div>
+</body>
+
+<script type="text/javascript" src="scripts/plugins/echarts.js"></script>
+<!-- 先引入 Vue -->
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script type="text/javascript" src="scripts/plugins/vuex.js"></script>
+<!-- 引入组件库 -->
+<script type="text/javascript" src="scripts/plugins/elementui.min.js"></script>
+<!-- <script src="https://unpkg.com/element-ui/lib/index.js"></script> -->
+
+<!-- 常用控件库 -->
+<script type="text/javascript" src="scripts/plugins/jquery-2.0.3.min.js"></script>
+<script type="text/javascript" src="scripts/plugins/moment/moment.min.js"></script>
+<script type="text/javascript" src="scripts/plugins/moment/moment.zh-cn.js"></script>
+
+<!-- 自定义JS库 -->
+<script type="text/javascript" src="scripts/common/jquery.ajax.js"></script>
+
+
+<script type="text/javascript" src="scripts/common/components-init.js"></script>
+<script type="text/javascript" src="scripts/common/jquery.common.js"></script>
+<script>
+   vueOptions = {
+      data() {
+         return {
+            Search: "测试条件",
+            PageTitle: "组件开发环境",
+            visible: false,
+            fullscreen: true, ///全屏遮罩,遮罩默认插入至 body 上
+            lock: false, ///是否锁定屏幕的滚动
+            background: "rgba(0, 0, 0, 0.8)", /// 背景色
+            customClass: "", ///Loading 的自定义类名
+            text: "正在加载", /// 显示在加载图标下方的加载文字
+            spinner: "", /// 自定义加载图标类名
+            target: "" ///Loading 在div上显示 DOM 节点
+         }
+      },
+      watch: {
+         fullscreen() {
+            if (this.fullscreen == "true") {
+               this.visible = false;
+               this.target = "";
+            }
+            else if (this.fullscreen == "false")
+               this.visible = true;
+            console.log(this.visible)
+         },
+         lock() {
+            console.log(this.lock)
+            if (this.lock == "true")
+               this.lock = true;
+            else if (this.lock == "false")
+               this.lock = false;
+         }
+      },
+      methods: {
+         openFullScreen() {
+            var me = this;
+            var options = {
+               instance: me,
+               text: me.text,
+               spinner: me.spinner,
+               background: me.background,
+               lock: me.lock,
+               fullscreen: me.fullscreen,
+               target: me.target || null
+            };
+            this.$showLoading(options);
+            setTimeout(() => {
+               me.$closeLoading(options);
+            }, 3000);
+         },
+      }
+   }
+</script>
+<style>
+   table {
+      /* width: 100%; */
+      border-collapse: separate;
+      border-spacing: 2;
+   }
+</style>
+
+</html>
